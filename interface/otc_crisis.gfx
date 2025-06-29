@@ -1,0 +1,72 @@
+spriteTypes = {
+	## Omnitemporal Perks
+	# spriteType = {
+	# 	name = "GFX_crisis_icon_basebreaker"
+	# 	texturefile = "gfx/interface/icons/crisis/menace_icon_basebreaker_72.dds"
+	# 	noOfFrames = 2			
+	# }
+
+	## ...
+	spriteType = {
+		name = "GFX_otc_crisis_omnitemporal_level_1_btn"
+ 		texturefile = "gfx/interface/icons/crisis/Behemoth_Lvl1_btn.dds"
+  		noOfFrames = 2			
+  	}
+  	spriteType = {
+		name = "GFX_otc_crisis_omnitemporal_level_2_btn"
+  		texturefile = "gfx/interface/icons/crisis/Behemoth_Lvl2_btn.dds"
+  		noOfFrames = 2			
+	}
+   	spriteType = {
+  		name = "GFX_otc_crisis_omnitemporal_level_3_btn"
+   		texturefile = "gfx/interface/icons/crisis/Behemoth_Lvl3_btn.dds"
+  		noOfFrames = 2	
+  	}		
+	spriteType = {
+   		name = "GFX_otc_crisis_omnitemporal_level_4_btn"
+   		texturefile = "gfx/interface/icons/crisis/Behemoth_Lvl4_btn.dds"
+  		noOfFrames = 2			
+   	}
+  	spriteType = {
+  		name = "GFX_otc_crisis_omnitemporal_level_5_btn"
+  		texturefile = "gfx/interface/icons/crisis/Behemoth_Lvl5_btn.dds"
+  		noOfFrames = 2			
+  	}
+
+	## Crisis UI - Crisis path dependant
+
+	progressbarType = {
+		name = "GFX_otc_omnitemporal_path_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colorTwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/crisis/otc_omnitemporal_crisis_progressBar_Filled.dds"
+		textureFile2 = "gfx/interface/crisis/Crisis_progressBar_BG.dds"
+		size = { x = 10 y = 432 }
+		effectFile = "gfx/FX/progress.shader"
+		horizontal = no
+		flipdirection = yes
+	}
+
+	spriteType = {
+		name = "GFX_otc_omnitemporal_path_level_boxes"
+		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_levelboxes.dds"
+		noOfFrames = 2	
+	}
+
+	spriteType = {
+		name = "GFX_otc_omnitemporal_path_levels_frame"
+		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_levels_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_otc_omnitemporal_path_title_box"
+		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_title_2.dds"	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_otc_omnitemporal_path_bg"
+		texturefile = "gfx/interface/crisis/CrisisBG.dds" # might change
+		borderSize = { x = 0 y = 0 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+}

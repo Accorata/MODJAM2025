@@ -1,0 +1,40 @@
+# Temporal Anomalies (Level 1)
+otc_temporal_anomaly_1_cat = {
+	picture = GFX_evt_clocks
+
+	level = 5
+
+	# Cannot Spawn Naturally
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+
+	on_success = {
+		0 = {
+			modifier = {
+				add = 100
+				leader = {
+					has_leader_flag = otc_temporal_clone
+				}
+			}
+			anomaly_event = omnitemporal.1000
+		}
+		0 = {
+			modifier = {
+				add = 2
+				owner = {
+					any_owned_leader = {
+						has_leader_flag = otc_completed_time_anomaly
+						NOT = {
+# is same as leader scope...
+						}
+					}
+				}
+			}
+			anomaly_event = omnitemporal.1001
+		}
+		1 = omnitemporal.1010 # to do ?
+	}
+}
