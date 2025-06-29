@@ -1,0 +1,10 @@
+otc_crisobj_physicist_production = {
+	reward = {
+		base = 0
+		add = otc_physicist_temporal_fabric_produced
+		round = yes
+		min = 0
+	}
+	recurring = yes
+}
+

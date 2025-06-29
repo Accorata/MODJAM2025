@@ -1,0 +1,16 @@
+otc_omnitemporal_path = {
+	crisis_currency = "otc_temporal_fabric"
+
+	levels = {
+		otc_crisis_omnitemporal_level_1
+		otc_crisis_omnitemporal_level_2
+		otc_crisis_omnitemporal_level_3
+		otc_crisis_omnitemporal_level_4
+		otc_crisis_omnitemporal_level_5
+	}
+
+	objectives = {
+		otc_crisobj_physicist_production
+		# ...
+	}
+}

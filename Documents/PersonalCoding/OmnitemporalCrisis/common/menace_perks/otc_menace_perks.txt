@@ -1,0 +1,79 @@
+## Level 1
+# Temporal Fabric
+menp_otc_omnitemporal_objectives = {
+	portrait = "GFX_crisis_icon_advanced_logic"
+
+	modifier = {
+		planet_physicists_otc_temporal_fabric_produces_add = 0.5
+	}
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_omnitemporal_objectives
+	}
+}
+
+# Secrets of the Past
+menp_otc_secrets_of_the_past = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	triggered_modifier = {
+		potential = {
+			has_ancrel = yes
+		}
+		ship_archaeological_site_clues_add = 1
+	}
+
+	triggered_modifier = {
+		potential = {
+			has_ancrel = no
+		}
+		scientist_exp_gain = 0.20
+	}
+
+	on_unlock = {
+		if = {
+			limit = {
+				has_ancrel = yes
+			}
+			custom_tooltip = unlocks_otc_secrets_of_the_past
+		}
+		else = {
+			custom_tooltip = unlocks_otc_secrets_of_the_past_no_ancrel
+		}
+	}
+}
+
+## Level 2
+# Timeless Studies
+
+# Secrets of the Present
+
+# Prolonged Lifespans
+menp_otc_prolonged_lifespans = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	modifier = {
+		leader_lifespan_mult = 0.20
+	}
+}
+
+## Level 3
+# Across Timelines
+
+# Temporal Shell
+
+# Secrets of the Future
+
+# Accelerated Infancy
+
+## Level 4
+# The Greatest Timeline
+
+# Localised Time Loops
+
+## Level 5
+# The End of Time
+
+# Omnitemporality
+
+# Indefinite Lifespans
