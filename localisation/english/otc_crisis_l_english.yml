@@ -1,6 +1,6 @@
 ﻿l_english:
 
-# Crisis Resource
+## Crisis Resource ##
   otc_temporal_fabric: "Temporal Fabric"
   otc_temporal_fabric_with_icon: "£otc_temporal_fabric£ $otc_temporal_fabric$" # create icon later...
   otc_temporal_fabric_name: "$otc_temporal_fabric$"
@@ -9,11 +9,12 @@
   otc_temporal_fabric_gaining: "Complete §HCrisis Objectives§! to gain more §Y$otc_temporal_fabric_with_icon$§!."
   otc_temporal_fabric_desc: "..."
 
+##Crisis Information ##
 # Ascension Perk
   otc_ap_omnitemporal: "Omnitemporal"
   otc_ap_omnitemporal_desc: "..."
 
-# Crisis Information
+# Other
   otc_omnitemporal_crisis_chain_title: "$otc_ap_omnitemporal$"
   otc_omnitemporal_crisis_chain_desc: "..."
 
@@ -32,28 +33,15 @@
   otc_temporal_fabric_crisis_level_unlock: "Has £otc_temporal_fabric£ §Y$CURRENCY$§! $otc_temporal_fabric$"
   otc_temporal_fabric_crisis_level_desc: "To advance through the Crisis levels, accumulate §H$otc_temporal_fabric_with_icon$§!, complete §HTemporal Anomalies§!, and ...."
 
-# Tech
-  tech_otc_travel_timelines: "..."
-  tech_otc_travel_timelines_desc: "..."
- # "(more disastrous ...)\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 3§!"
-
-# Minor Artifact Decision
-  artifact_otc_chronological_studies: "Chronological Studies"
-  artifact_otc_chronological_studies_desc: "..."
-  artifact_otc_chronological_studies_effect: "Break down £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\nCooldown: £time£ §Y360§!"
-
-  requires_artifact_otc_chronological_studies_no_cooldown: "$TRIGGER_FAIL$§RCannot use minor artifacts to create another temporal anomaly yet.§!"
-  artifact_otc_chronological_studies_cooldown:0 "Chronological Studies Cooldown"
-
-
-# Kilostructure
-  otc_omnitemporal_kilostructure: "Atemporal Research Zone"
-
-# Crisis Objectives
+## Crisis Objectives ##
   otc_crisobj_physicist_production_name: "Employ Physicists"
   otc_crisobj_physicist_production_desc: "..."
+  otc_crisobj_research_archeological_sites_name: "Finish Archeological Sites" # could also be changed to progress archeological sites if there is an on_action
+  otc_crisobj_research_archeological_sites_desc: "..."
+  otc_crisobj_research_time_anomaly_name: "Research Temporal Anomalies"
+  otc_crisobj_research_time_anomaly_desc: "..."
 
-# Crisis Levels
+## Crisis Levels ##
   otc_crisis_omnitemporal_level_1: "§UConcern§!"
   otc_crisis_omnitemporal_level_1_desc: "Crisis Level 1"
   otc_crisis_omnitemporal_level_2: "§URisk§!"
@@ -65,7 +53,8 @@
   otc_crisis_omnitemporal_level_5: "§UExistential Threat§!"
   otc_crisis_omnitemporal_level_5_desc: "Crisis Level 5"
 
-# Crisis Perks
+## Crisis Perks ##
+# Level 1
   menp_otc_omnitemporal_objectives: "$otc_temporal_fabric$"
   menp_otc_omnitemporal_objectives_desc: "$otc_temporal_fabric$ represents our ability to bend time to our influence."
   unlocks_otc_omnitemporal_objectives: "Allows the accumulation of §Y$otc_temporal_fabric_with_icon$§! by completing §HCrisis Objectives§!.\n\n"
@@ -74,12 +63,41 @@
   menp_otc_secrets_of_the_past: "Secrets of the Past"
   menp_otc_secrets_of_the_past_desc: "..."
   unlocks_otc_secrets_of_the_past: "Unlocks the §Y$artifact_otc_chronological_studies$§! Minor Artifact Decision, which uses £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\n"
-  unlocks_otc_secrets_of_the_past_no_ancrel: "Unlocks the §Y$artifact_otc_chronological_studies$§! Special Project, which creates a Temporal Anomaly on completion.\n\n" # special project to do...
+  unlocks_otc_secrets_of_the_past_no_ancrel: "Issues the §Y$otc_chronological_studies_project$§! Special Project, which creates a Temporal Anomaly on completion.\n\n"
+
+  # Minor Artifact Decision
+  artifact_otc_chronological_studies: "Chronological Studies"
+  artifact_otc_chronological_studies_desc: "..."
+  artifact_otc_chronological_studies_effect: "Break down £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\nCooldown: £time£ §Y360§!"
+
+  requires_artifact_otc_chronological_studies_no_cooldown: "$TRIGGER_FAIL$§RCannot use minor artifacts to create another temporal anomaly yet.§!"
+  artifact_otc_chronological_studies_cooldown:0 "Chronological Studies Cooldown"
+
+  # Special Project
+  otc_chronological_studies_project: "$artifact_otc_chronological_studies$"
+  otc_chronological_studies_project_desc: "..."
+
+# Level 2
+  # Kilostructure
+  otc_omnitemporal_kilostructure: "Atemporal Research Zone"
+
+  menp_otc_secrets_of_the_present: "Secrets of the Present"
+  menp_otc_secrets_of_the_present_desc: "..."
 
   menp_otc_prolonged_lifespans: "Prolonged Lifespans"
   menp_otc_prolonged_lifespans_desc: "..."
 
-# Crisis Requirements
+# Level 3
+  # Tech
+  tech_otc_travel_timelines: "..."
+  tech_otc_travel_timelines_desc: "..."
+ # "(more disastrous ...)\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+
+# Level 4
+  menp_otc_the_greatest_timeline: "The Greatest Timeline"
+  menp_otc_the_greatest_timeline_desc: "..."
+
+## Crisis Requirements ##
   otc_omnitemporal_level_2_req_clear_tooltip: "£trigger_yes£ Has completed a §YTemporal Anomaly§!"
   otc_omnitemporal_level_2_req_tooltip: "£trigger_no£ Has completed a §YTemporal Anomaly§!"
   otc_omnitemporal_level_3_req_clear_tooltip: "£trigger_yes£ Has constructed a §Y$otc_omnitemporal_kilostructure$§!"
@@ -89,13 +107,19 @@
   otc_omnitemporal_level_5_req_clear_tooltip: "£trigger_yes£ ..."
   otc_omnitemporal_level_5_req_tooltip: "£trigger_no£ ..."
 
-# Temporal Anomalies 
+## Temporal Anomalies ##
+  # Anomalies
   omnitemporal.1000.name: "Time Travel!"
   omnitemporal.1000.desc: "As [Root.GetLeaderName] and ... ship grew ever closer to the anomaly, they watched as their clocks began to run the other way, speeding up faster and faster as they travelled into the past. For obvious reasons, our communications with the crew end shortly after (or possibly before, depending on one's perspective), [Root.GetLeaderName] delved into the past.\n\nThis event explains our appearance of the ship and crew identical to the one we just lost. It appears they truly did travel accross time to bring us a new message. Valuable data was just acquired, and we will waste no time putting it to use."
   omnitemporal.1000.a: "Unbelievable!"
   omnitemporal.1000.a.tooltip: "[Root.GetLeaderName] Vanishes Back into the Past."
 
-# Anomaly Categories
+  omnitemporal.1001.name: "Voyager from the Future"
+  omnitemporal.1001.desc: "..."
+  omnitemporal.1001.a: "..."
+  omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetLeaderName] Joins your Empire."
+
+  # Anomaly Categories
   otc_temporal_anomaly_1_cat: "Temporal Anomaly"
   otc_temporal_anomaly_1_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
 

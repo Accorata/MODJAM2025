@@ -26,6 +26,7 @@ otc_crisis_omnitemporal_level_2 = {
 
 	# REWARDS
 	perks = {
+		menp_otc_secrets_of_the_present
 		menp_otc_prolonged_lifespans
 	}
 

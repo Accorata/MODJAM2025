@@ -1,0 +1,10 @@
+otc_create_temporal_anomaly = { # will be a lot more complex than this to include unique events and progress levels
+	random_planet_within_border = {
+		limit = {
+			has_anomaly = no
+		}
+		add_anomaly = {
+			category = otc_temporal_anomaly_1_cat
+		}
+	}
+}

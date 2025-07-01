@@ -8,3 +8,27 @@ otc_crisobj_physicist_production = {
 	recurring = yes
 }
 
+otc_crisobj_research_archeological_sites = {
+	potential = {
+		has_ancrel = yes
+	}
+	reward = {
+		base = 100000
+		divide = trigger:num_galaxy_systems 	#on huge, this is 100. On smallest, it is 500
+		round_to = 50
+		min = 100
+	}
+}
+
+otc_crisobj_research_time_anomaly = {
+	reward = {
+		base = 600
+		complex_trigger_modifier = {
+			trigger = count_playable_country
+			mode = subtract
+			mult = 20
+		}
+		round_to = 100
+		min = 200
+	}
+}

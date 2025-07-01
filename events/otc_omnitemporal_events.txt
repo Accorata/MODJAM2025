@@ -24,10 +24,14 @@ country_event = {
 			event_chain = otc_temporal_anomalies
 			target = this
 		}
+		# Enable Chronological Studies Special Project if no Ancrel DLC
+		country_event = {
+			id = omnitemporal.2
+		}
 	}		
 }
 
-# Fired on Chronological Studies Minor Artifact Decision
+# Fired on Chronological Studies Minor Artifact Decision / Special Project
 country_event = {
 	id = omnitemporal.1
 	hide_window = yes
@@ -38,7 +42,29 @@ country_event = {
 	}
 
 	immediate = {
-		# to do... (spwans anomaly)
+		otc_create_temporal_anomaly = yes
+	}		
+}
+
+# Enable Chronological Studies Special Project if no Ancrel DLC
+country_event = {
+	id = omnitemporal.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ancrel = no
+		has_ascension_perk = otc_ap_omnitemporal
+	}
+
+	immediate = {
+		capital_scope = {
+			enable_special_project = {
+				name = "otc_chronological_studies_project"
+				location = this
+				owner = root
+			}
+		}
 	}		
 }
 
