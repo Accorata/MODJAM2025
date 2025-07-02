@@ -36,21 +36,21 @@
 ## Crisis Objectives ##
   otc_crisobj_physicist_production_name: "Employ Physicists"
   otc_crisobj_physicist_production_desc: "..."
-  otc_crisobj_research_archeological_sites_name: "Finish Archeological Sites" # could also be changed to progress archeological sites if there is an on_action
+  otc_crisobj_research_archeological_sites_name: "Excavate Archeological Sites" # could also be changed to progress archeological sites if there is an on_action
   otc_crisobj_research_archeological_sites_desc: "..."
   otc_crisobj_research_time_anomaly_name: "Research Temporal Anomalies"
   otc_crisobj_research_time_anomaly_desc: "..."
 
 ## Crisis Levels ##
-  otc_crisis_omnitemporal_level_1: "§UConcern§!"
+  otc_crisis_omnitemporal_level_1: "§BConcern§!"
   otc_crisis_omnitemporal_level_1_desc: "Crisis Level 1"
-  otc_crisis_omnitemporal_level_2: "§URisk§!"
+  otc_crisis_omnitemporal_level_2: "§BRisk§!"
   otc_crisis_omnitemporal_level_2_desc: "Crisis Level 2"
-  otc_crisis_omnitemporal_level_3: "§UDanger§!"
+  otc_crisis_omnitemporal_level_3: "§BDanger§!"
   otc_crisis_omnitemporal_level_3_desc: "Crisis Level 3"
-  otc_crisis_omnitemporal_level_4: "§UCalamity§!"
+  otc_crisis_omnitemporal_level_4: "§BCalamity§!"
   otc_crisis_omnitemporal_level_4_desc: "Crisis Level 4"
-  otc_crisis_omnitemporal_level_5: "§UExistential Threat§!"
+  otc_crisis_omnitemporal_level_5: "§BExistential Threat§!"
   otc_crisis_omnitemporal_level_5_desc: "Crisis Level 5"
 
 ## Crisis Perks ##

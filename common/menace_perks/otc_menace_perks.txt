@@ -14,7 +14,7 @@ menp_otc_omnitemporal_objectives = {
 
 # Secrets of the Past
 menp_otc_secrets_of_the_past = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_1"
 
 	triggered_modifier = {
 		potential = {
@@ -48,7 +48,7 @@ menp_otc_secrets_of_the_past = {
 
 # Secrets of the Present
 menp_otc_secrets_of_the_present = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_2"
 
 	modifier = {
 		ship_anomaly_research_speed_mult = 0.20
