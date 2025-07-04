@@ -16,19 +16,24 @@ menp_otc_omnitemporal_objectives = {
 menp_otc_secrets_of_the_past = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_1"
 
-	triggered_modifier = {
-		potential = {
-			has_ancrel = yes
-		}
+	modifier = {
 		ship_archaeological_site_clues_add = 1
 	}
 
-	triggered_modifier = {
-		potential = {
-			has_ancrel = no
-		}
-		scientist_exp_gain = 0.20
-	}
+	# Triggered Modifiers not supported - on_unlock will have to give a modifer depending on ancrel or not / or this just looks weird for people without ancrel?
+	#triggered_modifier = {
+	#	potential = {
+	#		has_ancrel = yes
+	#	}
+	#	ship_archaeological_site_clues_add = 1
+	#}
+
+	#triggered_modifier = {
+	#	potential = {
+	#		has_ancrel = no
+	#	}
+	#	scientist_exp_gain = 0.20
+	#}
 
 	on_unlock = {
 		if = {
@@ -45,6 +50,18 @@ menp_otc_secrets_of_the_past = {
 
 ## Level 2
 # Timeless Studies
+menp_otc_timeless_studies = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	modifier = {
+		otc_arz_limit_add = 1
+	}
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_timeless_studies
+	}
+}
+
 
 # Secrets of the Present
 menp_otc_secrets_of_the_present = {
@@ -67,6 +84,18 @@ menp_otc_prolonged_lifespans = {
 
 ## Level 3
 # Across Timelines
+menp_otc_across_timelines = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	modifier = {
+		otc_arz_limit_add = 2
+	}
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_across_timelines
+		# Give Travel Timelines tech option...
+	}
+}
 
 # Temporal Shell
 

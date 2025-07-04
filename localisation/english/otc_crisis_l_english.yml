@@ -31,7 +31,7 @@
   otc_temporal_fabric_crisis_level_unlocked: "At $LEVEL$, you get the rewards:\n"
   otc_temporal_fabric_crisis_level_locked: "Required to unlock this level:\n"
   otc_temporal_fabric_crisis_level_unlock: "Has £otc_temporal_fabric£ §Y$CURRENCY$§! $otc_temporal_fabric$"
-  otc_temporal_fabric_crisis_level_desc: "To advance through the Crisis levels, accumulate §H$otc_temporal_fabric_with_icon$§!, complete §HTemporal Anomalies§!, and ...."
+  otc_temporal_fabric_crisis_level_desc: "To advance through the Crisis levels, accumulate §H$otc_temporal_fabric_with_icon$§!, complete §HTemporal Anomalies§!, and build §H$otc_omnitemporal_kilostructure_plural$§!."
 
 ## Crisis Objectives ##
   otc_crisobj_physicist_production_name: "Employ Physicists"
@@ -78,8 +78,18 @@
   otc_chronological_studies_project_desc: "..."
 
 # Level 2
+  menp_otc_timeless_studies: "Timeless Studies"
+  menp_otc_timeless_studies_desc: "..."
+  unlocks_otc_timeless_studies: "Allows us to build the §Y$otc_omnitemporal_kilostructure$§! Megastructure.\n\n"
+
   # Kilostructure
   otc_omnitemporal_kilostructure: "Atemporal Research Zone"
+  otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
+  otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$"
+  otc_atemporal_research_zone_desc: "..."
+  otc_atemporal_research_zone_effects: "..."
+  otc_requires_less_than_x_arz: "$TRIGGER_FAIL$We can not sustain more than [owner.OtcGetARZLimit] $otc_omnitemporal_kilostructure_plural$ at a time"
+  mod_otc_arz_limit_add: "$otc_omnitemporal_kilostructure$ Capacity"
 
   menp_otc_secrets_of_the_present: "Secrets of the Present"
   menp_otc_secrets_of_the_present_desc: "..."
@@ -88,6 +98,10 @@
   menp_otc_prolonged_lifespans_desc: "..."
 
 # Level 3
+  menp_otc_across_timelines: "Across Timelines"
+  menp_otc_across_timelines_desc: "..."
+  unlocks_otc_across_timelines: "Unlocks the §Y$tech_otc_travel_timelines$§! Technology, which will lead to more impactful Temporal Anomalies.\n\n"
+
   # Tech
   tech_otc_travel_timelines: "..."
   tech_otc_travel_timelines_desc: "..."
@@ -100,8 +114,8 @@
 ## Crisis Requirements ##
   otc_omnitemporal_level_2_req_clear_tooltip: "£trigger_yes£ Has completed a §YTemporal Anomaly§!"
   otc_omnitemporal_level_2_req_tooltip: "£trigger_no£ Has completed a §YTemporal Anomaly§!"
-  otc_omnitemporal_level_3_req_clear_tooltip: "£trigger_yes£ Has constructed a §Y$otc_omnitemporal_kilostructure$§!"
-  otc_omnitemporal_level_3_req_tooltip: "£trigger_no£ Has constructed a §Y$otc_omnitemporal_kilostructure$§!"
+  otc_omnitemporal_level_3_req_clear_tooltip: "£trigger_yes£ Has constructed an §Y$otc_omnitemporal_kilostructure$§!"
+  otc_omnitemporal_level_3_req_tooltip: "£trigger_no£ Has constructed an §Y$otc_omnitemporal_kilostructure$§!"
   otc_omnitemporal_level_4_req_clear_tooltip: "£trigger_yes£ Has researched the §Y$tech_otc_travel_timelines$ technology§!"
   otc_omnitemporal_level_4_req_tooltip: "£trigger_no£ Has researched the §Y$tech_otc_travel_timelines$ technology§!"
   otc_omnitemporal_level_5_req_clear_tooltip: "£trigger_yes£ ..."

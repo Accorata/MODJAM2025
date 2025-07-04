@@ -1,0 +1,4 @@
+otc_arz_limit = {
+	base = 0
+	add = modifier:otc_arz_limit_add
+}

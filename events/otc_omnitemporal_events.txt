@@ -68,6 +68,25 @@ country_event = {
 	}		
 }
 
+# Fired on reaching Level 2 of the Crisis
+country_event = {
+	id = omnitemporal.10
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ascension_perk = otc_ap_omnitemporal
+	}
+
+	immediate = {
+		# Set Variable to limit Kilostructures Built
+		set_variable = {
+			which = otc_atemporal_research_zone_counter
+			value = 0
+		}
+	}		
+}
+
 ### Temporal Anomalies ###
 # (large to do)...
 # Level 1

@@ -26,12 +26,19 @@ otc_crisis_omnitemporal_level_2 = {
 
 	# REWARDS
 	perks = {
+		menp_otc_timeless_studies
 		menp_otc_secrets_of_the_present
 		menp_otc_prolonged_lifespans
 	}
 
 	on_unlock = {
-		
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = omnitemporal.10
+				}
+			}
+		}
 	}
 }
 
@@ -41,13 +48,14 @@ otc_crisis_omnitemporal_level_3 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_3_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_3_req_tooltip
-			# to do ...
+			has_country_flag = otc_has_built_arz
 		}
 	}
 	required_crisis_currency = 6000
 
 	# REWARDS
 	perks = {
+		menp_otc_across_timelines
 	}
 
 	on_unlock = {
