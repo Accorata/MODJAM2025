@@ -27,7 +27,7 @@ artifact_otc_chronological_studies = {
 		custom_tooltip = artifact_otc_chronological_studies_effect
 		hidden_effect = {
 			add_modifier = {
-				modifier = "artifact_otc_chronological_studies_cooldown"
+				modifier = artifact_otc_chronological_studies_cooldown
 				days = 360
 			}
 			owner = {
