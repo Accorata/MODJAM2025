@@ -1,7 +1,5 @@
 namespace = omnitemporal
 
-@otc_time_anomaly_reward = 500
-
 ### Hidden Events ###
 # Fired on choosing the Omnitemporal Ascension Perk
 country_event = {
@@ -18,11 +16,6 @@ country_event = {
 		set_variable = {
 			which = otc_physicist_temporal_fabric_produced
 			value = 0
-		}
-		# Create Temporal Anomly Event Chain (maybe?...)
-		begin_event_chain = {
-			event_chain = otc_temporal_anomalies
-			target = this
 		}
 		# Enable Chronological Studies Special Project if no Ancrel DLC
 		country_event = {
@@ -70,7 +63,7 @@ country_event = {
 
 # Fired on reaching Level 2 of the Crisis
 country_event = {
-	id = omnitemporal.10
+	id = omnitemporal.20
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -87,8 +80,23 @@ country_event = {
 	}		
 }
 
+# Fired on reaching Level 3 of the Crisis
+country_event = {
+	id = omnitemporal.30
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ascension_perk = otc_ap_omnitemporal
+	}
+
+	immediate = {
+		# Add Travel Timelines tech option
+		add_research_option = tech_otc_travel_timelines
+	}		
+}
+
 ### Temporal Anomalies ###
-# (large to do)...
 # Level 1
 ship_event = {
 	id = omnitemporal.1000
@@ -97,8 +105,8 @@ ship_event = {
 	picture = GFX_evt_ship_in_orbit_3
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
-	event_chain = otc_temporal_anomalies
 	is_triggered_only = yes
+
 	immediate = {
 		leader = {
 			kill_leader = {
@@ -106,13 +114,15 @@ ship_event = {
 			}
 		}
 	}
+
 	option = {
 		name = omnitemporal.1000.a
 		custom_tooltip = omnitemporal.1000.a.tooltip
-		add_resource = {
-			otc_temporal_fabric = @otc_time_anomaly_reward
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+			}
 		}
-		complete_crisis_objective = otc_crisobj_research_time_anomaly
 		ai_chance = {
 			factor = 1
 		}
@@ -126,36 +136,40 @@ ship_event = {
 	picture = GFX_evt_face_off_in_space
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
-	event_chain = otc_temporal_anomalies
 	is_triggered_only = yes
-	immediate = {
-		random_owned_leader = {
-			limit = {
-				has_leader_flag = otc_completed_time_anomaly
-				# not same as
-			}
-			set_event_target_as = otc_future_leader
-			set_leader_flag = otc_temporal_clone
-		}
-		clone_leader = {
-			target = event_target:otc_future_leader
-		}
-		# give them a ship
 
+	immediate = {
+		owner = {
+			random_owned_leader = {
+				limit = {
+					has_leader_flag = otc_completed_time_anomaly
+					NOT = {
+						is_same_value = root.leader
+					}
+				}
+				set_event_target_as = otc_future_leader
+				set_leader_flag = otc_temporal_clone
+			}
+			clone_leader = {
+				target = event_target:otc_future_leader
+			}
+			# give them a ship
+		}
 	}
+
 	option = {
 		name = omnitemporal.1001.a
 		custom_tooltip = omnitemporal.1001.a.tooltip
-		add_resource = {
-			otc_temporal_fabric = @otc_time_anomaly_reward
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+			}
 		}
-		complete_crisis_objective = otc_crisobj_research_time_anomaly
 		ai_chance = {
 			factor = 1
 		}
 	}
 }
-
 
 ### Menace Objectives ###
 # Menace Objective - Temporal Fabric Production
@@ -193,6 +207,26 @@ event = {
 				variable = otc_physicist_temporal_fabric_produced
 			}
 			complete_crisis_objective = otc_crisobj_physicist_production
+		}
+	}
+}
+
+# Menace Objective - Excavate Archeological Sites
+# Fired from on_action 'on_arch_site_finished'
+fleet_event = {
+	id = omnitemporal.5010
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_research_archeological_sites
 		}
 	}
 }

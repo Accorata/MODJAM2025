@@ -12,11 +12,11 @@
 ##Crisis Information ##
 # Ascension Perk
   otc_ap_omnitemporal: "Omnitemporal"
-  otc_ap_omnitemporal_desc: "..."
+  otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time, forced to accept whatever the future holds. Soon, we will free ourselves from that terrible fate. Time will become just another of the physical dimensions - traversable with ease."
 
 # Other
-  otc_omnitemporal_crisis_chain_title: "$otc_ap_omnitemporal$"
-  otc_omnitemporal_crisis_chain_desc: "..."
+  # otc_omnitemporal_crisis_chain_title: "$otc_ap_omnitemporal$"
+  # otc_omnitemporal_crisis_chain_desc: "..."
 
   otc_temporal_fabric_crisis_objective: "Crisis Objectives"
   otc_temporal_fabric_crisis_objective_gained: "$otc_temporal_fabric$ gained"
@@ -80,14 +80,17 @@
 # Level 2
   menp_otc_timeless_studies: "Timeless Studies"
   menp_otc_timeless_studies_desc: "..."
-  unlocks_otc_timeless_studies: "Allows us to build the §Y$otc_omnitemporal_kilostructure$§! Megastructure.\n\n"
+  unlocks_otc_timeless_studies: "Allows us to build §Y$otc_omnitemporal_kilostructure$§! Megastructures around Black Holes and Neutron Stars.\n\n"
 
   # Kilostructure
   otc_omnitemporal_kilostructure: "Atemporal Research Zone"
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
-  otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$"
+  otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$" # icon needed
   otc_atemporal_research_zone_desc: "..."
+  otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
+  MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "..."
+  otc_requires_black_hole_or_neutron_star: "$TRIGGER_FAIL$Must be built around a $pc_black_hole$ or $pc_neutron_star$."
   otc_requires_less_than_x_arz: "$TRIGGER_FAIL$We can not sustain more than [owner.OtcGetARZLimit] $otc_omnitemporal_kilostructure_plural$ at a time"
   mod_otc_arz_limit_add: "$otc_omnitemporal_kilostructure$ Capacity"
 
@@ -103,9 +106,10 @@
   unlocks_otc_across_timelines: "Unlocks the §Y$tech_otc_travel_timelines$§! Technology, which will lead to more impactful Temporal Anomalies.\n\n"
 
   # Tech
-  tech_otc_travel_timelines: "..."
+  tech_otc_travel_timelines: "Travel Timelines"
   tech_otc_travel_timelines_desc: "..."
- # "(more disastrous ...)\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+  tech_otc_travel_timelines_effects_title: "(more disastrous ...)\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+  tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n..."
 
 # Level 4
   menp_otc_the_greatest_timeline: "The Greatest Timeline"

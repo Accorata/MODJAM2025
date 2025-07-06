@@ -4,3 +4,9 @@ on_monthly_pulse = {
 		omnitemporal.5000		# Temporal Fabric from Physcists
 	}
 }
+
+on_arch_site_finished = {
+	events = {
+		omnitemporal.5010		# Temporal Fabric from Excavating Archeological Sites
+	}
+}

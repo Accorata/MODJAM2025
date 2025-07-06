@@ -20,7 +20,7 @@ otc_crisobj_research_archeological_sites = {
 	}
 }
 
-otc_crisobj_research_time_anomaly = {
+otc_crisobj_research_time_anomaly = { # change values
 	reward = {
 		base = 600
 		complex_trigger_modifier = {

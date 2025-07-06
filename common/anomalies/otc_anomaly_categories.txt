@@ -28,13 +28,13 @@ otc_temporal_anomaly_1_cat = {
 					any_owned_leader = {
 						has_leader_flag = otc_completed_time_anomaly
 						NOT = {
-# is same as leader scope...
+							is_same_value = root.leader
 						}
 					}
 				}
 			}
 			anomaly_event = omnitemporal.1001
 		}
-		1 = omnitemporal.1010 # to do ?
+		# 1 = omnitemporal.1010 # to do ?
 	}
 }

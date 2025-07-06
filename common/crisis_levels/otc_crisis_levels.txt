@@ -35,7 +35,7 @@ otc_crisis_omnitemporal_level_2 = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = omnitemporal.10
+					id = omnitemporal.20
 				}
 			}
 		}
@@ -59,7 +59,13 @@ otc_crisis_omnitemporal_level_3 = {
 	}
 
 	on_unlock = {
-		
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = omnitemporal.30
+				}
+			}
+		}
 	}
 }
 
@@ -69,7 +75,7 @@ otc_crisis_omnitemporal_level_4 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_4_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_4_req_tooltip
-			# has_technology = tech_otc_travel_timelines
+			has_technology = tech_otc_travel_timelines
 		}
 	}
 	required_crisis_currency = 18000
