@@ -52,7 +52,7 @@ menp_otc_secrets_of_the_past = {
 ## Level 2
 # Timeless Studies
 menp_otc_timeless_studies = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_timeless_studies"
 
 	modifier = {
 		otc_arz_limit_add = 1

@@ -5,58 +5,53 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ascension_perks/otc_ap_omnitemporal.dds"
 		alwaystransparent = yes
 	}
-
 	## Omnitemporal Perks
-	spriteType = { # (placeholder names for now)
+	spriteType = {
+		# (placeholder names for now)
 		name = "GFX_otc_omnitemporal_crisis_icon_1"
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_1.dds"
-		noOfFrames = 2			
+		noOfFrames = 2
 	}
-
 	spriteType = {
 		name = "GFX_otc_omnitemporal_crisis_icon_2"
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_2_WIP.dds"
-		noOfFrames = 2			
+		noOfFrames = 2
 	}
-
 	## Level Icons
 	spriteType = {
 		name = "GFX_otc_crisis_omnitemporal_level_1_btn"
- 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl1_btn.dds"
-  		noOfFrames = 2			
-  	}
-  	spriteType = {
-		name = "GFX_otc_crisis_omnitemporal_level_2_btn"
-  		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl2_btn.dds"
-  		noOfFrames = 2			
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl1_btn.dds"
+		noOfFrames = 2
 	}
-   	spriteType = {
-  		name = "GFX_otc_crisis_omnitemporal_level_3_btn"
-   		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl3_btn.dds"
-  		noOfFrames = 2	
-  	}		
 	spriteType = {
-   		name = "GFX_otc_crisis_omnitemporal_level_4_btn"
-   		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl4_btn.dds"
-  		noOfFrames = 2			
-   	}
-  	spriteType = {
-  		name = "GFX_otc_crisis_omnitemporal_level_5_btn"
-  		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl5_btn.dds"
-  		noOfFrames = 2			
-  	}
-
-	# Temporal Fabric - todo, replace these placeholders icons
+		name = "GFX_otc_crisis_omnitemporal_level_2_btn"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl2_btn.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_crisis_omnitemporal_level_3_btn"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl3_btn.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_crisis_omnitemporal_level_4_btn"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl4_btn.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_crisis_omnitemporal_level_5_btn"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl5_btn.dds"
+		noOfFrames = 2
+	}
+	#Temporal Fabric - todo, replace these placeholders icons
 	spriteType = {
 		name = "GFX_resource_otc_temporal_fabric"
 		textureFile = "gfx/interface/icons/resources/otc_temporal_fabric.dds"
 	}
-
 	spriteType = {
 		name = "GFX_resource_otc_temporal_fabric_grey"
 		textureFile = "gfx/interface/icons/resources/otc_temporal_fabric_grey.dds"
 	}
-
 	spriteType = {
 		name = "GFX_resource_otc_temporal_fabric_large"
 		textureFile = "gfx/interface/icons/resources/otc_temporal_fabric_large.dds"
@@ -75,41 +70,49 @@ spriteTypes = {
 		name = "GFX_otc_atemporal_research_zone_restored_outliner_icon"
 		textureFile = "gfx/interface/icons/megastructures/otc_atemporal_research_zone.dds"
 	}
-
 	## Crisis UI - Crisis path dependant
-
 	progressbarType = {
 		name = "GFX_otc_omnitemporal_path_progressbar"
-		color = { 1.0 1.0 1.0 }
-		colorTwo = { 1.0 1.0 1.0 }
+		color = {
+			1
+			1
+			1
+		}
+		colorTwo = {
+			1
+			1
+			1
+		}
 		textureFile1 = "gfx/interface/crisis/otc_omnitemporal_crisis_progressBar_Filled.dds"
 		textureFile2 = "gfx/interface/crisis/Crisis_progressBar_BG.dds"
-		size = { x = 10 y = 432 }
+		size = {
+			x = 10
+			y = 432
+		}
 		effectFile = "gfx/FX/progress.shader"
 		horizontal = no
 		flipdirection = yes
 	}
-
 	spriteType = {
 		name = "GFX_otc_omnitemporal_path_level_boxes"
 		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_levelboxes.dds"
-		noOfFrames = 2	
+		noOfFrames = 2
 	}
-
 	spriteType = {
 		name = "GFX_otc_omnitemporal_path_levels_frame"
 		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_levels_frame.dds"
 	}
-
 	spriteType = {
 		name = "GFX_otc_omnitemporal_path_title_box"
-		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_title_2.dds"	
+		texturefile = "gfx/interface/crisis/otc_omnitemporal_crisis_title_2.dds"
 	}
-
 	corneredTileSpriteType = {
 		name = "GFX_otc_omnitemporal_path_bg"
-		texturefile = "gfx/interface/crisis/CrisisBG.dds" # might change
-		borderSize = { x = 0 y = 0 }
+		texturefile = "gfx/interface/crisis/CrisisBG.dds"		# might change
+		borderSize = {
+			x = 0
+			y = 0
+		}
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 	}
 }
