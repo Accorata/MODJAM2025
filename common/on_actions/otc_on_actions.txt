@@ -10,3 +10,27 @@ on_arch_site_finished = {
 		omnitemporal.5010		# Temporal Fabric from Excavating Archeological Sites
 	}
 }
+
+on_leader_hired = {
+	events = {
+		omnitemporal.41			# Indefinite Lifespans event
+	}
+}
+
+on_modification_complete = {
+	events = {
+		omnitemporal.42			# Indefinite Lifespans passive immortality
+	}
+}
+
+on_subspecies_integration_step = {
+	events = {
+		omnitemporal.42			# Indefinite Lifespans passive immortality
+	}
+}
+
+on_subspecies_integration_complete = {
+	events = {
+		omnitemporal.42			# Indefinite Lifespans passive immortality
+	}
+}

@@ -19,7 +19,7 @@ otc_crisis_omnitemporal_level_2 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_2_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_2_req_tooltip
-			# todo has done temp anomaly flag
+			has_country_flag = otc_has_finished_temporal_anomaly
 		}
 	}
 	required_crisis_currency = 2000
@@ -56,9 +56,9 @@ otc_crisis_omnitemporal_level_3 = {
 	# REWARDS
 	perks = {
 		menp_otc_across_timelines
-		# todo temporal shell
-		# todo secrets of the future
-		# todo accelerated infancy
+		menp_otc_temporal_shell
+		menp_otc_secrets_of_the_future
+		menp_otc_accelerated_infancy
 	}
 
 	on_unlock = {
@@ -85,13 +85,17 @@ otc_crisis_omnitemporal_level_4 = {
 
 	# REWARDS
 	perks = {
-		# todo greatest timeline
-		# todo immortal leaders
-		# todo localised time loops
+		menp_otc_greatest_timeline
+		menp_otc_indefinite_lifespans
+		menp_otc_localised_time_loops
 	}
 
 	on_unlock = {
-		
+		hidden_effect = {
+			owner = {
+				country_event = { id = omnitemporal.40 }
+			}
+		}
 	}
 }
 
@@ -101,7 +105,7 @@ otc_crisis_omnitemporal_level_5 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_5_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_5_req_tooltip
-			# todo maybe start yourself on the path to time travel?
+			# todo some unlock condition
 		}
 		is_subject = no
 	}
@@ -109,11 +113,43 @@ otc_crisis_omnitemporal_level_5 = {
 
 	# REWARDS
 	perks = {
-		#todo end of time
-		#todo reset civ
+		menp_otc_end_of_time
+		menp_otc_reset_civilisation
 	}
 
 	on_unlock = {
-		
+		owner = {
+			if = {
+				limit = { has_federation = yes }
+				leave_alliance = { override_requirements = yes }
+			}
+			tooltip = {
+				if = {
+					limit = {
+						is_galactic_community_formed = yes
+						is_galactic_community_member = yes
+					}
+					remove_from_galactic_community = yes
+				}
+			}
+		}
+		hidden_effect = {
+			# force Declare Crisis resolution through an appropriate party
+			declare_crisis_effect = yes
+			
+			owner = {
+				room_name_override = ""
+				# todo add chain
+				# add_event_chain_counter = {
+				# 	event_chain = "become_the_crisis_chain"
+				# 	counter = "crisis_level_reached"
+				# 	amount = 1
+				# }
+				# end_event_chain = become_the_crisis_chain
+				
+				#todo end of time event
+				# country_event = { id = crisis.6000 days = 5 }
+			}
+		}
 	}
 }

@@ -48,6 +48,7 @@ menp_otc_secrets_of_the_past = {
 	}
 }
 
+
 ## Level 2
 # Timeless Studies
 menp_otc_timeless_studies = {
@@ -82,6 +83,7 @@ menp_otc_prolonged_lifespans = {
 	}
 }
 
+
 ## Level 3
 # Across Timelines
 menp_otc_across_timelines = {
@@ -93,31 +95,89 @@ menp_otc_across_timelines = {
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_across_timelines
-		# Give Travel Timelines tech option...
+		# Travel Timelines tech option added by omnitemporal.30
 	}
 }
 
 # Temporal Shell
+menp_otc_temporal_shell = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	#todo some kind of starbase aura like the zroni storm caster
+	on_unlock = {
+		custom_tooltip = unlocks_otc_temporal_shell_aura
+	}
+}
 
 # Secrets of the Future
+menp_otc_secrets_of_the_future = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	modifier = {
+		all_technology_research_speed = 0.05
+		army_damage_taken_mult = -0.25
+	}
+}
 
 # Accelerated Infancy
+menp_otc_accelerated_infancy = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	modifier = {
+		logistic_growth_mult = 0.1
+		planet_pop_assembly_mult = 0.1
+		bonus_pop_growth_mult = 0.1
+	}
+}
+
 
 ## Level 4
 # The Greatest Timeline
 menp_otc_the_greatest_timeline = {
 	portrait = "GFX_crisis_icon_fe_ship_1"
 
+	#todo implement this
+
 	on_unlock = {
-		custom_tooltip = unlocks_otc_omnitemporal_objectives
+		custom_tooltip = unlocks_otc_the_greatest_timeline
+	}
+}
+
+# Indefinite Lifespans
+menp_otc_indefinite_lifespans = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_indefinite_lifespans
 	}
 }
 
 # Localised Time Loops
+menp_otc_localised_time_loops = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	modifier = {
+		starbase_shipyard_build_speed_mult = 0.25
+		planet_building_build_speed_mult = 0.25
+	}
+}
+
 
 ## Level 5
 # The End of Time
+menp_otc_end_of_time = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_end_of_time
+	}
+}
 
 # Omnitemporality
+menp_otc_reset_civilisation = {
+	portrait = "GFX_crisis_icon_fe_ship_1"
 
-# Indefinite Lifespans
+	on_unlock = {
+		custom_tooltip = unlocks_otc_reset_civilisation
+	}
+}

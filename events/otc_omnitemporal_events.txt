@@ -96,6 +96,75 @@ country_event = {
 	}		
 }
 
+# Indefinite Lifespans obtained
+event = {
+	id = omnitemporal.40
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+	}
+
+	immediate = {
+		every_owned_leader = {
+			limit = { is_immortal = no }
+			set_immortal = yes
+		}
+	}
+}
+
+#todo figure out if we need to set leaders recruited with hire_event_leader_effect as immortal
+
+# Indefinite Lifespans Effect - leader acquired
+event = {
+	id = omnitemporal.41
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+	}
+
+	immediate = {
+		set_immortal = yes
+	}
+}
+
+# Indefinite Lifespans Effect - species modification complete todo hook up to action
+event = {
+	id = omnitemporal.42
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+		OR = {
+			any_owned_leader = {
+				is_immortal = no
+			}
+			any_pool_leader = {
+				is_immortal = no
+			}
+		}
+	}
+
+	immediate = {
+		every_owned_leader = {
+			limit = {
+				is_immortal = no
+			}
+			set_immortal = yes
+		}
+		every_pool_leader = {
+			limit = {
+				is_immortal = no
+			}
+			set_immortal = yes
+		}
+	}
+}
+
 ### Temporal Anomalies ###
 # Level 1
 ship_event = {
@@ -121,6 +190,7 @@ ship_event = {
 		hidden_effect = {
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
 			}
 		}
 		ai_chance = {
@@ -163,6 +233,7 @@ ship_event = {
 		hidden_effect = {
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
 			}
 		}
 		ai_chance = {
