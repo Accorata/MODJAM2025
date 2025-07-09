@@ -1,3 +1,8 @@
 artifact_otc_chronological_studies_cooldown = {
 	icon = "gfx/interface/icons/modifiers/mod_relic_cooldown.dds"
 }
+
+otc_temporal_shell_aura = {
+	ship_speed_reduction = 0.5
+	ship_fire_rate_mult = -0.5
+}
