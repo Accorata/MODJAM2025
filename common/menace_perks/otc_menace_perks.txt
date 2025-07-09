@@ -20,7 +20,7 @@ menp_otc_secrets_of_the_past = {
 		ship_archaeological_site_clues_add = 1
 	}
 
-	# Triggered Modifiers not supported - on_unlock will have to give a modifer depending on ancrel or not / or this just looks weird for people without ancrel?
+	# Triggered Modifiers not supported - todo on_unlock will have to give a modifer depending on ancrel or not / or this just looks weird for people without ancrel?
 	#triggered_modifier = {
 	#	potential = {
 	#		has_ancrel = yes

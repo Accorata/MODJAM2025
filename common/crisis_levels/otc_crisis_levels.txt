@@ -19,7 +19,7 @@ otc_crisis_omnitemporal_level_2 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_2_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_2_req_tooltip
-			# to do ...
+			# todo has done temp anomaly flag
 		}
 	}
 	required_crisis_currency = 2000
@@ -56,6 +56,9 @@ otc_crisis_omnitemporal_level_3 = {
 	# REWARDS
 	perks = {
 		menp_otc_across_timelines
+		# todo temporal shell
+		# todo secrets of the future
+		# todo accelerated infancy
 	}
 
 	on_unlock = {
@@ -82,6 +85,9 @@ otc_crisis_omnitemporal_level_4 = {
 
 	# REWARDS
 	perks = {
+		# todo greatest timeline
+		# todo immortal leaders
+		# todo localised time loops
 	}
 
 	on_unlock = {
@@ -95,7 +101,7 @@ otc_crisis_omnitemporal_level_5 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_5_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_5_req_tooltip
-			# to do ...
+			# todo maybe start yourself on the path to time travel?
 		}
 		is_subject = no
 	}
@@ -103,6 +109,8 @@ otc_crisis_omnitemporal_level_5 = {
 
 	# REWARDS
 	perks = {
+		#todo end of time
+		#todo reset civ
 	}
 
 	on_unlock = {

@@ -147,13 +147,13 @@ ship_event = {
 						is_same_value = root.leader
 					}
 				}
-				set_event_target_as = otc_future_leader
+				save_event_target_as = otc_future_leader
 				set_leader_flag = otc_temporal_clone
 			}
 			clone_leader = {
 				target = event_target:otc_future_leader
 			}
-			# give them a ship
+			# todo give them a ship
 		}
 	}
 

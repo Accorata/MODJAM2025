@@ -1,4 +1,4 @@
-otc_create_temporal_anomaly = { # will be a lot more complex than this to include unique events and progress levels
+otc_create_temporal_anomaly = { # todo will be a lot more complex than this to include unique events and progress levels
 	random_planet_within_border = {
 		limit = {
 			has_anomaly = no

@@ -11,6 +11,6 @@ otc_omnitemporal_path = {
 
 	objectives = {
 		otc_crisobj_physicist_production
-		# ...
+		# todo ...
 	}
 }
