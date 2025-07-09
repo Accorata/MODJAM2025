@@ -35,6 +35,6 @@ otc_temporal_anomaly_1_cat = {
 			}
 			anomaly_event = omnitemporal.1001
 		}
-		# 1 = omnitemporal.1010 # to do ?
+		# 1 = omnitemporal.1010 # todo ?
 	}
 }

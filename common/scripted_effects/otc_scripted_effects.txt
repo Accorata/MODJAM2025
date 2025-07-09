@@ -8,3 +8,7 @@ otc_create_temporal_anomaly = { # todo will be a lot more complex than this to i
 		}
 	}
 }
+
+otc_reset_civilisation = {
+	#todo reset civ here
+}
