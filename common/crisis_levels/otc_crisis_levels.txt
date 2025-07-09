@@ -19,7 +19,7 @@ otc_crisis_omnitemporal_level_2 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_2_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_2_req_tooltip
-			# to do ...
+			has_country_flag = otc_has_finished_temporal_anomaly
 		}
 	}
 	required_crisis_currency = 2000
@@ -36,6 +36,10 @@ otc_crisis_omnitemporal_level_2 = {
 			owner = {
 				country_event = {
 					id = omnitemporal.20
+				}
+				set_variable = {
+					which = otc_built_arzs
+					value = 0
 				}
 			}
 		}
@@ -56,6 +60,9 @@ otc_crisis_omnitemporal_level_3 = {
 	# REWARDS
 	perks = {
 		menp_otc_across_timelines
+		menp_otc_temporal_shell
+		menp_otc_secrets_of_the_future
+		menp_otc_accelerated_infancy
 	}
 
 	on_unlock = {
@@ -82,10 +89,17 @@ otc_crisis_omnitemporal_level_4 = {
 
 	# REWARDS
 	perks = {
+		menp_otc_greatest_timeline
+		menp_otc_indefinite_lifespans
+		menp_otc_localised_time_loops
 	}
 
 	on_unlock = {
-		
+		hidden_effect = {
+			owner = {
+				country_event = { id = omnitemporal.40 }
+			}
+		}
 	}
 }
 
@@ -95,7 +109,10 @@ otc_crisis_omnitemporal_level_5 = {
 		custom_tooltip = {
 			success_text = otc_omnitemporal_level_5_req_clear_tooltip
 			fail_text =	otc_omnitemporal_level_5_req_tooltip
-			# to do ...
+			check_variable = {
+				which = otc_built_arzs
+				value > 2
+			}
 		}
 		is_subject = no
 	}
@@ -103,9 +120,37 @@ otc_crisis_omnitemporal_level_5 = {
 
 	# REWARDS
 	perks = {
+		menp_otc_end_of_time
+		menp_otc_reset_civilisation
 	}
 
 	on_unlock = {
-		
+		owner = {
+			if = {
+				limit = { has_federation = yes }
+				leave_alliance = { override_requirements = yes }
+			}
+			tooltip = {
+				if = {
+					limit = {
+						is_galactic_community_formed = yes
+						is_galactic_community_member = yes
+					}
+					remove_from_galactic_community = yes
+				}
+			}
+		}
+		hidden_effect = {
+			# force Declare Crisis resolution through an appropriate party
+			declare_crisis_effect = yes
+
+			owner = {
+				room_name_override = ""
+				country_event = {
+					id = omnitemporal.54
+					days = 5
+				}
+			}
+		}
 	}
 }

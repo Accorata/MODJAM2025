@@ -84,9 +84,11 @@
 
   # Kilostructure
   otc_omnitemporal_kilostructure: "Atemporal Research Zone"
+  
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$" # icon needed
   otc_atemporal_research_zone_desc: "..."
+  otc_atemporal_research_zone_DESC:0 "$otc_atemporal_research_zone_desc$"
   otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
   MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "..."
@@ -104,16 +106,39 @@
   menp_otc_across_timelines: "Across Timelines"
   menp_otc_across_timelines_desc: "..."
   unlocks_otc_across_timelines: "Unlocks the §Y$tech_otc_travel_timelines$§! Technology, which will lead to more impactful Temporal Anomalies.\n\n"
+  menp_otc_temporal_shell:0 "REPLACE_ME"
+  menp_otc_temporal_shell_desc:0 "REPLACE_ME"
+  unlocks_otc_temporal_shell_aura:0 "REPLACE_ME"
 
   # Tech
   tech_otc_travel_timelines: "Travel Timelines"
   tech_otc_travel_timelines_desc: "..."
   tech_otc_travel_timelines_effects_title: "(more disastrous ...)\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
   tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n..."
+  menp_otc_secrets_of_the_future:0 "REPLACE_ME"
+  menp_otc_secrets_of_the_future_desc:0 "REPLACE_ME"
+  menp_otc_accelerated_infancy:0 "REPLACE_ME"
+  menp_otc_accelerated_infancy_desc:0 "REPLACE_ME"
 
 # Level 4
   menp_otc_the_greatest_timeline: "The Greatest Timeline"
   menp_otc_the_greatest_timeline_desc: "..."
+  unlocks_otc_the_greatest_timeline:0 "REPLACE_ME"
+  menp_otc_greatest_timeline:0 "REPLACE_ME"
+  menp_otc_greatest_timeline_desc:0 "REPLACE_ME"
+  menp_otc_indefinite_lifespans:0 "REPLACE_ME"
+  menp_otc_indefinite_lifespans_desc:0 "REPLACE_ME"
+  unlocks_otc_indefinite_lifespans:0 "REPLACE_ME"
+  menp_otc_localised_time_loops:0 "REPLACE_ME"
+  menp_otc_localised_time_loops_desc:0 "REPLACE_ME"
+
+# Level 5
+  menp_otc_end_of_time:0 "REPLACE_ME"
+  menp_otc_end_of_time_desc:0 "REPLACE_ME"
+  unlocks_otc_end_of_time:0 "REPLACE_ME"
+  menp_otc_reset_civilisation:0 "REPLACE_ME"
+  menp_otc_reset_civilisation_desc:0 "REPLACE_ME"
+  unlocks_otc_reset_civilisation:0 "REPLACE_ME"
 
 ## Crisis Requirements ##
   otc_omnitemporal_level_2_req_clear_tooltip: "£trigger_yes£ Has completed a §YTemporal Anomaly§!"
@@ -137,7 +162,17 @@
   omnitemporal.1001.a: "..."
   omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetLeaderName] Joins your Empire."
 
+
   # Anomaly Categories
   otc_temporal_anomaly_1_cat: "Temporal Anomaly"
   otc_temporal_anomaly_1_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
 
+  #Operations
+  operation_reset_civilisation:0 "REPLACE_ME"
+  operation_reset_civilisation_desc:0 "REPLACE_ME"
+  operation_reset_civilisation_rival_time_travellers:0 "REPLACE_ME"
+  omnitemporal.50.name:0 "REPLACE_ME"
+  omnitemporal.50.desc:0 "REPLACE_ME"
+  omnitemporal.53.name:0 "REPLACE_ME"
+  omnitemporal.53.desc:0 "REPLACE_ME"
+  omnitemporal.53.a:0 "REPLACE_ME"

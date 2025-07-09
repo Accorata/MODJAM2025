@@ -68,8 +68,8 @@ otc_atemporal_research_zone = {
 		custom_tooltip = {
 			fail_text = "otc_requires_black_hole_or_neutron_star"
 			OR = {
-				is_planet_class = pc_neutron_star
-				is_planet_class = sc_black_hole
+				is_star_class = sc_neutron_star
+				is_star_class = sc_black_hole
 			}
 		}
 		custom_tooltip = {
@@ -180,6 +180,10 @@ otc_atemporal_research_zone = {
 		}
 		from = {
 			set_country_flag = otc_has_built_arz
+			change_variable = {
+				which = otc_built_arzs
+				value = 1
+			}
 		}
 	}
 }

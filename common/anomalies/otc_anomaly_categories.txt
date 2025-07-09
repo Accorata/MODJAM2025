@@ -26,7 +26,7 @@ otc_temporal_anomaly_1_cat = {
 				add = 2
 				owner = {
 					any_owned_leader = {
-						has_leader_flag = otc_completed_time_anomaly
+						has_leader_flag = otc_completed_time_anomaly #todo this doesnt get set anywhere yet
 						NOT = {
 							is_same_value = root.leader
 						}
@@ -35,6 +35,6 @@ otc_temporal_anomaly_1_cat = {
 			}
 			anomaly_event = omnitemporal.1001
 		}
-		# 1 = omnitemporal.1010 # to do ?
+		# 1 = omnitemporal.1010 # todo ?
 	}
 }

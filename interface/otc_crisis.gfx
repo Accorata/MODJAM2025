@@ -13,11 +13,6 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_otc_omnitemporal_crisis_icon_timeless_studies"
-		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_arz.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
 		name = "GFX_otc_omnitemporal_crisis_icon_2"
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_2_WIP.dds"
 		noOfFrames = 2
@@ -47,6 +42,19 @@ spriteTypes = {
 		name = "GFX_otc_crisis_omnitemporal_level_5_btn"
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl5_btn.dds"
 		noOfFrames = 2
+	}
+	#Temporal Fabric - todo, replace these placeholders icons
+	spriteType = {
+		name = "GFX_resource_temporal_fabric"
+		textureFile = "gfx/interface/icons/resources/temporal_fabric.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_temporal_fabric_grey"
+		textureFile = "gfx/interface/icons/resources/temporal_fabric_grey.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_temporal_fabric_large"
+		textureFile = "gfx/interface/icons/resources/temporal_fabric_large.dds"
 	}
 	## Crisis UI - Crisis path dependant
 	progressbarType = {

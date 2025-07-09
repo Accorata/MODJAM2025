@@ -96,6 +96,243 @@ country_event = {
 	}		
 }
 
+# Spawn Temporal Shell
+system_event = {
+	id = omnitemporal.31
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_modifier = otc_temporal_shell_aura }
+		starbase = {
+			count_starbase_buildings = { 
+				type = otc_temporal_shell 
+				include_being_constructed = no 
+				count = 1 
+			}
+		}
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = otc_temporal_shell_aura
+			days = -1
+		}
+		star = {
+			create_ambient_object = {
+				type = "space_storm_1" #todo swap out for something better looking
+				location = this
+			}
+		}
+		last_created_ambient_object = {	
+			set_ambient_object_flag = otc_temporal_shell_aura
+			set_location = {
+				target = prev
+				distance = 0
+				angle = random
+			}
+		}
+	}
+}
+
+# Remove Temporal Shell (when a Temporal Shell starbase building is dismantled)
+system_event = {
+	id = omnitemporal.32
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_modifier = otc_temporal_shell_aura 
+	}
+
+	immediate = {
+		remove_modifier = otc_temporal_shell_aura
+		every_ambient_object = {
+			limit = { has_ambient_object_flag = otc_temporal_shell_aura }
+			destroy_ambient_object = this
+		}
+	}
+}
+
+# Indefinite Lifespans obtained
+event = {
+	id = omnitemporal.40
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+	}
+
+	immediate = {
+		every_owned_leader = {
+			limit = { is_immortal = no }
+			set_immortal = yes
+		}
+	}
+}
+
+# Indefinite Lifespans Effect - leader acquired
+event = {
+	id = omnitemporal.41
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+	}
+
+	immediate = {
+		set_immortal = yes
+	}
+}
+
+# Indefinite Lifespans Effect - species modification complete
+event = {
+	id = omnitemporal.42
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+		OR = {
+			any_owned_leader = {
+				is_immortal = no
+			}
+			any_pool_leader = {
+				is_immortal = no
+			}
+		}
+	}
+
+	immediate = {
+		every_owned_leader = {
+			limit = {
+				is_immortal = no
+			}
+			set_immortal = yes
+		}
+		every_pool_leader = {
+			limit = {
+				is_immortal = no
+			}
+			set_immortal = yes
+		}
+	}
+}
+
+# Indefinite Lifespans Effect - final catch for leaders found another way
+event = {
+	id = omnitemporal.43
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+		any_owned_leader = {
+			is_immortal = no
+		}
+	}
+
+	immediate = {
+		every_owned_leader = {
+			limit = {
+				is_immortal = no
+			}
+			set_immortal = yes
+		}
+	}
+}
+
+espionage_operation_event = {
+	id = omnitemporal.50
+	title = omnitemporal.50.name
+	location = target.capital
+	desc = omnitemporal.50.desc
+	picture = GFX_evt_inhabited_solar_system
+
+	is_triggered_only = yes
+
+	option = {
+		name = PROCEED
+	}
+}
+
+espionage_operation_event = {
+	id = omnitemporal.51
+	title = omnitemporal.50.name
+	desc = omnitemporal.50.desc
+	picture = GFX_evt_spymaster
+	location = target.capital
+
+	is_triggered_only = yes
+
+	option = {
+		name = ACKNOWLEDGED
+	}
+}
+
+espionage_operation_event = {
+	id = omnitemporal.52
+	title = omnitemporal.50.name
+	desc = omnitemporal.50.desc
+	picture = GFX_evt_astral_rift
+	location = target.capital
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_espionage_operation_progress_locked = yes
+	}
+
+	option = {
+		name = LAUNCH_OPERATION
+		hidden_effect = {
+			target = {
+				otc_reset_civilisation = yes
+			}
+			owner = {
+				set_country_flag = reset_civilisation@root.target
+				country_event = { id = omnitemporal.53 }
+			}
+		}
+	}
+
+	after = {
+		set_espionage_operation_progress_locked = no
+	}
+}
+
+country_event = {
+	id = omnitemporal.53
+	title = omnitemporal.53.name
+	desc = omnitemporal.53.desc
+	picture = GFX_evt_medieval_alien_civilization
+
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.53.a
+	}
+}
+
+country_event = {
+	id = omnitemporal.54
+	title = omnitemporal.54.name
+	desc = omnitemporal.54.desc
+	picture = GFX_evt_clocks
+
+	is_triggered_only = yes
+
+	#todo, should end time i guess
+
+	option = {
+		name = omnitemporal.54.a
+	}
+}
+
 ### Temporal Anomalies ###
 # Level 1
 ship_event = {
@@ -121,6 +358,7 @@ ship_event = {
 		hidden_effect = {
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
 			}
 		}
 		ai_chance = {
@@ -147,13 +385,13 @@ ship_event = {
 						is_same_value = root.leader
 					}
 				}
-				set_event_target_as = otc_future_leader
+				save_event_target_as = otc_future_leader
 				set_leader_flag = otc_temporal_clone
 			}
 			clone_leader = {
 				target = event_target:otc_future_leader
 			}
-			# give them a ship
+			# todo give them a ship
 		}
 	}
 
@@ -163,6 +401,7 @@ ship_event = {
 		hidden_effect = {
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
 			}
 		}
 		ai_chance = {
@@ -227,6 +466,46 @@ fleet_event = {
 	immediate = {
 		owner = {
 			complete_crisis_objective = otc_crisobj_research_archeological_sites
+		}
+	}
+}
+
+# Menace Objective - Research Anomalies
+# Fired from on_action 'anomaly_success'
+ship_event = {
+	id = omnitemporal.5020
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_research_anomalies
+		}
+	}
+}
+
+# Menace Objective - Research Anomalies
+# Fired from on_action 'on_relic_activated'
+country_event = {
+	id = omnitemporal.5030
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_activate_relic
 		}
 	}
 }
