@@ -37,6 +37,18 @@ on_subspecies_integration_complete = {
 
 on_yearly_pulse = {
 	events = {
-		omnitemporal.43
+		omnitemporal.43			# Indefinite Lifespans hired leaders
+	}
+}
+
+anomaly_success = {
+	events = {
+		omnitemporal.5020		# Temporal Fabric from Excavating Anomalies
+	}
+}
+
+on_relic_activated = {
+	events = {
+		omnitemporal.5030		# Temporal Fabric from Activating Relics
 	}
 }
