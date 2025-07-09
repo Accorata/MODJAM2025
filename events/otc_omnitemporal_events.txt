@@ -96,6 +96,66 @@ country_event = {
 	}		
 }
 
+# Spawn Temporal Shell
+system_event = {
+	id = omnitemporal.31
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_modifier = otc_temporal_shell_aura }
+		starbase = {
+			count_starbase_buildings = { 
+				type = otc_temporal_shell 
+				include_being_constructed = no 
+				count = 1 
+			}
+		}
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = otc_temporal_shell_aura
+			days = -1
+		}
+		star = {
+			create_ambient_object = {
+				type = "space_storm_1" #todo swap out for something better looking
+				location = this
+			}
+		}
+		last_created_ambient_object = {	
+			set_ambient_object_flag = otc_temporal_shell_aura
+			set_location = {
+				target = prev
+				distance = 0
+				angle = random
+			}
+		}
+	}
+}
+
+# Remove Temporal Shell (when a Temporal Shell starbase building is dismantled)
+system_event = {
+	id = omnitemporal.32
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_modifier = otc_temporal_shell_aura 
+	}
+
+	immediate = {
+		remove_modifier = otc_temporal_shell_aura
+		every_ambient_object = {
+			limit = { has_ambient_object_flag = otc_temporal_shell_aura }
+			destroy_ambient_object = this
+		}
+	}
+}
+
 # Indefinite Lifespans obtained
 event = {
 	id = omnitemporal.40
@@ -113,8 +173,6 @@ event = {
 		}
 	}
 }
-
-#todo figure out if we need to set leaders recruited with hire_event_leader_effect as immortal
 
 # Indefinite Lifespans Effect - leader acquired
 event = {
@@ -157,6 +215,29 @@ event = {
 			set_immortal = yes
 		}
 		every_pool_leader = {
+			limit = {
+				is_immortal = no
+			}
+			set_immortal = yes
+		}
+	}
+}
+
+# Indefinite Lifespans Effect - final catch for leaders found another way
+event = {
+	id = omnitemporal.43
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+		any_owned_leader = {
+			is_immortal = no
+		}
+	}
+
+	immediate = {
+		every_owned_leader = {
 			limit = {
 				is_immortal = no
 			}
@@ -234,6 +315,21 @@ country_event = {
 
 	option = {
 		name = omnitemporal.53.a
+	}
+}
+
+country_event = {
+	id = omnitemporal.54
+	title = omnitemporal.54.name
+	desc = omnitemporal.54.desc
+	picture = GFX_evt_clocks
+
+	is_triggered_only = yes
+
+	#todo, should end time i guess
+
+	option = {
+		name = omnitemporal.54.a
 	}
 }
 

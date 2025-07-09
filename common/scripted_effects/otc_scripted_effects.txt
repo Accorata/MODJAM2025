@@ -11,4 +11,18 @@ otc_create_temporal_anomaly = { # todo will be a lot more complex than this to i
 
 otc_reset_civilisation = {
 	#todo reset civ here
+
+	# step one - save the civs species, ethics
+
+	# 2 destroy all their colonies, ships, armies, leaders, pops, empire etc etc
+
+	# 3 remove all leaders of the primary species from other empires
+
+	# 4 remmove all migrant pops
+
+	# NOTIFY ABOUT 3 AND 4
+
+	# 5 spawn an appropriate primitive civ
+
+	# considerations: what about syncretic evo / void dwellers / lost colony / remnants / fallen empire / hard reset / clone army / doomsday / tree of life / wilderness
 }

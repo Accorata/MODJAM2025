@@ -20,7 +20,7 @@ menp_otc_secrets_of_the_past = {
 		ship_archaeological_site_clues_add = 1
 	}
 
-	# Triggered Modifiers not supported - todo on_unlock will have to give a modifer depending on ancrel or not / or this just looks weird for people without ancrel?
+	# Triggered Modifiers not supported - todo on_unlock will have to give a modifer depending on ancrel or not / or this just looks weird for people without ancrel? - maybe we should just make ancrel a requirement?
 	#triggered_modifier = {
 	#	potential = {
 	#		has_ancrel = yes
@@ -103,7 +103,6 @@ menp_otc_across_timelines = {
 menp_otc_temporal_shell = {
 	portrait = "GFX_crisis_icon_fe_ship_1"
 
-	#todo some kind of starbase aura like the zroni storm caster
 	on_unlock = {
 		custom_tooltip = unlocks_otc_temporal_shell_aura
 	}

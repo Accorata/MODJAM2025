@@ -46,6 +46,22 @@ spriteTypes = {
   		noOfFrames = 2			
   	}
 
+	#Temporal Fabric - todo, replace these placeholders icons
+	spriteType = {
+		name = "GFX_resource_temporal_fabric"
+		textureFile = "gfx/interface/icons/resources/temporal_fabric.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resource_temporal_fabric_grey"
+		textureFile = "gfx/interface/icons/resources/temporal_fabric_grey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resource_temporal_fabric_large"
+		textureFile = "gfx/interface/icons/resources/temporal_fabric_large.dds"
+	}
+
 	## Crisis UI - Crisis path dependant
 
 	progressbarType = {

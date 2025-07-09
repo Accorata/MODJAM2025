@@ -1,4 +1,4 @@
-otc_crisobj_physicist_production = {
+otc_crisobj_physicist_production = { #todo - we can add temporal fabric to physicists similar to astral thread as a stretch goal
 	reward = {
 		base = 0
 		add = otc_physicist_temporal_fabric_produced
@@ -20,7 +20,7 @@ otc_crisobj_research_archeological_sites = {
 	}
 }
 
-otc_crisobj_research_time_anomaly = { # change values
+otc_crisobj_research_time_anomaly = { # todo change values
 	reward = {
 		base = 600
 		complex_trigger_modifier = {
@@ -33,6 +33,24 @@ otc_crisobj_research_time_anomaly = { # change values
 	}
 }
 
-#todo regular anomalies
+otc_crisobj_research_anomaly = {
+	reward = {
+		base = 100
+		complex_trigger_modifier = {
+			trigger = count_playable_country
+			mode = subtract
+			mult = 4
+		}
+		round_to = 10
+		min = 25
+	}
+}
 
-#todo activate relics
+otc_crisobj_activate_relic = {
+	reward = {
+		base = 50000
+		divide = trigger:num_galaxy_systems 	#on huge, this is 100. On smallest, it is 500
+		round_to = 25
+		min = 50
+	}
+}

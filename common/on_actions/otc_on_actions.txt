@@ -34,3 +34,9 @@ on_subspecies_integration_complete = {
 		omnitemporal.42			# Indefinite Lifespans passive immortality
 	}
 }
+
+on_yearly_pulse = {
+	events = {
+		omnitemporal.43
+	}
+}
