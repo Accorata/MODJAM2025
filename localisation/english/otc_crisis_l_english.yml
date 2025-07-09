@@ -162,6 +162,7 @@
   omnitemporal.1001.a: "..."
   omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetLeaderName] Joins your Empire."
 
+
   # Anomaly Categories
   otc_temporal_anomaly_1_cat: "Temporal Anomaly"
   otc_temporal_anomaly_1_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."

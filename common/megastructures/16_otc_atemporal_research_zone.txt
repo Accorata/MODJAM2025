@@ -180,6 +180,10 @@ otc_atemporal_research_zone = {
 		}
 		from = {
 			set_country_flag = otc_has_built_arz
+			change_variable = {
+				which = otc_built_arzs
+				value = 1
+			}
 		}
 	}
 }
