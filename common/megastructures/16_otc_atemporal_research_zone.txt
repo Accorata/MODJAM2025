@@ -100,7 +100,10 @@ otc_atemporal_research_zone = {
 					has_planet_flag = has_megastructure
 				}
 			}
-			is_star_class = sc_black_hole
+			OR = {
+				is_star_class = sc_neutron_star
+				is_star_class = sc_black_hole
+			}
 		}
 	}
 

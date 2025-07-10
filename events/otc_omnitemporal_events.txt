@@ -157,7 +157,7 @@ system_event = {
 }
 
 # Indefinite Lifespans obtained
-event = {
+country_event = {
 	id = omnitemporal.40
 	hide_window = yes
 	is_triggered_only = yes
@@ -262,8 +262,8 @@ espionage_operation_event = {
 
 espionage_operation_event = {
 	id = omnitemporal.51
-	title = omnitemporal.50.name
-	desc = omnitemporal.50.desc
+	title = omnitemporal.51.name
+	desc = omnitemporal.51.desc
 	picture = GFX_evt_spymaster
 	location = target.capital
 
@@ -276,8 +276,8 @@ espionage_operation_event = {
 
 espionage_operation_event = {
 	id = omnitemporal.52
-	title = omnitemporal.50.name
-	desc = omnitemporal.50.desc
+	title = omnitemporal.52.name
+	desc = omnitemporal.52.desc
 	picture = GFX_evt_astral_rift
 	location = target.capital
 
@@ -410,6 +410,20 @@ ship_event = {
 	}
 }
 
+# testing event
+country_event = {
+	id = omnitemporal.1002
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+		}
+	}
+}
+
 ### Menace Objectives ###
 # Menace Objective - Temporal Fabric Production
 # Fired from on_action 'on_monthly_pulse'
@@ -485,7 +499,7 @@ ship_event = {
 
 	immediate = {
 		owner = {
-			complete_crisis_objective = otc_crisobj_research_anomalies
+			complete_crisis_objective = otc_crisobj_research_anomaly
 		}
 	}
 }
