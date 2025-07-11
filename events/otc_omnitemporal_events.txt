@@ -389,7 +389,8 @@ country_event = {
 }
 
 ### Temporal Anomalies ###
-# Level 1
+## Base Anomalies (Without Travel Timelines Tech)
+# Leader disappears into the future
 ship_event = {
 	id = omnitemporal.1000
 	title = omnitemporal.1000.name
@@ -422,6 +423,7 @@ ship_event = {
 	}
 }
 
+# Leader arrives from the future
 ship_event = {
 	id = omnitemporal.1001
 	title = omnitemporal.1001.name
@@ -459,6 +461,144 @@ ship_event = {
 				set_country_flag = otc_has_finished_temporal_anomaly
 			}
 		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Time on planet accelerates to ultra fast speeds
+ship_event = {
+	id = omnitemporal.1003
+	title = omnitemporal.1003.name
+	desc = omnitemporal.1003.desc
+	picture = GFX_evt_timeworm_transcriptions
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = {
+			id = omnitemporal.1004
+			days = 90
+			random = 30
+		}
+	}
+
+	option = {
+		name = omnitemporal.1003.a
+		custom_tooltip = omnitemporal.1003.a.tooltip
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			set_leader_flag = otc_completed_time_anomaly
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Ultra Fast Time Planet Stage 1
+country_event = {
+	id = omnitemporal.1004
+	title = omnitemporal.1004.name
+	desc = omnitemporal.1004.desc
+	picture = GFX_evt_warm_barren
+	show_sound = event_default
+	location = fromfrom
+	is_triggered_only = yes
+
+	immediate = {
+		fromfrom = {
+			change_pc = pc_barren
+		}
+		country_event = {
+			id = omnitemporal.1005
+			days = 90
+			random = 30
+		}
+	}
+
+	option = {
+		name = omnitemporal.1004.a
+		tooltip = {
+			fromfrom = {
+				change_pc = pc_barren
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Ultra Fast Planet Stage 2
+country_event = {
+	id = omnitemporal.1005
+	title = omnitemporal.1005.name
+	desc = omnitemporal.1005.desc
+	picture = GFX_evt_arid
+	show_sound = event_default
+	location = fromfromfrom
+	is_triggered_only = yes
+
+	immediate = {
+		fromfromfrom = {
+			change_pc = pc_arid
+		}
+		country_event = {
+			id = omnitemporal.1006
+			days = 90
+			random = 30
+		}
+	}
+
+	option = {
+		name = omnitemporal.1005.a
+		tooltip = {
+			fromfromfrom = {
+				change_pc = pc_arid
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Ultra Fast Planet Final Stage
+country_event = {
+	id = omnitemporal.1006
+	title = omnitemporal.1006.name
+	desc = omnitemporal.1006.desc
+	picture = GFX_evt_continental
+	show_sound = event_default
+	location = fromfromfromfrom
+	is_triggered_only = yes
+
+	immediate = {
+		fromfromfromfrom = {
+			change_pc = pc_continental
+			# Spawns Pre-Sapients
+			spawn_presapient_species_randomizer_effect = yes
+			set_planet_flag = pre_sapient_planet
+		}
+	}
+
+	option = {
+		name = omnitemporal.1006.a
+		tooltip = {
+			fromfromfromfrom = {
+				change_pc = pc_continental
+				spawn_presapient_species_randomizer_effect = yes # test this...
+			}
+		}
+		
 		ai_chance = {
 			factor = 1
 		}
@@ -519,4 +659,51 @@ event = {
 	}
 }
 
-# 
+# Menace Objective - Excavate Archeological Sites
+# Fired from on_action 'on_arch_site_finished'
+ship_event = {
+	id = omnitemporal.5010
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_research_archeological_sites
+		}
+	}
+}
+
+# Menace Objective - Research Anomalies
+# Fired from on_action 'anomaly_success'
+ship_event = {
+	id = omnitemporal.5020
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_research_anomaly
+		}
+	}
+}
+
+# Menace Objective - Activate Relics
+# Fired from on_action 'on_relic_activated'
+country_event = {
+	id = omnitemporal.5030
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger =

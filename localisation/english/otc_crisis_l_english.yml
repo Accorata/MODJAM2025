@@ -34,9 +34,9 @@
   otc_temporal_fabric_crisis_level_desc: "To advance through the Crisis levels, accumulate §H$otc_temporal_fabric_with_icon$§!, complete §HTemporal Anomalies§!, and build §H$otc_omnitemporal_kilostructure_plural$§!."
 
 ## Crisis Objectives ##
-  otc_crisobj_physicist_production_name: "Employ Physicists"
+  otc_crisobj_physicist_production_name: "Employ Physicists" # the amount here doesn't display properly - most likely a rounding issue
   otc_crisobj_physicist_production_desc: "..."
-  otc_crisobj_research_archeological_sites_name: "Excavate Archeological Sites" # could also be changed to progress archeological sites if there is an on_action
+  otc_crisobj_research_archeological_sites_name: "Excavate Archeological Sites"
   otc_crisobj_research_archeological_sites_desc: "..."
   otc_crisobj_research_time_anomaly_name: "Research Temporal Anomalies"
   otc_crisobj_research_time_anomaly_desc: "..."
@@ -121,7 +121,7 @@
   # Tech
   tech_otc_travel_timelines: "Travel Timelines"
   tech_otc_travel_timelines_desc: "..."
-  tech_otc_travel_timelines_effects_title: "More Disastrous §HTemporal Anomalies§! may occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+  tech_otc_travel_timelines_effects_title: "More Impactful §HTemporal Anomalies§! May Occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
   tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n..."
 
   menp_otc_secrets_of_the_future:0 "Secrets of the Future"
@@ -173,7 +173,24 @@
   omnitemporal.1001.name: "Voyager from the Future"
   omnitemporal.1001.desc: "..."
   omnitemporal.1001.a: "..."
-  omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetLeaderName] Joins your Empire."
+  omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetLeaderName] Joins our Empire."
+
+  omnitemporal.1003.name: "..."
+  omnitemporal.1003.desc: "..."
+  omnitemporal.1003.a: "..."
+  omnitemporal.1003.a.tooltip: "..."
+
+  omnitemporal.1004.name: "Planetary Cooling"
+  omnitemporal.1004.desc: "Only a couple of months after our scientists discovered the accelerated passage of time on [FromFrom.GetName], the entire planet has cooled down to more moderate levels. It appears that this planet has experienced millenia of its lifecycle in mere months, transforming its volcanic surface into a barren expanse. According to readings taken from orbit, tectonic activity remains intense and the planet shows no signs of slowing down just yet.\n\nThe more adventurous of our scientists wish to explore [FromFrom.GetName] itself. However, they are quickly stopped by their wiser peers explanations that their lifespans would become but minute fractions of a second to any outside observer."
+  omnitemporal.1004.a: "Very Interesting"
+
+  omnitemporal.1005.name: "Development of Life"
+  omnitemporal.1005.desc: "..."
+  omnitemporal.1005.a: "Continue Observations"
+
+  omnitemporal.1006.name: "Final Condition" # change name?
+  omnitemporal.1006.desc: "..."
+  omnitemporal.1006.a: "..."
 
 
   # Anomaly Categories
