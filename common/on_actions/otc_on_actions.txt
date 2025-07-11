@@ -1,16 +1,4 @@
-# No scope, like on_game_start
-on_monthly_pulse = {
-	events = {
-		omnitemporal.5000		# Temporal Fabric from Physcists
-	}
-}
-
-on_arch_site_finished = {
-	events = {
-		omnitemporal.5010		# Temporal Fabric from Excavating Archeological Sites
-	}
-}
-
+### Menace Perks ###
 on_leader_hired = {
 	events = {
 		omnitemporal.41			# Indefinite Lifespans event
@@ -38,6 +26,25 @@ on_subspecies_integration_complete = {
 on_yearly_pulse = {
 	events = {
 		omnitemporal.43			# Indefinite Lifespans hired leaders
+	}
+}
+
+on_monthly_pulse_country = {
+	events = {
+		omnitemporal.55			# The Greatest Timeline prevent negative incomes
+	}
+}
+
+### Temporal Fabric Objectives ###
+on_monthly_pulse = {
+	events = {
+		omnitemporal.5000		# Temporal Fabric from Physcists
+	}
+}
+
+on_arch_site_finished = {
+	events = {
+		omnitemporal.5010		# Temporal Fabric from Excavating Archeological Sites
 	}
 }
 

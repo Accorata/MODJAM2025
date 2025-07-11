@@ -17,6 +17,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_2_WIP.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_timeless_studies"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_arz.dds"
+		noOfFrames = 2
+	}
 	## Level Icons
 	spriteType = {
 		name = "GFX_otc_crisis_omnitemporal_level_1_btn"
@@ -43,7 +48,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl5_btn.dds"
 		noOfFrames = 2
 	}
-	#Temporal Fabric - todo, replace these placeholders icons
+	## Temporal Fabric - todo, replace these placeholders icons
 	spriteType = {
 		name = "GFX_resource_otc_temporal_fabric"
 		textureFile = "gfx/interface/icons/resources/otc_temporal_fabric.dds"
@@ -56,8 +61,7 @@ spriteTypes = {
 		name = "GFX_resource_otc_temporal_fabric_large"
 		textureFile = "gfx/interface/icons/resources/otc_temporal_fabric_large.dds"
 	}
-
-	# ARZ
+	## ARZ
 	spriteType = {
 		name = "GFX_otc_atemporal_research_zone_outliner_icon"
 		textureFile = "gfx/interface/icons/megastructures/otc_atemporal_research_zone.dds"
@@ -69,6 +73,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_otc_atemporal_research_zone_restored_outliner_icon"
 		textureFile = "gfx/interface/icons/megastructures/otc_atemporal_research_zone.dds"
+	}
+	spriteType = {
+		name = "GFX_otc_atemporal_research_zone_build_icon"
+		textureFile = "gfx/interface/icons/megastructures/megastructures_build_menu/build_menu_behemoth_egg.dds"		# todo - create icon
 	}
 	## Crisis UI - Crisis path dependant
 	progressbarType = {

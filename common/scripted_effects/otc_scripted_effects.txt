@@ -9,6 +9,36 @@ otc_create_temporal_anomaly = { # todo will be a lot more complex than this to i
 	}
 }
 
+otc_restore_negative_income = {
+	if = {
+		limit = {
+			resource_income_compare = {
+				resource = $RESOURCE$
+				value < 0
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_variable_set = otc_$RESOURCE$_income
+				}
+			}
+			set_variable = {
+				which = otc_$RESOURCE$_income
+				value = 0
+			}
+		}
+		export_resource_income_to_variable = {
+			resource = $RESOURCE$
+			variable = otc_$RESOURCE$_income
+		}
+		add_resource = {
+			$RESOURCE$ = -1
+			mult = otc_$RESOURCE$_income
+		}
+	}
+}
+
 otc_reset_civilisation = {
 	#todo reset civ here
 

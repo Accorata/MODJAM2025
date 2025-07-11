@@ -149,6 +149,7 @@ otc_atemporal_research_zone = {
 			}
 		}
 	}
+
 	on_build_cancel = {
 		if = {
 			limit = {
@@ -170,6 +171,7 @@ otc_atemporal_research_zone = {
 			}
 		}
 	}
+	
 	on_build_complete = {
 		fromfrom.planet = {
 			set_planet_flag = has_megastructure

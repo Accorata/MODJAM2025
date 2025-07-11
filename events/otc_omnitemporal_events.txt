@@ -181,7 +181,9 @@ event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_crisis_perk = menp_otc_indefinite_lifespans
+		owner = {
+			has_crisis_perk = menp_otc_indefinite_lifespans
+		}
 	}
 
 	immediate = {
@@ -333,6 +335,59 @@ country_event = {
 	}
 }
 
+# The Greatest Timeline Effects - on_monthly_pulse_country
+country_event = {
+	id = omnitemporal.55
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_the_greatest_timeline
+	}
+
+	immediate = {
+		otc_restore_negative_income = {
+			RESOURCE = trade
+		}
+		otc_restore_negative_income = {
+			RESOURCE = energy
+		}
+		otc_restore_negative_income = {
+			RESOURCE = minerals
+		}
+		otc_restore_negative_income = {
+			RESOURCE = food
+		}
+		otc_restore_negative_income = {
+			RESOURCE = consumer_goods
+		}
+		otc_restore_negative_income = {
+			RESOURCE = alloys
+		}
+		otc_restore_negative_income = {
+			RESOURCE = volatile_motes
+		}
+		otc_restore_negative_income = {
+			RESOURCE = exotic_gases
+		}
+		otc_restore_negative_income = {
+			RESOURCE = rare_crystals
+		}
+		otc_restore_negative_income = {
+			RESOURCE = sr_living_metal
+		}
+		otc_restore_negative_income = {
+			RESOURCE = sr_zro
+		}
+		otc_restore_negative_income = {
+			RESOURCE = sr_dark_matter
+		}
+		otc_restore_negative_income = {
+			RESOURCE = nanites
+		}
+	}
+}
+
 ### Temporal Anomalies ###
 # Level 1
 ship_event = {
@@ -418,8 +473,8 @@ country_event = {
 
 	immediate = {
 		owner = {
-				complete_crisis_objective = otc_crisobj_research_time_anomaly
-				set_country_flag = otc_has_finished_temporal_anomaly
+			complete_crisis_objective = otc_crisobj_research_time_anomaly
+			set_country_flag = otc_has_finished_temporal_anomaly
 		}
 	}
 }
@@ -464,62 +519,4 @@ event = {
 	}
 }
 
-# Menace Objective - Excavate Archeological Sites
-# Fired from on_action 'on_arch_site_finished'
-fleet_event = {
-	id = omnitemporal.5010
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		owner = {
-			has_ascension_perk = otc_ap_omnitemporal
-		}
-	}
-
-	immediate = {
-		owner = {
-			complete_crisis_objective = otc_crisobj_research_archeological_sites
-		}
-	}
-}
-
-# Menace Objective - Research Anomalies
-# Fired from on_action 'anomaly_success'
-ship_event = {
-	id = omnitemporal.5020
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		owner = {
-			has_ascension_perk = otc_ap_omnitemporal
-		}
-	}
-
-	immediate = {
-		owner = {
-			complete_crisis_objective = otc_crisobj_research_anomaly
-		}
-	}
-}
-
-# Menace Objective - Research Anomalies
-# Fired from on_action 'on_relic_activated'
-country_event = {
-	id = omnitemporal.5030
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		owner = {
-			has_ascension_perk = otc_ap_omnitemporal
-		}
-	}
-
-	immediate = {
-		owner = {
-			complete_crisis_objective = otc_crisobj_activate_relic
-		}
-	}
-}
+# 

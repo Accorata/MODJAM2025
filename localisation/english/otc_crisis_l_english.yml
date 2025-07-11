@@ -109,6 +109,7 @@
   menp_otc_across_timelines: "Across Timelines"
   menp_otc_across_timelines_desc: "..."
   unlocks_otc_across_timelines: "Unlocks the §Y$tech_otc_travel_timelines$§! Technology, which will lead to more impactful Temporal Anomalies.\n\n"
+
   menp_otc_temporal_shell:0 "Temporal Shell"
   sm_otc_temporal_shell:0 "Temporal Shell Generator"
   sm_otc_temporal_shell_desc:0 "REPLACE_ME"
@@ -120,10 +121,12 @@
   # Tech
   tech_otc_travel_timelines: "Travel Timelines"
   tech_otc_travel_timelines_desc: "..."
-  tech_otc_travel_timelines_effects_title: "(more disastrous ...)\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+  tech_otc_travel_timelines_effects_title: "More Disastrous §HTemporal Anomalies§! may occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
   tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n..."
+
   menp_otc_secrets_of_the_future:0 "Secrets of the Future"
   menp_otc_secrets_of_the_future_desc:0 "REPLACE_ME"
+
   menp_otc_accelerated_infancy:0 "Accelerated Infancy"
   menp_otc_accelerated_infancy_desc:0 "REPLACE_ME"
 
@@ -131,9 +134,11 @@
   menp_otc_the_greatest_timeline: "The Greatest Timeline"
   menp_otc_the_greatest_timeline_desc: "..."
   unlocks_otc_the_greatest_timeline:0 "REPLACE_ME"
-  menp_otc_indefinite_lifespans:0 "Indefinite Lifespans"
+
+  menp_otc_indefinite_lifespans:0 "Quantum Immortality"
   menp_otc_indefinite_lifespans_desc:0 "REPLACE_ME"
   unlocks_otc_indefinite_lifespans:0 "REPLACE_ME"
+
   menp_otc_localised_time_loops:0 "Localized Time Loops"
   menp_otc_localised_time_loops_desc:0 "REPLACE_ME"
 
@@ -141,6 +146,7 @@
   menp_otc_end_of_time:0 "The End of Time"
   menp_otc_end_of_time_desc:0 "REPLACE_ME"
   unlocks_otc_end_of_time:0 "REPLACE_ME"
+
   menp_otc_reset_civilisation:0 "Causal Annihilation Protocol"
   menp_otc_reset_civilisation_desc:0 "REPLACE_ME"
   unlocks_otc_reset_civilisation:0 "REPLACE_ME"
@@ -154,8 +160,8 @@
   otc_omnitemporal_level_3_req_tooltip: "£trigger_no£ Has constructed an §Y$otc_omnitemporal_kilostructure$§!"
   otc_omnitemporal_level_4_req_clear_tooltip: "£trigger_yes£ Has researched the §Y$tech_otc_travel_timelines$ technology§!"
   otc_omnitemporal_level_4_req_tooltip: "£trigger_no£ Has researched the §Y$tech_otc_travel_timelines$ technology§!"
-  otc_omnitemporal_level_5_req_clear_tooltip: "£trigger_yes£ Has constructed 3 §Y$otc_omnitemporal_kilostructure$§!s"
-  otc_omnitemporal_level_5_req_tooltip: "£trigger_no£  Has constructed 3 §Y$otc_omnitemporal_kilostructure$§!s"
+  otc_omnitemporal_level_5_req_clear_tooltip: "£trigger_yes£ Has constructed 3 §Y$otc_omnitemporal_kilostructure_plural$§!"
+  otc_omnitemporal_level_5_req_tooltip: "£trigger_no£  Has constructed 3 §Y$otc_omnitemporal_kilostructure_plural$§!"
 
 ## Temporal Anomalies ##
   # Anomalies

@@ -156,8 +156,8 @@ menp_otc_localised_time_loops = {
 	portrait = "GFX_crisis_icon_fe_ship_1"
 
 	modifier = {
-		starbase_shipyard_build_speed_mult = 0.25
-		planet_building_build_speed_mult = 0.25
+		starbase_shipyard_build_time_mult = -0.25
+		building_time_mult = -0.25
 	}
 }
 
