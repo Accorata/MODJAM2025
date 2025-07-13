@@ -493,7 +493,9 @@ ship_event = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
 				set_country_flag = otc_has_finished_temporal_anomaly
 			}
-			set_leader_flag = otc_completed_time_anomaly
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
 		}
 		ai_chance = {
 			factor = 1
@@ -605,6 +607,286 @@ country_event = {
 	}
 }
 
+# Leader is frozen in time loop
+ship_event = {
+	id = omnitemporal.1007
+	title = omnitemporal.1007.name
+	desc = omnitemporal.1007.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1007.a
+		leader = {
+			add_trait = {
+				trait = leader_trait_otc_time_loop_trapped
+			}
+		}
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Time revelation and clocks display weirdly
+ship_event = {
+	id = omnitemporal.1008
+	title = omnitemporal.1008.name
+	desc = omnitemporal.1008.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1008.a
+
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier4researchreward
+				min = @tier4researchmin
+				max = @tier4researchmax
+			}
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					has_machine_age_dlc = yes
+				}
+				date_distortion = yes
+				event_target:global_event_country = {
+					# Ends Distortion in 30 days
+					country_event = {
+						id = crisis.7519
+						days = 30
+					} 
+				}
+			}
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Planet speeds up
+ship_event = {
+	id = omnitemporal.1009
+	title = omnitemporal.1009.name
+	desc = omnitemporal.1009.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1008.a
+
+		from = {
+			add_modifier = {
+				modifier = otc_time_accelerated
+				days = 360
+			}
+		}
+
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+## Dangerous/Impactful Anomalies (With Travel Timelines Tech)
+# Planet slows down
+ship_event = {
+	id = omnitemporal.1100
+	title = omnitemporal.1100.name
+	desc = omnitemporal.1100.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1100.a
+
+		from = {
+			add_modifier = {
+				modifier = otc_time_decelerated
+				days = 360
+			}
+		}
+
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Planet stops
+ship_event = {
+	id = omnitemporal.1101
+	title = omnitemporal.1101.name
+	desc = omnitemporal.1101.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1101.a
+
+		from = {
+			add_modifier = {
+				modifier = otc_time_stopped
+				days = 180
+			}
+		}
+
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Visions of our past selves
+ship_event = {
+	id = omnitemporal.1102
+	title = omnitemporal.1102.name
+	desc = omnitemporal.1102.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1102.a
+
+		owner = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			if = {
+				limit = {
+					has_first_contact_dlc = yes
+					has_all_insights = no
+				}
+				add_observation_insight_effect = {
+					VALUE = 25
+					OUTPOST = from
+				}
+			}
+			else = {
+				add_modifier = {
+					modifier = otc_past_selves
+					days = 3600
+				}
+			}
+		}
+
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+			random_list = {
+				1 = {
+					modifier = {
+						factor = 0
+						owner = {
+							is_gestalt = yes
+						}
+					}
+					owner = {
+						country_event = {
+							id = omnitemporal.1103
+							days = 30
+						}
+					}
+				}
+				1 = {}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Disillusioned with our origins
+country_event = {
+	id = omnitemporal.1103
+	title = omnitemporal.1103.name
+	desc = omnitemporal.1103.desc
+	picture = GFX_evt_warm_barren #change
+	show_sound = event_default
+	location = capital_scope
+	is_triggered_only = yes
+
+
+	option = {
+		name = omnitemporal.1103.a
+		
+		add_modifier = {
+			modifier = otc_disillusioned_past
+			days = 180
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
 # testing event
 country_event = {
 	id = omnitemporal.1002
@@ -680,30 +962,4 @@ ship_event = {
 }
 
 # Menace Objective - Research Anomalies
-# Fired from on_action 'anomaly_success'
-ship_event = {
-	id = omnitemporal.5020
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		owner = {
-			has_ascension_perk = otc_ap_omnitemporal
-		}
-	}
-
-	immediate = {
-		owner = {
-			complete_crisis_objective = otc_crisobj_research_anomaly
-		}
-	}
-}
-
-# Menace Objective - Activate Relics
-# Fired from on_action 'on_relic_activated'
-country_event = {
-	id = omnitemporal.5030
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger =
+# Fired from on_actio

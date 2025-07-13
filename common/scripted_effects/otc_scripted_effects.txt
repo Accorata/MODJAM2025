@@ -27,11 +27,23 @@ otc_restore_negative_income = {
 				which = otc_$RESOURCE$_income
 				value = 0
 			}
+			#set_variable = {
+			#	which = otc_$RESOURCE$_trade
+			#	value = 0
+			#}
 		}
 		export_resource_income_to_variable = {
 			resource = $RESOURCE$
 			variable = otc_$RESOURCE$_income
 		}
+		#export_modifier_to_variable = {
+		#	modifier = monthly_trades_$RESOURCE$_produces_add
+		#	variable = otc_$RESOURCE$_trade
+		#}
+		#subtract_variable = {
+		#	which = otc_$RESOURCE$_income
+		#	value = otc_$RESOURCE$_trade
+		#}
 		add_resource = {
 			$RESOURCE$ = -1
 			mult = otc_$RESOURCE$_income

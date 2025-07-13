@@ -1,4 +1,4 @@
-# Temporal Anomalies (Level 1)
+# Temporal Anomalies
 otc_temporal_anomaly_1_cat = {
 	picture = GFX_evt_clocks
 
@@ -44,6 +44,64 @@ otc_temporal_anomaly_1_cat = {
 			}
 			anomaly_event = omnitemporal.1003
 		}
-		# 1 = omnitemporal.1010 # todo ?
+		1 = omnitemporal.1007
+		1 = omnitemporal.1008
+		0 = {
+			modifier = {
+				add = 2
+				from = {
+					is_colonizable = yes
+					is_colony = yes
+				}
+			}
+			anomaly_event = omnitemporal.1009
+		}
+
+		0 = {
+			modifier = {
+				add = 2
+				from = {
+					is_colonizable = yes
+					is_colony = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = {
+						has_technology = tech_otc_travel_timelines
+					}
+				}
+			}
+			anomaly_event = omnitemporal.1100
+		}
+		0 = {
+			modifier = {
+				add = 1
+				from = {
+					is_colony = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = {
+						has_technology = tech_otc_travel_timelines
+					}
+				}
+			}
+			anomaly_event = omnitemporal.1101
+		}
+		2 = {
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = {
+						has_technology = tech_otc_travel_timelines
+					}
+				}
+			}
+			anomaly_event = omnitemporal.1102
+		}
 	}
 }

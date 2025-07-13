@@ -22,6 +22,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_arz.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_default"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_template.dds"
+		noOfFrames = 2
+	}
 	## Level Icons
 	spriteType = {
 		name = "GFX_otc_crisis_omnitemporal_level_1_btn"

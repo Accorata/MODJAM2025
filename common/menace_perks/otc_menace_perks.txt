@@ -76,7 +76,7 @@ menp_otc_secrets_of_the_present = {
 
 # Prolonged Lifespans
 menp_otc_prolonged_lifespans = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	modifier = {
 		leader_lifespan_mult = 0.20
@@ -87,7 +87,7 @@ menp_otc_prolonged_lifespans = {
 ## Level 3
 # Across Timelines
 menp_otc_across_timelines = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	modifier = {
 		otc_arz_limit_add = 2
@@ -101,7 +101,7 @@ menp_otc_across_timelines = {
 
 # Temporal Shell
 menp_otc_temporal_shell = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_temporal_shell_aura
@@ -110,7 +110,7 @@ menp_otc_temporal_shell = {
 
 # Secrets of the Future
 menp_otc_secrets_of_the_future = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	modifier = {
 		all_technology_research_speed = 0.05
@@ -120,7 +120,7 @@ menp_otc_secrets_of_the_future = {
 
 # Accelerated Infancy
 menp_otc_accelerated_infancy = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	modifier = {
 		logistic_growth_mult = 0.1
@@ -133,7 +133,7 @@ menp_otc_accelerated_infancy = {
 ## Level 4
 # The Greatest Timeline
 menp_otc_the_greatest_timeline = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	#todo implement this
 
@@ -144,7 +144,7 @@ menp_otc_the_greatest_timeline = {
 
 # Indefinite Lifespans
 menp_otc_indefinite_lifespans = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_indefinite_lifespans
@@ -153,7 +153,7 @@ menp_otc_indefinite_lifespans = {
 
 # Localised Time Loops
 menp_otc_localised_time_loops = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	modifier = {
 		starbase_shipyard_build_time_mult = -0.25
@@ -165,7 +165,7 @@ menp_otc_localised_time_loops = {
 ## Level 5
 # The End of Time
 menp_otc_end_of_time = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_end_of_time
@@ -174,7 +174,7 @@ menp_otc_end_of_time = {
 
 # Omnitemporality
 menp_otc_reset_civilisation = {
-	portrait = "GFX_crisis_icon_fe_ship_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_reset_civilisation

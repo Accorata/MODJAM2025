@@ -1,0 +1,18 @@
+leader_trait_otc_time_loop_trapped = {
+	leader_trait_type = negative
+	inline_script = {
+		script =  trait/icon_negative
+		CLASS = leader
+		ICON = "GFX_leader_trait_intemporal" #change
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_skill_add = -1
+		species_leader_exp_gain = -0.25
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+}
