@@ -33,3 +33,12 @@ otc_time_stopped = {
 	planet_pop_assembly_mult = -10
 	planet_building_build_speed_mult = -10
 }
+
+otc_past_selves = {
+	country_unity_produces_mult = 0.1
+	ship_archaeological_site_excavation_speed_mult = 0.1
+}
+
+otc_disillusioned_past = {
+	pop_citizen_happiness = -0.1
+}

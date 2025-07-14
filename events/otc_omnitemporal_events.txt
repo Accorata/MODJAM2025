@@ -962,4 +962,41 @@ ship_event = {
 }
 
 # Menace Objective - Research Anomalies
-# Fired from on_actio
+# Fired from on_action 'anomaly_success'
+ship_event = {
+	id = omnitemporal.5020
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_research_anomaly
+		}
+	}
+}
+
+# Menace Objective - Activate Relics
+# Fired from on_action 'on_relic_activated'
+country_event = {
+	id = omnitemporal.5030
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_ascension_perk = otc_ap_omnitemporal
+		}
+	}
+
+	immediate = {
+		owner = {
+			complete_crisis_objective = otc_crisobj_activate_relic
+		}
+	}
+}
