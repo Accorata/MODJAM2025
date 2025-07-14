@@ -135,8 +135,6 @@ menp_otc_accelerated_infancy = {
 menp_otc_the_greatest_timeline = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
-	#todo implement this
-
 	on_unlock = {
 		custom_tooltip = unlocks_otc_the_greatest_timeline
 	}
