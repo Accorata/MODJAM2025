@@ -91,7 +91,6 @@
   
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$" # icon needed
-  otc_atemporal_research_zone_DESC:0 "$otc_atemporal_research_zone_desc$"
   otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
   MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "..."
@@ -148,7 +147,7 @@
   unlocks_otc_end_of_time:0 "REPLACE_ME"
 
   menp_otc_reset_civilisation:0 "Causal Annihilation Protocol"
-  menp_otc_reset_civilisation_desc:0 "REPLACE_ME"
+  menp_otc_reset_civilisation_desc:0 "Our foes, as befits us, are mighty and resiliant. But they were not always so. The future is the ultimate high ground - a place from which can strike and eliminate an enemy when they are at their weakest. A minor correction to their history will purge them from our timestream."
   unlocks_otc_reset_civilisation:0 "REPLACE_ME"
 
 
@@ -208,7 +207,7 @@
   otc_time_accelerated: "Accelerated Time"
 
   omnitemporal.1010.name:0 "Lost Day"
-  omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the alst twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their chronological perceptions'."
+  omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the alst twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
   otc_forgot_a_day:0 "Lost Day"
 
   # Dangerous/Impactful Anomalies
@@ -245,4 +244,4 @@
   operation_reset_civilisation_rival_time_travellers:0 "REPLACE_ME"
   omnitemporal.50.name:0 "REPLACE_ME"
   omnitemporal.50.desc:0 "REPLACE_ME"
-  omnitemporal.51.name:0 "RE
+  omnitemporal.51.name:0 "RE"
