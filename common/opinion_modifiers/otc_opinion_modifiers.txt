@@ -1,0 +1,11 @@
+otc_opinion_lost_day = {
+	opinion = {
+		base = -50
+	}
+	decay = {
+		base = 1
+		modifier = {
+			factor = value:negative_opinion_decay_rate
+		}
+	}
+}

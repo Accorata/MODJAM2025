@@ -207,6 +207,10 @@
   omnitemporal.1009.a: "..."
   otc_time_accelerated: "Accelerated Time"
 
+  omnitemporal.1010.name:0 "Lost Day"
+  omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the alst twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their chronological perceptions'."
+  otc_forgot_a_day:0 "Lost Day"
+
   # Dangerous/Impactful Anomalies
   omnitemporal.1100.name: "..."
   omnitemporal.1100.desc: "..."

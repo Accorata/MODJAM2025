@@ -724,6 +724,76 @@ ship_event = {
 	}
 }
 
+#everyone loses a day
+country_event = {
+	id = omnitemporal.1010
+	title = omnitemporal.1010.name
+	desc = omnitemporal.1010.desc
+	picture = GFX_evt_arguing_senate
+	is_triggered_only = yes
+
+	option = {
+		name = DISCONCERTING
+		add_modifier = {
+			modifier = otc_forgot_a_day
+			days = 1800
+		}
+		every_playable_country = {
+			country_event = { id = omnitemporal.1012 days = 1 }
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.1011
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_saved_date ={
+			key = lost_date_flag
+			days_from_present = 1
+			expires = 360
+		} 
+		country_event = {
+			id = omnitemporal.1010
+			days = 2
+		}
+	}
+}
+
+#everyone loses a day - others
+country_event = {
+	id = omnitemporal.1012
+	title = omnitemporal.1012.name
+	desc = omnitemporal.1012.desc
+	picture = GFX_evt_arguing_senate
+	is_triggered_only = yes
+
+	option = {
+		name = OUTRAGEOUS
+		add_modifier = {
+			modifier = otc_forgot_a_day
+			days = 1800
+		}
+		if = {
+			limit = {
+				has_communications = FROM
+			}
+			add_opinion_modifier = {
+				modifier = otc_opinion_lost_day
+				who = FROM
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
 ## Dangerous/Impactful Anomalies (With Travel Timelines Tech)
 # Planet slows down
 ship_event = {
@@ -886,6 +956,8 @@ country_event = {
 		}
 	}
 }
+
+
 
 # testing event
 country_event = {
