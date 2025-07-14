@@ -747,7 +747,7 @@ country_event = {
 	}
 }
 
-country_event = {
+ship_event = {
 	id = omnitemporal.1011
 	hide_window = yes
 	is_triggered_only = yes
@@ -757,10 +757,12 @@ country_event = {
 			key = lost_date_flag
 			days_from_present = 1
 			expires = 360
-		} 
-		country_event = {
-			id = omnitemporal.1010
-			days = 2
+		}
+		owner = {
+			country_event = {
+				id = omnitemporal.1010
+				days = 2
+			}
 		}
 	}
 }
