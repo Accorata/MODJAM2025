@@ -108,20 +108,18 @@
   menp_otc_across_timelines: "Across Timelines"
   menp_otc_across_timelines_desc: "..."
   unlocks_otc_across_timelines: "Unlocks the §Y$tech_otc_travel_timelines$§! Technology, which will lead to more impactful Temporal Anomalies.\n\n"
+  tech_otc_travel_timelines: "Travel Timelines"
+  tech_otc_travel_timelines_desc: "..."
+  tech_otc_travel_timelines_effects_title: "More Impactful §HTemporal Anomalies§! May Occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+  tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n$tech_otc_travel_timelines_desc$"
 
   menp_otc_temporal_shell:0 "Temporal Shell"
   sm_otc_temporal_shell:0 "Temporal Shell Generator"
   sm_otc_temporal_shell_desc:0 "REPLACE_ME"
   sm_otc_temporal_shell_desc_modifier:0 "REPLACE_ME"
   menp_otc_temporal_shell_desc:0 "REPLACE_ME"
-  unlocks_otc_temporal_shell_aura:0 "REPLACE_ME"
+  unlocks_otc_temporal_shell_aura:0 "Unlocks the §Y$sm_otc_temporal_shell$§! Starbase Building, which ..."
   otc_temporal_shell_aura:0 "REPLACE_ME"
-
-  # Tech
-  tech_otc_travel_timelines: "Travel Timelines"
-  tech_otc_travel_timelines_desc: "..."
-  tech_otc_travel_timelines_effects_title: "More Impactful §HTemporal Anomalies§! May Occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
-  tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n$tech_otc_travel_timelines_desc$"
 
   menp_otc_secrets_of_the_future:0 "Secrets of the Future"
   menp_otc_secrets_of_the_future_desc:0 "REPLACE_ME"
@@ -133,6 +131,9 @@
   menp_otc_the_greatest_timeline: "The Greatest Timeline"
   menp_otc_the_greatest_timeline_desc: "..."
   unlocks_otc_the_greatest_timeline:0 "Resources Cannot Decrease Monthly"
+
+  otc_distorted_field: "..."
+  otc_distorted_field_desc: "..."
 
   menp_otc_indefinite_lifespans:0 "Quantum Immortality"
   menp_otc_indefinite_lifespans_desc:0 "REPLACE_ME"
@@ -198,7 +199,7 @@
   leader_trait_otc_time_loop_trapped_desc: "This leader is caught in a mental time loop, experiencing the same day over and over again. Through careful manipulation of their sensory input, we can simulate actual reality but they will never form new memories again."
 
   omnitemporal.1008.name: "..."
-  omnitemporal.1008.desc: "..."
+  omnitemporal.1008.desc: "Upon reaching the temporal anomaly, all time-keeping devices on the [Root.GetName] began to fluctuate erratically, displaying various impossible dates. Moments after receiving their communications, similar abnormalities began to appear on our colonies. While harmless, the loss of reliable chronological information has thrown off the balance of regular life. However, these events have resulting in an immense amount of data for our physicists to parse through."
   omnitemporal.1008.a: "..."
 
   omnitemporal.1009.name: "..."
@@ -207,8 +208,12 @@
   otc_time_accelerated: "Accelerated Time"
 
   omnitemporal.1010.name:0 "Lost Day"
-  omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the alst twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
+  omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the last twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
   otc_forgot_a_day:0 "Lost Day"
+
+  omnitemporal.1013.name: "Rapid Aging"
+  omnitemporal.1013.desc: "..."
+  omnitemporal.1013.a: "..."
 
   # Dangerous/Impactful Anomalies
   omnitemporal.1100.name: "..."

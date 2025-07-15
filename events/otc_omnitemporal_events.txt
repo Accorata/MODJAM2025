@@ -478,10 +478,12 @@ ship_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		country_event = {
-			id = omnitemporal.1004
-			days = 90
-			random = 30
+		owner = {
+			country_event = {
+				id = omnitemporal.1004
+				days = 90
+				random = 30
+			}
 		}
 	}
 
@@ -730,6 +732,8 @@ country_event = {
 	title = omnitemporal.1010.name
 	desc = omnitemporal.1010.desc
 	picture = GFX_evt_arguing_senate
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = fromfrom
 	is_triggered_only = yes
 
 	option = {
@@ -740,6 +744,15 @@ country_event = {
 		}
 		every_playable_country = {
 			country_event = { id = omnitemporal.1012 days = 1 }
+		}
+		hidden_effect = {
+			complete_crisis_objective = otc_crisobj_research_time_anomaly
+			set_country_flag = otc_has_finished_temporal_anomaly
+			from = {
+				leader = {
+					set_leader_flag = otc_completed_time_anomaly
+				}
+			}
 		}
 		ai_chance = {
 			factor = 1
@@ -788,6 +801,36 @@ country_event = {
 			add_opinion_modifier = {
 				modifier = otc_opinion_lost_day
 				who = FROM
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Leader rapidly ages
+ship_event = {
+	id = omnitemporal.1013
+	title = omnitemporal.1013.name
+	desc = omnitemporal.1013.desc
+	picture = GFX_evt_timeworm_transcriptions # change
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1013.a
+		leader = {
+			add_age = 20
+		}
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
 			}
 		}
 		ai_chance = {

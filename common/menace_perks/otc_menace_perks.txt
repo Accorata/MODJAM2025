@@ -14,7 +14,7 @@ menp_otc_omnitemporal_objectives = {
 
 # Secrets of the Past
 menp_otc_secrets_of_the_past = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	modifier = {
 		ship_archaeological_site_clues_add = 1
@@ -66,7 +66,7 @@ menp_otc_timeless_studies = {
 
 # Secrets of the Present
 menp_otc_secrets_of_the_present = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_2"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_secrets_of_the_present"
 
 	modifier = {
 		ship_anomaly_research_speed_mult = 0.20
@@ -101,7 +101,7 @@ menp_otc_across_timelines = {
 
 # Temporal Shell
 menp_otc_temporal_shell = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_1"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_temporal_shell_aura

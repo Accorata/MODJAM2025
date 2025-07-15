@@ -23,6 +23,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_secrets_of_the_present"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_present_secrets.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_otc_omnitemporal_crisis_icon_default"
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_template.dds"
 		noOfFrames = 2

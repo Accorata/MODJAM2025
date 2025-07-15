@@ -59,6 +59,15 @@ otc_temporal_anomaly_1_cat = {
 		1 = {
 			anomaly_event = omnitemporal.1011
 		}
+		1 = {
+			modifier = {
+				factor = 0
+				leader = {
+					is_immortal = yes
+				}
+			}
+			anomaly_event = omnitemporal.1013
+		}
 
 		0 = {
 			modifier = {
