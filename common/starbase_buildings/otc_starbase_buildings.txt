@@ -1,3 +1,5 @@
+## OTC Starbase Buildings
+# Created by BrettlesSr
 
 otc_temporal_shell = {
 	icon = "GFX_starbase_zroni_storm_caster" #todo replace icon

@@ -1,3 +1,6 @@
+## OTC Crisis Levels
+# Created by Accorata & BrettlesSr
+
 otc_crisis_omnitemporal_level_1 = {
 	# REQUIREMENTS
 	required_crisis_currency = 0

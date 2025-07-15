@@ -1,4 +1,7 @@
-## Level 1
+## OTC Menace Perks
+# Created by Accorata & BrettlesSr
+
+# Level 1
 # Temporal Fabric
 menp_otc_omnitemporal_objectives = {
 	portrait = "GFX_crisis_icon_advanced_logic"

@@ -1,3 +1,6 @@
+## OTC Opinion Modifiers
+# Created by BrettlesSr
+
 otc_opinion_lost_day = {
 	opinion = {
 		base = -50

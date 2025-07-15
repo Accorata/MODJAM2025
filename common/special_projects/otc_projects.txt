@@ -1,3 +1,6 @@
+## OTC Special Projects
+# Created by Accorata
+
 special_project = {
 	key = "otc_chronological_studies_project"
 	cost = 10000

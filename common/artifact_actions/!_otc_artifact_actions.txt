@@ -1,3 +1,6 @@
+## OTC Minor Artifact Actions
+# Created by Accorata
+
 artifact_otc_chronological_studies = {
 	resources = {
 		category = artifact_actions

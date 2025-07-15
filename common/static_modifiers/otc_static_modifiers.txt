@@ -1,3 +1,6 @@
+## OTC Static Modifiers
+# Created by Accorata & BrettlesSr
+
 artifact_otc_chronological_studies_cooldown = {
 	icon = "gfx/interface/icons/modifiers/mod_relic_cooldown.dds"
 }

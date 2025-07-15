@@ -1,3 +1,6 @@
+## OTC Anomaly Categories
+# Created by Accorata & BrettlesSr
+
 # Temporal Anomalies
 otc_temporal_anomaly_1_cat = {
 	picture = GFX_evt_clocks

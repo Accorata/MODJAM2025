@@ -1,3 +1,6 @@
+## OTC Crisis Paths
+# Created by Accorata & BrettlesSr
+
 otc_omnitemporal_path = {
 	crisis_currency = "otc_temporal_fabric"
 

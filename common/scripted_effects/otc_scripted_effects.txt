@@ -1,3 +1,6 @@
+## OTC Scripted Effects
+# Created by Accorata & BrettlesSr
+
 otc_create_temporal_anomaly = { # todo will be a lot more complex than this to include unique events and progress levels
 	random_planet_within_border = {
 		limit = {

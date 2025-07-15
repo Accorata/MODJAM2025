@@ -1,3 +1,6 @@
+## OTC Leader Traits
+# Created by Accorata
+
 leader_trait_otc_time_loop_trapped = {
 	leader_trait_type = negative
 	inline_script = {

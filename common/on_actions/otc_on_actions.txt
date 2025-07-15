@@ -1,3 +1,6 @@
+## OTC On Actions
+# Created by Accorata & BrettlesSr
+
 ### Menace Perks ###
 on_leader_hired = {
 	events = {

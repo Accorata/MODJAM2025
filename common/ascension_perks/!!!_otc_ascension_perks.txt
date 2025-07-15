@@ -1,3 +1,6 @@
+## OTC Ascension Perks
+# Created by Accorata
+
 otc_ap_omnitemporal = {
 	potential = {
 		OR = {
@@ -37,6 +40,7 @@ otc_ap_omnitemporal = {
 	on_enabled = {
 		activate_crisis_progression = otc_omnitemporal_path
 		hidden_effect = {
+			set_country_flag = player_crisis_chosen
 			country_event = {
 				id = omnitemporal.0
 			}

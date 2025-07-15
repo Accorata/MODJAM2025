@@ -1,3 +1,6 @@
+## OTC Technology
+# Created by Accorata
+
 tech_otc_travel_timelines = {
 	area = physics
 	cost = 100000

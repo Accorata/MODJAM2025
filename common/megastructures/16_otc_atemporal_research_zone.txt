@@ -1,3 +1,6 @@
+## OTC Megastructures
+# Created by Accorata
+
 otc_atemporal_research_zone = {
 	entity = "construction_platform_entity"
 	construction_entity = "construction_platform_entity"
@@ -171,7 +174,7 @@ otc_atemporal_research_zone = {
 			}
 		}
 	}
-	
+
 	on_build_complete = {
 		fromfrom.planet = {
 			set_planet_flag = has_megastructure
