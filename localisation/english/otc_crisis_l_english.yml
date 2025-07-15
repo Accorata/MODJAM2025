@@ -12,7 +12,7 @@ l_english:
   otc_temporal_fabric_gaining: "Complete §HCrisis Objectives§! to gain more §Y$otc_temporal_fabric_with_icon$§!."
   otc_temporal_fabric_desc: "..."
 
-##Crisis Information ##
+## Crisis Information ##
 # Ascension Perk
   otc_ap_omnitemporal: "Omnitemporal"
   otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time, forced to accept whatever the future holds. Soon, we will free ourselves from that terrible fate. Time will become just another of the physical dimensions - traversable with ease."
@@ -111,6 +111,8 @@ l_english:
   menp_otc_across_timelines: "Across Timelines"
   menp_otc_across_timelines_desc: "..."
   unlocks_otc_across_timelines: "Unlocks the §Y$tech_otc_travel_timelines$§! Technology, which will lead to more impactful Temporal Anomalies.\n\n"
+
+  # Tech
   tech_otc_travel_timelines: "Travel Timelines"
   tech_otc_travel_timelines_desc: "..."
   tech_otc_travel_timelines_effects_title: "More Impactful §HTemporal Anomalies§! May Occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
@@ -139,8 +141,10 @@ l_english:
   otc_distorted_field_desc: "..."
 
   menp_otc_indefinite_lifespans:0 "Quantum Immortality"
-  menp_otc_indefinite_lifespans_desc:0 "REPLACE_ME"
-  unlocks_otc_indefinite_lifespans:0 "REPLACE_ME"
+  menp_otc_indefinite_lifespans_desc:0 "Across the infinite timelines, for every death that occurs there will necessarily be an identical timeline in which that death was avoided. A simple jump to retrieve these timeline doubles ensures no one will ever leave us."
+  unlocks_otc_indefinite_lifespans:0 "All Leaders are §YImmortal§! and will be §YResurrected§! upon Death."
+  leader_trait_otc_timeline_warped: "Cross-Timeline Vertigo"
+  leader_trait_otc_timeline_warped_desc: "We pulled this leader from an alternate timeline, one which was almost identical to ours - except that this leader survived their counterpart's untimely demise."
 
   menp_otc_localised_time_loops:0 "Localized Time Loops"
   menp_otc_localised_time_loops_desc:0 "REPLACE_ME"

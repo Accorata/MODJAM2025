@@ -251,6 +251,63 @@ event = {
 	}
 }
 
+country_event = {
+	id = omnitemporal.44
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_crisis_perk = menp_otc_indefinite_lifespans
+		from = {
+			is_pool_leader = no
+			NOR = {
+				leader_backup_clone_can_activate = yes
+				AND = {
+					species = {
+						has_trait = trait_spare_organs
+					}
+					NOT = {
+						has_trait = trait_leader_second_chanced
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		clone_leader = {
+			target = from
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_trait = leader_trait_otc_timeline_warped
+						}
+					}
+					give_trait_no_notify_ignore_autocracy_restriction = {
+						TRAIT = leader_trait_otc_timeline_warped
+					}
+				}
+				random_list = {
+					1 = {
+						modifier = {
+							factor = 0
+							has_leader_flag = otc_timeline_warped_1
+						}
+						set_leader_flag = otc_timeline_warped_1
+					}
+					# include more flags here...
+				}
+				set_years_served = from
+				restore_leader_location = yes
+			}
+		}
+		from = {
+			set_leader_flag = leader_death_events_blocked
+		}
+	}
+}
+
 espionage_operation_event = {
 	id = omnitemporal.50
 	title = omnitemporal.50.name

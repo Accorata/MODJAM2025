@@ -19,3 +19,24 @@ leader_trait_otc_time_loop_trapped = {
 	initial = no
 	randomized = no
 }
+
+leader_trait_otc_timeline_warped = {
+	leader_trait_type = negative
+	inline_script = {
+		script =  trait/icon_negative
+		CLASS = leader
+		ICON = "GFX_leader_trait_intemporal" #change
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_self_modifier = {
+		potential = {
+			has_leader_flag = otc_timeline_warped_1
+		}
+		species_leader_exp_gain = -0.10
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
