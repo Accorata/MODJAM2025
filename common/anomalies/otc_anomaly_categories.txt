@@ -19,7 +19,7 @@ otc_temporal_anomaly_1_cat = {
 			modifier = {
 				add = 100
 				leader = {
-					has_leader_flag = otc_temporal_clone
+					has_leader_flag = otc_temporal_cloned
 				}
 			}
 			anomaly_event = omnitemporal.1000

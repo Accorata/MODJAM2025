@@ -127,7 +127,7 @@ l_english:
   otc_temporal_shell_aura:0 "REPLACE_ME"
 
   menp_otc_secrets_of_the_future:0 "Secrets of the Future"
-  menp_otc_secrets_of_the_future_desc:0 "REPLACE_ME"
+  menp_otc_secrets_of_the_future_desc:0 "Specially trained agents make micro jumps into the future, bringing back various insights we're soon to discover. Such insights then form the basis of the knowledge these agents receive, but we prefer to resolve these paradoxes at a further time."
 
   menp_otc_accelerated_infancy:0 "Accelerated Infancy"
   menp_otc_accelerated_infancy_desc:0 "REPLACE_ME"
@@ -221,6 +221,10 @@ l_english:
   omnitemporal.1013.name: "Rapid Aging"
   omnitemporal.1013.desc: "..."
   omnitemporal.1013.a: "..."
+
+  omnitemporal.1014.name: "Fades from Existence"
+  omnitemporal.1014.desc: "..."
+  omnitemporal.1014.a: "..."
 
   # Dangerous/Impactful Anomalies
   omnitemporal.1100.name: "..."

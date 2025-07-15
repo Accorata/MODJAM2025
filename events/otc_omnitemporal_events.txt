@@ -503,12 +503,15 @@ ship_event = {
 					}
 				}
 				save_event_target_as = otc_future_leader
-				set_leader_flag = otc_temporal_clone
+				set_leader_flag = otc_temporal_cloned
 			}
 			clone_leader = {
 				target = event_target:otc_future_leader
+				effect = {
+					set_leader_flag = otc_temporal_clone
+				}
 			}
-			# todo give them a ship
+			# todo give them a ship...
 		}
 	}
 
@@ -521,6 +524,60 @@ ship_event = {
 				set_country_flag = otc_has_finished_temporal_anomaly
 			}
 		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Leader who will travel into the past dies
+country_event = {
+	id = omnitemporal.1014
+	title = omnitemporal.1014.name
+	desc = omnitemporal.1014.desc
+	picture = GFX_evt_warm_barren # change
+	show_sound = event_default
+	location = capital_scope
+	is_triggered_only = yes
+
+	trigger = {
+		from = {
+			has_leader_flag = otc_temporal_cloned
+			NOR = {
+				leader_backup_clone_can_activate = yes
+				AND = {
+					species = {
+						has_trait = trait_spare_organs
+					}
+					NOT = {
+						has_trait = trait_leader_second_chanced
+					}
+				}
+			}
+		}
+		NOT = {
+			has_crisis_perk = menp_otc_indefinite_lifespans
+		}
+	}
+
+	immediate = {
+		random_owned_leader = {
+			limit = {
+				has_leader_flag = otc_temporal_clone
+			}
+			kill_leader = {
+				show_notification = no
+			}
+		}
+	}
+
+	option = {
+		name = omnitemporal.1014.a
+
+		add_resource = {
+			otc_temporal_fabric = 500
+		}
+		
 		ai_chance = {
 			factor = 1
 		}

@@ -32,6 +32,13 @@ on_yearly_pulse = {
 	}
 }
 
+on_leader_death_notify = {
+	events = {
+		omnitemporal.44			# Indefinite Lifespans revive dead leaders
+		omnitemporal.1014		# Leader who will travel into the past dies paradox
+	}
+}
+
 on_monthly_pulse_country = {
 	events = {
 		omnitemporal.55			# The Greatest Timeline prevent negative incomes
