@@ -129,4 +129,90 @@ weapon_component_template = {
 			otc_temporal_fabric = @m_t5_rare
 		}
 		upkeep = {
-			energy 
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = {
+				RESOURCE = otc_temporal_fabric
+			}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "OTC_LARGE_TIME_BEAM"
+	size = large
+	type = instant
+	potential = {
+		from = {
+			country_uses_bio_ships = no
+			has_menace_perk = menp_otc_weaponized_relativity
+		}
+	}
+
+	icon = "GFX_ship_part_otc_time_laser"
+	icon_frame = 1
+
+	damage = { min = 102.00 max = 414.00 } 
+	windup = { min = 7.00 max = 27.00 }
+	total_fire_time = 40.00
+	range = 80.0
+	accuracy = 0.90
+	tracking = 0.05
+	
+	power = -103
+	
+	shield_damage = 1.00
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	armor_damage = 1.00
+	hull_damage = 1.25
+
+	on_hit = {
+		hidden_effect = {
+			if = {
+				limit = {
+					exists = this
+				}
+				add_modifier = {
+					modifer = otc_distorted_field
+					days = 35
+				}
+			}
+		}
+		custom_tooltip = "otc_time_beam_3_tt"
+	}
+
+	prerequisites = {}
+	component_set = "OTC_TIME_BEAM"
+	projectile_gfx = "gamma_laser_l" #change?
+	tags = { weapon_type_energy l_slot }
+	ai_tags = { weapon_role_artillery gunship }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			otc_temporal_fabric = @l_t5_rare
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = {
+				RESOURCE = otc_temporal_fabric
+			}
+		}
+	}
+}

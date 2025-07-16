@@ -1,3 +1,6 @@
+## OTC Weapon Component Sets
+# Created by Accorata
+
 component_set = {
 	key = "OTC_TIME_BEAM"
 
