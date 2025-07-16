@@ -136,4 +136,9 @@ spriteTypes = {
 		}
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 	}
+	# Weapons
+	spriteType = {
+		name = "GFX_ship_part_otc_time_laser"
+		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_beam.dds"
+	}
 }

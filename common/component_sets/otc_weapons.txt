@@ -1,0 +1,6 @@
+component_set = {
+	key = "OTC_TIME_BEAM"
+
+	icon = "GFX_ship_part_otc_time_laser"
+	icon_frame = 1
+}

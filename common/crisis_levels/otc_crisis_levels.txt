@@ -93,6 +93,7 @@ otc_crisis_omnitemporal_level_4 = {
 	# REWARDS
 	perks = {
 		menp_otc_the_greatest_timeline
+		menp_otc_weaponized_relativity
 		menp_otc_indefinite_lifespans
 		menp_otc_localised_time_loops
 	}
