@@ -448,6 +448,19 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = omnitemporal.56
+	title = omnitemporal.56.name
+	desc = omnitemporal.56.desc
+	picture = GFX_evt_clocks
+
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.56.a
+	}
+}
+
 ### Temporal Anomalies ###
 ## Base Anomalies (Without Travel Timelines Tech)
 # Leader disappears into the future
