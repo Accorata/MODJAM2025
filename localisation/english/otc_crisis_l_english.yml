@@ -259,6 +259,7 @@ l_english:
   omnitemporal.1010.name:0 "Lost Day"
   omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the last twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
   otc_forgot_a_day:0 "Lost Day"
+  otc_opinion_lost_day:0 "Unhappy with Temporal Meddling"
 
   omnitemporal.1013.name: "Rapid Aging"
   omnitemporal.1013.desc: "..."
@@ -312,3 +313,13 @@ l_english:
   omnitemporal.54.name:0 "REPLACE_ME"
   omnitemporal.54.desc:0 "REPLACE_ME"
   omnitemporal.54.a:0 "REPLACE_ME"
+  OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
+  omnitemporal.56.name:0 "Timeline Severed"
+  omnitemporal.56.desc:0 "REPLACE_ME"
+  omnitemporal.56.a:0 "REPLACE_ME"
+
+
+ 
+ 
+ omnitemporal.1012.name:0 "REPLACE_ME"
+ omnitemporal.1012.desc:0 "REPLACE_ME"
