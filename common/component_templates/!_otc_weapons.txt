@@ -1,4 +1,4 @@
-## OTC Time Weapons
+## OTC Aeon Beams
 # Created by Accorata
 
 weapon_component_template = {

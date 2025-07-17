@@ -1,3 +1,6 @@
+## OTC Paradox Drive
+# Created by Accorata
+
 utility_component_template = {
 	key = "OTC_TIME_DRIVE"
 	size = small
