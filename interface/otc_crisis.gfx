@@ -31,6 +31,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_across_timelines"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_timelines.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_otc_omnitemporal_crisis_icon_default"
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_template.dds"
 		noOfFrames = 2
@@ -147,7 +152,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ship_part_otc_time_lance"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_energy_lance_2.dds" #change
+		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_lance.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_otc_time_drive"
