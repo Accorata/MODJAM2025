@@ -94,7 +94,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_otc_atemporal_research_zone_build_icon"
-		textureFile = "gfx/interface/icons/megastructures/megastructures_build_menu/build_menu_behemoth_egg.dds"		# todo - create icon
+		textureFile = "gfx/interface/icons/megastructures/megastructures_build_menu/build_menu_otc_atemporal_research_zone.dds"
 	}
 	## Crisis UI - Crisis path dependant
 	progressbarType = {
