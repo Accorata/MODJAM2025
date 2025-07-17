@@ -63,9 +63,18 @@ l_russian:
 ## Crisis Perks ##
 # Level 1
   menp_otc_omnitemporal_objectives: "$otc_temporal_fabric$"
-  menp_otc_omnitemporal_objectives_desc: "$otc_temporal_fabric$ represents our ability to bend time to our influence."
+  menp_otc_omnitemporal_objectives_desc: "$otc_temporal_fabric$ represents our ability to bend time to our will."
   unlocks_otc_omnitemporal_objectives: "Allows the accumulation of §Y$otc_temporal_fabric_with_icon$§! by completing §HCrisis Objectives§!.\n\n"
   mod_planet_physicists_otc_temporal_fabric_produces_add: "$otc_temporal_fabric_with_icon$ per $pop_group_unit$ $job_physicist_plural_with_icon$"
+
+  menp_otc_time_shields: "Temporal Suspension"
+  menp_otc_time_shields_desc: "..."
+  unlocks_otc_time_shields: "Unlocks §Y$OTC_TIME_SHIELD$§! Shield Components."
+  OTC_TIME_SHIELD: "Advanced Suspension Field"
+  OTC_TIME_SHIELD_DESC: "..."
+  OTC_SMALL_TIME_SHIELD: "Small $OTC_TIME_SHIELD$"
+  OTC_MEDIUM_TIME_SHIELD: "Medium $OTC_TIME_SHIELD$"
+  OTC_LARGE_TIME_SHIELD: "Large $OTC_TIME_SHIELD$"
 
   menp_otc_secrets_of_the_past: "Secrets of the Past"
   menp_otc_secrets_of_the_past_desc: "..."
@@ -87,7 +96,7 @@ l_russian:
 # Level 2
   menp_otc_timeless_studies: "Timeless Studies"
   menp_otc_timeless_studies_desc: "..."
-  unlocks_otc_timeless_studies: "Allows us to build §Y$otc_omnitemporal_kilostructure$§! Megastructures around Black Holes and Neutron Stars.\n\n"
+  unlocks_otc_timeless_studies: "Allows us to build §Y$otc_omnitemporal_kilostructure$§! Megastructures around §YBlack Holes§! and §YNeutron Stars§!.\n\n"
 
   # Kilostructure
   otc_omnitemporal_kilostructure: "Atemporal Research Zone"
@@ -100,6 +109,19 @@ l_russian:
   otc_requires_black_hole_or_neutron_star: "$TRIGGER_FAIL$Must be built around a $pc_black_hole$ or $pc_neutron_star$."
   otc_requires_less_than_x_arz: "$TRIGGER_FAIL$We can not sustain more than [owner.OtcGetARZLimit] $otc_omnitemporal_kilostructure_plural$ at a time"
   mod_otc_arz_limit_add: "$otc_omnitemporal_kilostructure$ Capacity"
+
+  menp_otc_weaponized_relativity: "Weaponized Relativity"
+  menp_otc_weaponized_relativity_desc: "..."
+  unlocks_otc_weaponized_relativity: "Unlocks §Y$OTC_TIME_BEAM$§! Weapons, which Fire Unstable Lasers that slow Enemy Ships and Projectiles."
+  OTC_TIME_BEAM: "Aeon Beam"
+  OTC_TIME_BEAM_DESC: "..."
+  OTC_SMALL_TIME_BEAM: "Small $OTC_TIME_BEAM$"
+  OTC_MEDIUM_TIME_BEAM: "Medium $OTC_TIME_BEAM$"
+  OTC_LARGE_TIME_BEAM: "Large $OTC_TIME_BEAM$"
+  otc_time_beam_1_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y5§! Days"
+  otc_time_beam_2_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y15§! Days"
+  otc_time_beam_3_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y35§! Days"
+  otc_distorted_field: "Temporal Distortion"
 
   menp_otc_secrets_of_the_present: "Secrets of the Present"
   menp_otc_secrets_of_the_present_desc: "..."
@@ -135,20 +157,14 @@ l_russian:
 # Level 4
   menp_otc_the_greatest_timeline: "The Greatest Timeline"
   menp_otc_the_greatest_timeline_desc: "..."
-  unlocks_otc_the_greatest_timeline:0 "Resources Cannot Decrease Monthly"
+  unlocks_otc_the_greatest_timeline:0 "Resources §YCannot§! Decrease Monthly"
 
-  menp_otc_weaponized_relativity: "Weaponized Relativity"
-  menp_otc_weaponized_relativity_desc: "..."
-  unlocks_otc_weaponized_relativity: "Unlocks §Y$OTC_TIME_BEAM$§! Weapons, which Fire Unstable Lasers that slow Enemy Ships and Projectiles."
-  OTC_TIME_BEAM: "Aeon Beam"
-  OTC_TIME_BEAM_DESC: "..."
-  OTC_SMALL_TIME_BEAM: "Small $OTC_TIME_BEAM$"
-  OTC_MEDIUM_TIME_BEAM: "Medium $OTC_TIME_BEAM$"
-  OTC_LARGE_TIME_BEAM: "Large $OTC_TIME_BEAM$"
-  otc_time_beam_1_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y5§! Days"
-  otc_time_beam_2_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y15§! Days"
-  otc_time_beam_3_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y35§! Days"
-  otc_distorted_field: "Temporal Distortion"
+  menp_otc_spacetime_sever: "REPLACE_ME"
+  menp_otc_spacetime_sever_desc: "..."
+  unlocks_otc_spacetime_sever: "Unlocks the §Y$OTC_TIME_LANCE$§!, an Extra Large Weapon which ...."
+  OTC_TIME_LANCE: "Spacetime Sever" # maybe change
+  OTC_TIME_LANCE_DESC: "...unmoors them..."
+  otc_time_lance_tt: "..."
 
   menp_otc_indefinite_lifespans:0 "Quantum Immortality"
   menp_otc_indefinite_lifespans_desc:0 "Across the infinite timelines, for every death that occurs there will necessarily be an identical timeline in which that death was avoided. A simple jump to retrieve these timeline doubles ensures no one will ever leave us."
@@ -174,12 +190,11 @@ l_russian:
   situation_otc_end_of_time_approach_basic_desc: "..."
 
   menp_otc_paradox_drives: "Spacetime Warping" # name to be refined
-  menp_otc_paradox_drives_desc: "Unlocks the §Y$OTC_TIME_DRIVE$§!, a Jump Drive which Preserves the Fleet's Speed after Jumping."
-  unlocks_otc_paradox_drives: "REPLACE_ME"
+  menp_otc_paradox_drives_desc: "..."
+  unlocks_otc_paradox_drives: "Unlocks the §Y$OTC_TIME_DRIVE$§!, a Jump Drive which Preserves the Fleet's Speed after Jumping."
   OTC_TIME_DRIVE: "Paradox Drive"
   OTC_TIME_DRIVE_DESC: "REPLACE_ME"
-  otc_time_drive_tt: "After Jumping the Fleet Does Not Receive the Normal -50% to Sublight Speed.\n(Weapon Damage Remains Halved As Normal)"
-  otc_time_drive_jump: "Temporal Dive"
+  otc_time_drive_tt: "After Jumping the Ship Does Not Receive the Normal -50% to Sublight Speed.\n(Weapon Damage Remains Halved As Normal)"
 
   menp_otc_reset_civilisation:0 "Causal Annihilation Protocol"
   menp_otc_reset_civilisation_desc:0 "Our foes, as befits us, are mighty and resiliant. But they were not always so. The future is the ultimate high ground - a place from which can strike and eliminate an enemy when they are at their weakest. A minor correction to their history will purge them from our timestream."
