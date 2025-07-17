@@ -152,7 +152,6 @@ otc_crisis_omnitemporal_level_5 = {
 				room_name_override = ""
 				country_event = {
 					id = omnitemporal.54
-					days = 5
 				}
 			}
 		}

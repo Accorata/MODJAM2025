@@ -388,7 +388,11 @@ country_event = {
 
 	is_triggered_only = yes
 
-	#todo, should end time i guess
+	immediate = {
+		start_situation = {
+			type = situation_otc_end_of_time
+		}
+	}
 
 	option = {
 		name = omnitemporal.54.a
@@ -1244,6 +1248,33 @@ country_event = {
 	immediate = {
 		owner = {
 			complete_crisis_objective = otc_crisobj_activate_relic
+		}
+	}
+}
+
+### End of Time Situation ###
+
+# Final Event - Win the game!
+situation_event = {
+	id = omnitemporal.2000
+	title = omnitemporal.2000.name
+	desc = omnitemporal.2000.desc
+	picture = GFX_evt_warm_barren #change
+	show_sound = event_default #change
+	location = capital_scope
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.2000.a
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	after = {
+		owner = {
+			win = yes
 		}
 	}
 }
