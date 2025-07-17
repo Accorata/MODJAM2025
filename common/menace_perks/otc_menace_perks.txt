@@ -4,7 +4,7 @@
 # Level 1
 # Temporal Fabric
 menp_otc_omnitemporal_objectives = {
-	portrait = "GFX_crisis_icon_advanced_logic"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_temporal_fabric"
 
 	modifier = {
 		planet_physicists_otc_temporal_fabric_produces_add = 0.5
@@ -17,7 +17,7 @@ menp_otc_omnitemporal_objectives = {
 
 # Temporal Shields
 menp_otc_time_shields = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_shields"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_time_shields
@@ -26,7 +26,7 @@ menp_otc_time_shields = {
 
 # Secrets of the Past
 menp_otc_secrets_of_the_past = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_past"
 
 	modifier = {
 		ship_archaeological_site_clues_add = 1
@@ -77,7 +77,7 @@ menp_otc_timeless_studies = {
 
 # Weaponized Relativity
 menp_otc_weaponized_relativity = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_weapons"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_weaponized_relativity
@@ -86,7 +86,7 @@ menp_otc_weaponized_relativity = {
 
 # Secrets of the Present
 menp_otc_secrets_of_the_present = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_secrets_of_the_present"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_present"
 
 	modifier = {
 		ship_anomaly_research_speed_mult = 0.20
@@ -96,7 +96,7 @@ menp_otc_secrets_of_the_present = {
 
 # Prolonged Lifespans
 menp_otc_prolonged_lifespans = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_lifespans"
 
 	modifier = {
 		leader_lifespan_mult = 0.20
@@ -121,7 +121,7 @@ menp_otc_across_timelines = {
 
 # Temporal Shell
 menp_otc_temporal_shell = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_shell"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_temporal_shell_aura
@@ -130,7 +130,7 @@ menp_otc_temporal_shell = {
 
 # Secrets of the Future
 menp_otc_secrets_of_the_future = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_future"
 
 	modifier = {
 		all_technology_research_speed = 0.05
@@ -140,7 +140,7 @@ menp_otc_secrets_of_the_future = {
 
 # Accelerated Infancy
 menp_otc_accelerated_infancy = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_infancy"
 
 	modifier = {
 		logistic_growth_mult = 0.1
@@ -153,7 +153,7 @@ menp_otc_accelerated_infancy = {
 ## Level 4
 # The Greatest Timeline
 menp_otc_the_greatest_timeline = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_1"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_timeline"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_the_greatest_timeline
@@ -162,7 +162,7 @@ menp_otc_the_greatest_timeline = {
 
 # Spacetime Sever
 menp_otc_spacetime_sever = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_sever"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_spacetime_sever
@@ -171,7 +171,7 @@ menp_otc_spacetime_sever = {
 
 # Indefinite Lifespans
 menp_otc_indefinite_lifespans = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_immortal"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_indefinite_lifespans
@@ -180,7 +180,7 @@ menp_otc_indefinite_lifespans = {
 
 # Localised Time Loops
 menp_otc_localised_time_loops = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_loops"
 
 	modifier = {
 		starbase_shipyard_build_time_mult = -0.25
@@ -192,7 +192,7 @@ menp_otc_localised_time_loops = {
 ## Level 5
 # The End of Time
 menp_otc_end_of_time = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_end"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_end_of_time
@@ -201,7 +201,7 @@ menp_otc_end_of_time = {
 
 # Paradox Drives
 menp_otc_paradox_drives = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_drives"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_paradox_drives
@@ -210,7 +210,7 @@ menp_otc_paradox_drives = {
 
 # Omnitemporality
 menp_otc_reset_civilisation = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_reset"
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_reset_civilisation

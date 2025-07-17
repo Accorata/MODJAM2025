@@ -10,14 +10,18 @@ spriteTypes = {
 	}
 	## Omnitemporal Perks
 	spriteType = {
-		# (placeholder names for now)
-		name = "GFX_otc_omnitemporal_crisis_icon_1"
-		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_1.dds"
+		name = "GFX_otc_omnitemporal_crisis_icon_temporal_fabric"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_temporal_fabric.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_otc_omnitemporal_crisis_icon_2"
-		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_2_WIP.dds"
+		name = "GFX_otc_omnitemporal_crisis_icon_shields"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_shields.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_past"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_past.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -26,18 +30,73 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_otc_omnitemporal_crisis_icon_secrets_of_the_present"
-		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_present_secrets.dds"
+		name = "GFX_otc_omnitemporal_crisis_icon_weapons"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_weapons.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_present"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_present.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_lifespans"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_lifespans.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
 		name = "GFX_otc_omnitemporal_crisis_icon_across_timelines"
-		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_timelines.dds"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_1.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_otc_omnitemporal_crisis_icon_default"
-		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_template.dds"
+		name = "GFX_otc_omnitemporal_crisis_icon_shell"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_shell.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_future"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_future.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_infancy"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_infancy.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_timeline"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_timeline.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_sever"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_sever.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_immortal"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_immortal.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_loops"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_loops.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_end"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_end.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_drives"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_drives.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_otc_omnitemporal_crisis_icon_reset"
+		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_icon_reset.dds"
 		noOfFrames = 2
 	}
 	## Level Icons
@@ -66,7 +125,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/crisis/otc_omnitemporal_crisis_Lvl5_btn.dds"
 		noOfFrames = 2
 	}
-	## Temporal Fabric - todo, replace these placeholders icons
+	## Temporal Fabric
 	spriteType = {
 		name = "GFX_resource_otc_temporal_fabric"
 		textureFile = "gfx/interface/icons/resources/otc_temporal_fabric.dds"

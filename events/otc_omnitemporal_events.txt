@@ -124,7 +124,7 @@ system_event = {
 		}
 		star = {
 			create_ambient_object = {
-				type = "space_storm_1" #todo swap out for something better looking
+				type = "psi_storm_1"
 				location = this
 			}
 		}
