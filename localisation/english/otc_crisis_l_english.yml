@@ -63,13 +63,13 @@ l_english:
 ## Crisis Perks ##
 # Level 1
   menp_otc_omnitemporal_objectives: "$otc_temporal_fabric$"
-  menp_otc_omnitemporal_objectives_desc: "$otc_temporal_fabric$ represents our ability to bend time to our influence."
+  menp_otc_omnitemporal_objectives_desc: "$otc_temporal_fabric$ represents our ability to bend time to our will."
   unlocks_otc_omnitemporal_objectives: "Allows the accumulation of §Y$otc_temporal_fabric_with_icon$§! by completing §HCrisis Objectives§!.\n\n"
   mod_planet_physicists_otc_temporal_fabric_produces_add: "$otc_temporal_fabric_with_icon$ per $pop_group_unit$ $job_physicist_plural_with_icon$"
 
   menp_otc_time_shields: "Temporal Suspension"
   menp_otc_time_shields_desc: "..."
-  unlocks_otc_time_shields: "..."
+  unlocks_otc_time_shields: "Unlocks §Y$OTC_TIME_SHIELD$§! Shield Components."
   OTC_TIME_SHIELD: "Advanced Suspension Field"
   OTC_TIME_SHIELD_DESC: "..."
   OTC_SMALL_TIME_SHIELD: "Small $OTC_TIME_SHIELD$"

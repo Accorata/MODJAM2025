@@ -107,7 +107,7 @@ menp_otc_prolonged_lifespans = {
 ## Level 3
 # Across Timelines
 menp_otc_across_timelines = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_2"
+	portrait = "GFX_otc_omnitemporal_crisis_icon_across_timelines"
 
 	modifier = {
 		otc_arz_limit_add = 2
