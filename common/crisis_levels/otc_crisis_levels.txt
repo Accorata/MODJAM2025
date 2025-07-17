@@ -8,6 +8,7 @@ otc_crisis_omnitemporal_level_1 = {
 	# REWARDS
 	perks = {
 		menp_otc_omnitemporal_objectives
+		menp_otc_time_shields
 		menp_otc_secrets_of_the_past
 	}
 
@@ -30,6 +31,7 @@ otc_crisis_omnitemporal_level_2 = {
 	# REWARDS
 	perks = {
 		menp_otc_timeless_studies
+		menp_otc_weaponized_relativity
 		menp_otc_secrets_of_the_present
 		menp_otc_prolonged_lifespans
 	}
@@ -93,7 +95,7 @@ otc_crisis_omnitemporal_level_4 = {
 	# REWARDS
 	perks = {
 		menp_otc_the_greatest_timeline
-		menp_otc_weaponized_relativity
+		menp_otc_spacetime_sever
 		menp_otc_indefinite_lifespans
 		menp_otc_localised_time_loops
 	}

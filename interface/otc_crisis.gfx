@@ -136,10 +136,18 @@ spriteTypes = {
 		}
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 	}
-	# Components
+	## Components
+	spriteType = {
+		name = "GFX_ship_part_otc_time_shield"
+		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_beam.dds" #change!
+	}
 	spriteType = {
 		name = "GFX_ship_part_otc_time_laser"
 		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_beam.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_otc_time_lance"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_energy_lance_2.dds" #change
 	}
 	spriteType = {
 		name = "GFX_ship_part_otc_time_drive"

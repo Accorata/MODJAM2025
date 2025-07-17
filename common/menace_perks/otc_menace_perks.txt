@@ -15,6 +15,15 @@ menp_otc_omnitemporal_objectives = {
 	}
 }
 
+# Temporal Shields
+menp_otc_time_shields = {
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_time_shields
+	}
+}
+
 # Secrets of the Past
 menp_otc_secrets_of_the_past = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
@@ -66,6 +75,14 @@ menp_otc_timeless_studies = {
 	}
 }
 
+# Weaponized Relativity
+menp_otc_weaponized_relativity = {
+	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_weaponized_relativity
+	}
+}
 
 # Secrets of the Present
 menp_otc_secrets_of_the_present = {
@@ -143,12 +160,12 @@ menp_otc_the_greatest_timeline = {
 	}
 }
 
-# Weaponized Relativity
-menp_otc_weaponized_relativity = {
+# Spacetime Sever
+menp_otc_spacetime_sever = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_default"
 
 	on_unlock = {
-		custom_tooltip = unlocks_otc_weaponized_relativity
+		custom_tooltip = unlocks_otc_spacetime_sever
 	}
 }
 

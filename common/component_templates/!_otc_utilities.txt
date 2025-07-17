@@ -1,0 +1,202 @@
+## OTC Utilities
+# Created by Accorata
+
+utility_component_template = {
+	key = "OTC_SMALL_TIME_SHIELD"
+	size = small
+	icon = "GFX_ship_part_otc_time_shield"
+	icon_frame = 1
+	power = @power_S5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_s_t5_cost
+			otc_temporal_fabric = 0.333
+		}
+		upkeep = {
+			energy = @shield_s_t5_upkeep_energy
+			alloys = @shield_s_t5_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_S4
+		ship_shield_regen_add_static = @regen_S6
+	}
+
+	ship_modifier = {
+		ship_shield_hardening_add = 0.15
+	}
+
+	prerequisites = {}
+
+	component_set = "OTC_TIME_SHIELD"
+
+	potential = {
+		from = {
+			country_uses_bio_ships = no
+			has_menace_perk = menp_otc_time_shields
+		}
+	}
+
+	ai_weight = {
+		weight = 30
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = otc_temporal_fabric }
+		}
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 0
+		}
+	}
+}
+
+utility_component_template = {
+	key = "OTC_MEDIUM_TIME_SHIELD"
+	size = medium
+	icon = "GFX_ship_part_otc_time_shield"
+	icon_frame = 1
+	power = @power_M5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_m_t5_cost
+			otc_temporal_fabric = 0.666
+		}
+		upkeep = {
+			energy = @shield_m_t5_upkeep_energy
+			alloys = @shield_m_t5_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_M4
+		ship_shield_regen_add_static = @regen_M6
+	}
+
+	ship_modifier = {
+		ship_shield_hardening_add = 0.15
+	}
+
+	prerequisites = {}
+
+	component_set = "OTC_TIME_SHIELD"
+
+	potential = {
+		from = {
+			country_uses_bio_ships = no
+			has_menace_perk = menp_otc_time_shields
+		}
+	}
+
+	ai_weight = {
+		weight = 30
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = otc_temporal_fabric }
+		}
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 0
+		}
+	}
+}
+
+utility_component_template = {
+	key = "OTC_LARGE_TIME_SHIELD"
+	size = large
+	icon = "GFX_ship_part_otc_time_shield"
+	icon_frame = 1
+	power = @power_L5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_l_t5_cost
+			otc_temporal_fabric = 1
+		}
+		upkeep = {
+			energy = @shield_l_t5_upkeep_energy
+			alloys = @shield_l_t5_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = @shield_L4
+		ship_shield_regen_add_static = @regen_L6
+	}
+
+	ship_modifier = {
+		ship_shield_hardening_add = 0.15
+	}
+
+	prerequisites = {}
+
+	component_set = "OTC_TIME_SHIELD"
+
+	potential = {
+		from = {
+			country_uses_bio_ships = no
+			has_menace_perk = menp_otc_time_shields
+		}
+	}
+
+	ai_weight = {
+		weight = 30
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = otc_temporal_fabric }
+		}
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 0
+		}
+	}
+}
+
+utility_component_template = {
+	key = "OTC_TIME_DRIVE"
+	size = small
+	icon = "GFX_ship_part_otc_time_drive"
+	icon_frame = 1
+	power = -30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			otc_temporal_fabric = 2
+		}
+	}
+
+	potential = {
+		ship_uses_jump_drives = yes
+		from = {
+			has_menace_perk = menp_otc_paradox_drives
+			country_uses_bio_ships = no
+		}
+	}
+
+	ftl = yes
+	jumpdrive = yes
+	ship_modifier = {
+		ship_disengage_opportunities_add = 2
+		ship_windup_mult = -0.8
+	}
+
+	triggered_ship_design_modifier = {
+		potential = {
+			has_modifier = jump_drive_cooldown
+		}
+		ship_speed_mult = 0.5
+	}
+
+	custom_tooltip = otc_time_drive_tt
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = otc_temporal_fabric }
+		}
+	}
+
+	prerequisites = {}
+	component_set = "ftl_components"
+}

@@ -61,7 +61,3 @@ otc_distorted_field = {
 	weapon_type_mandible_speed_mult = -0.25
 	ship_speed_reduction = 0.25
 }
-
-otc_time_drive_jump = {
-	ship_speed_mult = 0.5
-}

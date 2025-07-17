@@ -465,33 +465,6 @@ country_event = {
 	}
 }
 
-ship_event = {
-	id = omnitemporal.57
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		has_component = "OTC_TIME_DRIVE"
-		exists = fleet
-		fleet = {
-			NOT = {
-				has_modifier = otc_time_drive_jump
-			}
-		}
-	}
-	
-	immediate = {
-		fleet = {
-			# test this, if doesn't work use export_modifier_to_variable or smth else
-			add_modifier = {
-				modifier = otc_time_drive_jump
-				days = 200
-				mult = modifier:ship_jumpdrive_cooldown_mult
-			}
-		}
-	}
-}
-
 ### Temporal Anomalies ###
 ## Base Anomalies (Without Travel Timelines Tech)
 # Leader disappears into the future

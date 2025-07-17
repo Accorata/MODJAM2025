@@ -1,4 +1,4 @@
-## OTC Aeon Beams
+## OTC Temporal Weaponry
 # Created by Accorata
 
 weapon_component_template = {
@@ -213,6 +213,85 @@ weapon_component_template = {
 			no_resource_for_component = {
 				RESOURCE = otc_temporal_fabric
 			}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "OTC_TIME_LANCE"
+	size = extra_large
+	type = instant
+
+	icon = "GFX_ship_part_otc_time_lance"
+	icon_frame = 1
+
+	firing_arc = 25.0
+	use_ship_main_target = no
+	potential = {
+		from = {
+			country_uses_bio_ships = no
+			has_menace_perk = menp_otc_spacetime_sever
+		}
+	}
+
+	damage = { min = 780.00 max = 1950.00 } 
+	windup = { min = 12.00 max = 47.00 }
+	total_fire_time = 70.00
+	range = 150.0
+	accuracy = 0.85
+	tracking = 0.00
+	
+	power = -300
+	
+	shield_damage = 1.00
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	armor_damage = 1.00
+	hull_damage = 1.25
+
+	on_hit = {
+		hidden_effect = {
+			if = {
+				limit = {
+					exists = this
+				}
+				# to do...
+			}
+		}
+		custom_tooltip = "otc_time_lance_tt"
+	}
+
+	prerequisites = {}
+	component_set = "OTC_TIME_LANCE"
+	projectile_gfx = "tachyon_lance" #maybe change
+	tags = { weapon_type_energy weapon_role_artillery x_slot }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t6_cost
+			otc_temporal_fabric = @xl_t6_rare
+		}
+		upkeep = {
+			alloys = @xl_t6_upkeep_alloys
+			energy = @xl_t6_upkeep_energy
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+		stinger_stage_1 = 1.5
+		stinger_stage_2 = 2
+		stinger_stage_3 = 2
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = otc_temporal_fabric }
 		}
 	}
 }
