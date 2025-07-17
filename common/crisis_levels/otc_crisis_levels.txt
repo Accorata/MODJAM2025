@@ -125,6 +125,7 @@ otc_crisis_omnitemporal_level_5 = {
 	# REWARDS
 	perks = {
 		menp_otc_end_of_time
+		menp_otc_paradox_drives
 		menp_otc_reset_civilisation
 	}
 

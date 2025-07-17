@@ -173,6 +173,14 @@ l_english:
   situation_otc_end_of_time_approach_basic: "Inevitability"
   situation_otc_end_of_time_approach_basic_desc: "..."
 
+  menp_otc_paradox_drives: "Spacetime Warping" # name to be refined
+  menp_otc_paradox_drives_desc: "Unlocks the §Y$OTC_TIME_DRIVE$§!, a Jump Drive which Preserves the Fleet's Speed after Jumping."
+  unlocks_otc_paradox_drives: "REPLACE_ME"
+  OTC_TIME_DRIVE: "Paradox Drive"
+  OTC_TIME_DRIVE_DESC: "REPLACE_ME"
+  otc_time_drive_tt: "After Jumping the Fleet Does Not Receive the Normal -50% to Sublight Speed.\n(Weapon Damage Remains Halved As Normal)"
+  otc_time_drive_jump: "Temporal Dive"
+
   menp_otc_reset_civilisation:0 "Causal Annihilation Protocol"
   menp_otc_reset_civilisation_desc:0 "Our foes, as befits us, are mighty and resiliant. But they were not always so. The future is the ultimate high ground - a place from which can strike and eliminate an enemy when they are at their weakest. A minor correction to their history will purge them from our timestream."
   unlocks_otc_reset_civilisation:0 "REPLACE_ME"

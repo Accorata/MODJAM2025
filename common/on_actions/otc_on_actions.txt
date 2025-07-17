@@ -45,6 +45,12 @@ on_monthly_pulse_country = {
 	}
 }
 
+on_jump_drive = {
+	events = {
+		omnitemporal.57			# Paradox Drive effects
+	}
+}
+
 ### Temporal Fabric Objectives ###
 on_monthly_pulse = {
 	events = {

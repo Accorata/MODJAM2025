@@ -51,13 +51,17 @@ otc_forgot_a_day = {
 	planet_jobs_unity_produces_mult = -0.01 
 }
 
-#otc_distorted_field = {
-#	weapon_type_energy_speed_mult = -0.25
-#	weapon_type_kinetic_speed_mult = -0.25
-#	weapon_type_explosive_speed_mult = -0.25
-#	weapon_type_strike_craft_speed_mult = -0.25
-#	weapon_type_point_defense_speed_mult = -0.25
-#	weapon_type_space_fauna_speed_mult = -0.25
-#	weapon_type_mandible_speed_mult = -0.25
-#	ship_speed_reduction = 0.25
-#}
+otc_distorted_field = {
+	weapon_type_energy_speed_mult = -0.25
+	weapon_type_kinetic_speed_mult = -0.25
+	weapon_type_explosive_speed_mult = -0.25
+	weapon_type_strike_craft_speed_mult = -0.25
+	weapon_type_point_defense_speed_mult = -0.25
+	weapon_type_space_fauna_speed_mult = -0.25
+	weapon_type_mandible_speed_mult = -0.25
+	ship_speed_reduction = 0.25
+}
+
+otc_time_drive_jump = {
+	ship_speed_mult = 0.5
+}
