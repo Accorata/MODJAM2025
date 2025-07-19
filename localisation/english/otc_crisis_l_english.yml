@@ -15,7 +15,7 @@ l_english:
 ## Crisis Information ##
 # Ascension Perk
   otc_ap_omnitemporal: "Omnitemporal"
-  otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time, forced to accept whatever the future holds. Soon, we will free ourselves from that terrible fate. Time will become just another of the physical dimensions - traversable with ease."
+  otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time. We will free ourselves from that terrible fate. Time will become just another of the physical dimensions - traversable with ease."
 
 # Other
   # otc_omnitemporal_crisis_chain_title: "$otc_ap_omnitemporal$"
