@@ -308,6 +308,18 @@ country_event = {
 	}
 }
 
+fleet_event = {
+	id = omnitemporal.45
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		create_ship = {
+			design = event_target:otc_create_ship_@fromfrom
+		}
+	}
+}
+
 espionage_operation_event = {
 	id = omnitemporal.50
 	title = omnitemporal.50.name

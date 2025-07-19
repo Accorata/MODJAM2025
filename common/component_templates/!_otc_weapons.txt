@@ -255,7 +255,10 @@ weapon_component_template = {
 				limit = {
 					exists = this
 				}
-				# to do...
+				add_modifier = {
+					modifer = otc_halted_in_time
+					days = 10
+				}
 			}
 		}
 		custom_tooltip = "otc_time_lance_tt"

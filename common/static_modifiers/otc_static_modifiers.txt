@@ -61,3 +61,10 @@ otc_distorted_field = {
 	weapon_type_mandible_speed_mult = -0.25
 	ship_speed_reduction = 0.25
 }
+
+otc_halted_in_time = {
+	ship_speed_reduction = 1000000
+	ship_fire_rate_mult = -1000000
+	weapon_type_strike_craft_speed_mult = -1000000
+	weapon_type_strike_craft_weapon_fire_rate_mult = -1000000
+}
