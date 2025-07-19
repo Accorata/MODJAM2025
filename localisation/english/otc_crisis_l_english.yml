@@ -103,6 +103,7 @@ l_english:
   
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$" # icon needed
+  otc_atemporal_research_zone_desc: "..."
   otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
   MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "..."
@@ -174,7 +175,7 @@ l_english:
   leader_trait_otc_timeline_warped_desc: "We pulled this leader from an alternate timeline, one which was almost identical to ours - except that this leader survived their counterpart's untimely demise."
 
   menp_otc_localised_time_loops:0 "Localized Time Loops"
-  menp_otc_localised_time_loops_desc:0 "REPLACE_ME"
+  menp_otc_localised_time_loops_desc:0 "Our best shipwrights, dockworkers and naval officers can now work alongside dozens of temporal copies of themselves, each returning to the start of the same day every time they begin a shift. The output of our shipyards speaks for itself - but the overtime pay is truly ruinous."
 
 # Level 5
   menp_otc_end_of_time:0 "The End of Time"
@@ -189,6 +190,11 @@ l_english:
   otc_apex_of_power: "Apex of Power"
   situation_otc_end_of_time_approach_basic: "Inevitability"
   situation_otc_end_of_time_approach_basic_desc: "..."
+  omnitemporal.54.name:0 "The End of Time"
+  omnitemporal.54.desc:0 "..."
+# draft for 'destructive' reading of end of time
+# "Until now, we have been like children, content to delight in our new toys that mastery of time has gifted us. Those who dare oppose us are vanquished, and we consolidate our power in the fleeting instant we collectively call: 'the present'. But as our perspective grows, so too does the realisation of futility. We are still prisoners of linear time, unable to prevent our universe spiralling into entropy. No empires last forever.\n\nThe time has come to put aside our toys.\n\nWe have discovered a way to propagate our civilisation outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existance."
+  omnitemporal.54.a:0 "Its about time."
 
   menp_otc_paradox_drives: "Spacetime Warping" # name to be refined
   menp_otc_paradox_drives_desc: "..."
@@ -301,7 +307,7 @@ l_english:
 ## Operations ##
   operation_reset_civilisation:0 "Causal Annihilation Protocol"
   operation_reset_civilisation_desc:0 "REPLACE_ME"
-  operation_reset_civilisation_rival_time_travellers:0 "REPLACE_ME"
+  operation_reset_civilisation_rival_time_travellers:0 "We cannot attempt this operation on fellow temporal manipulators."
   omnitemporal.50.name:0 "REPLACE_ME"
   omnitemporal.50.desc:0 "REPLACE_ME"
   omnitemporal.51.name:0 "REPLACE_ME"
@@ -311,9 +317,7 @@ l_english:
   omnitemporal.53.name:0 "REPLACE_ME"
   omnitemporal.53.desc:0 "REPLACE_ME"
   omnitemporal.53.a:0 "REPLACE_ME"
-  omnitemporal.54.name:0 "REPLACE_ME"
-  omnitemporal.54.desc:0 "REPLACE_ME"
-  omnitemporal.54.a:0 "REPLACE_ME"
+  
   OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
   omnitemporal.56.name:0 "Timeline Severed"
   omnitemporal.56.desc:0 "REPLACE_ME"
