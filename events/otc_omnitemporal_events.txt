@@ -540,7 +540,6 @@ ship_event = {
 					set_leader_flag = otc_temporal_clone
 				}
 			}
-			# todo give them a ship...
 		}
 	}
 
@@ -551,6 +550,9 @@ ship_event = {
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
 				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
 			}
 		}
 		ai_chance = {
@@ -564,7 +566,7 @@ country_event = {
 	id = omnitemporal.1014
 	title = omnitemporal.1014.name
 	desc = omnitemporal.1014.desc
-	picture = GFX_evt_warm_barren # change
+	picture = GFX_evt_zro_4
 	show_sound = event_default
 	location = capital_scope
 	is_triggered_only = yes
@@ -760,7 +762,7 @@ ship_event = {
 	id = omnitemporal.1007
 	title = omnitemporal.1007.name
 	desc = omnitemporal.1007.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_overt_indoctrination
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1059,7 +1061,7 @@ ship_event = {
 	id = omnitemporal.1102
 	title = omnitemporal.1102.name
 	desc = omnitemporal.1102.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_alien_cavemen
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1148,6 +1150,100 @@ country_event = {
 	}
 }
 
+# Fallen empire awakens
+ship_event = {
+	id = omnitemporal.1104
+	title = omnitemporal.1104.name
+	desc = omnitemporal.1104.desc
+	picture = GFX_evt_fallen_empire_awakes
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1104.a
+
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				country_event = {
+					id = omnitemporal.1105
+					days = 65
+				}
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+			random_country = {
+				limit = {
+					is_country_type = fallen_empire
+					NOT = { has_country_flag = awakening_not_allowed }
+				}
+				country_event = {
+					id = fallen_empires_awakening.1
+					days = 60
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Accidentally awakened fallen empire
+country_event = {
+	id = omnitemporal.1105
+	title = omnitemporal.1105.name
+	desc = omnitemporal.1105.desc
+	picture = GFX_evt_warm_barren #change
+	show_sound = event_default
+	location = capital_scope
+	is_triggered_only = yes
+
+	immediate = {
+		every_playable_country = {
+			limit = {
+				has_communications = root
+			}
+			country_event = {
+				id = omnitemporal.1106
+			}
+		}
+	}
+
+	option = {
+		name = omnitemporal.1105.a
+		
+		#...
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Accidentally awakened fallen empire response
+country_event = {
+	id = omnitemporal.1106
+	title = omnitemporal.1106.name
+	desc = omnitemporal.1106.desc
+	picture = GFX_evt_arguing_senate #change
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1106.a
+
+		add_opinion_modifier = {
+			modifier = otc_opinion_awakened_empire
+			who = from
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
 
 
 # testing event
