@@ -2,7 +2,7 @@
 # Created by Accorata
 
 otc_atemporal_research_zone = {
-	entity = "construction_platform_entity"
+	entity = "construction_platform_entity" # "otc_arz_entity"
 	construction_entity = "construction_platform_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no

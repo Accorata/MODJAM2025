@@ -118,5 +118,27 @@ otc_temporal_anomaly_1_cat = {
 			}
 			anomaly_event = omnitemporal.1102
 		}
+		0 = {
+			modifier = {
+				add = 2
+				NOT = {
+					has_global_flag = sleepers_awake_happened
+					has_global_flag = guardians_of_the_galaxy_happened
+				}
+				any_country = {
+					is_country_type = fallen_empire
+					NOT = { has_country_flag = awakening_not_allowed }
+				}
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = {
+						has_technology = tech_otc_travel_timelines
+					}
+				}
+			}
+			anomaly_event = omnitemporal.1104
+		}
 	}
 }
