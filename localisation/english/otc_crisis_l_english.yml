@@ -15,7 +15,7 @@ l_english:
 ## Crisis Information ##
 # Ascension Perk
   otc_ap_omnitemporal: "Omnitemporal"
-  otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time. We will free ourselves from that terrible fate. Time will become just another of the physical dimensions - traversable with ease."
+  otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time. No longer. Time will become just another of the physical dimensions - traversable with ease."
 
 # Other
   # otc_omnitemporal_crisis_chain_title: "$otc_ap_omnitemporal$"
@@ -38,15 +38,15 @@ l_english:
 
 ## Crisis Objectives ##
   otc_crisobj_physicist_production_name: "Employ Physicists" # the amount here doesn't display properly - most likely a rounding issue
-  otc_crisobj_physicist_production_desc: "..."
+  otc_crisobj_physicist_production_desc: "Through their studies into the natural workings of the universe, the secrets of time are bound to be revealed, one way or another.\n\nEmploy physicists to gain this $otc_temporal_fabric$ reward."
   otc_crisobj_research_archeological_sites_name: "Excavate Archeological Sites"
-  otc_crisobj_research_archeological_sites_desc: "..."
+  otc_crisobj_research_archeological_sites_desc: "We must delve into the past and reveal its ancient knowledge.\n\nCompletely excavate archeological sites to gain this $otc_temporal_fabric$ reward."
   otc_crisobj_research_time_anomaly_name: "Research Temporal Anomalies"
-  otc_crisobj_research_time_anomaly_desc: "..."
+  otc_crisobj_research_time_anomaly_desc: "These enigmas operate outside our understanding of time. It is imperative that we divulge their secrets.\n\nResearch temporal anomalies to gain this $otc_temporal_fabric$ reward."
   otc_crisobj_research_anomaly_name:0 "Research Anomalies"
-  otc_crisobj_research_anomaly_desc:0 "..."
+  otc_crisobj_research_anomaly_desc:0 "Every mystery creates an opportunity for knowledge, for understanding our place within the past, present and future.\n\nResearch anomalies to gain this $otc_temporal_fabric$ reward."
   otc_crisobj_activate_relic_name:0 "Activate Relics"
-  otc_crisobj_activate_relic_desc:0 "..."
+  otc_crisobj_activate_relic_desc:0 "The instruments of past eras remain potent even today. Further use may reveal the time they originate from.\n\nActivate relics to gain this $otc_temporal_fabric$ reward."
 
 ## Crisis Levels ##
   otc_crisis_omnitemporal_level_1: "§BConcern§!"
@@ -77,7 +77,7 @@ l_english:
   OTC_LARGE_TIME_SHIELD: "Large $OTC_TIME_SHIELD$"
 
   menp_otc_secrets_of_the_past: "Secrets of the Past"
-  menp_otc_secrets_of_the_past_desc: "..."
+  menp_otc_secrets_of_the_past_desc: "If we are to glimpse the worlds that once were, we must start with the relics that remain today. The artifacts of what once was reveal what is and what will be."
   unlocks_otc_secrets_of_the_past: "Unlocks the §Y$artifact_otc_chronological_studies$§! Minor Artifact Decision, which uses £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\n"
   unlocks_otc_secrets_of_the_past_no_ancrel: "Issues the §Y$otc_chronological_studies_project$§! Special Project, which creates a Temporal Anomaly on completion.\n\n"
 
@@ -103,7 +103,7 @@ l_english:
   
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$" # icon needed
-  otc_atemporal_research_zone_desc: "..."
+  otc_atemporal_research_zone_desc: "A black site sealed within time, this confidential resarch facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
   otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
   MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "..."
