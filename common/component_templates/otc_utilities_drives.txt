@@ -19,7 +19,7 @@ utility_component_template = {
 		ship_uses_jump_drives = yes
 		from = {
 			has_menace_perk = menp_otc_paradox_drives
-			country_uses_bio_ships = no
+			#country_uses_bio_ships = no
 		}
 	}
 

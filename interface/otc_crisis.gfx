@@ -206,6 +206,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_shield.dds"
 	}
 	spriteType = {
+		name = "GFX_ship_part_otc_bio_time_shield"
+		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_bio_time_shield.dds"
+	}
+	spriteType = {
 		name = "GFX_ship_part_otc_time_laser"
 		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_beam.dds"
 	}

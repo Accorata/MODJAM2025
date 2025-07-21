@@ -1215,8 +1215,6 @@ country_event = {
 	option = {
 		name = omnitemporal.1105.a
 		
-		#...
-		
 		ai_chance = {
 			factor = 1
 		}

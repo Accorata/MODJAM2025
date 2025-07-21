@@ -75,6 +75,11 @@ l_english:
   OTC_SMALL_TIME_SHIELD: "Small $OTC_TIME_SHIELD$"
   OTC_MEDIUM_TIME_SHIELD: "Medium $OTC_TIME_SHIELD$"
   OTC_LARGE_TIME_SHIELD: "Large $OTC_TIME_SHIELD$"
+  OTC_BIO_TIME_SHIELD: "Advanced Suspension Tissue"
+  OTC_BIO_TIME_SHIELD_DESC: "..."
+  OTC_SMALL_BIO_TIME_SHIELD: "Small $OTC_BIO_TIME_SHIELD$"
+  OTC_MEDIUM_BIO_TIME_SHIELD: "Medium $OTC_BIO_TIME_SHIELD$"
+  OTC_LARGE_BIO_TIME_SHIELD: "Large $OTC_BIO_TIME_SHIELD$"
 
   menp_otc_secrets_of_the_past: "Secrets of the Past"
   menp_otc_secrets_of_the_past_desc: "If we are to glimpse the worlds that once were, we must start with the relics that remain today. The artifacts of what once was reveal what is and what will be."
@@ -241,7 +246,7 @@ l_english:
   omnitemporal.1003.a.tooltip: "..."
 
   omnitemporal.1004.name: "Planetary Cooling"
-  omnitemporal.1004.desc: "Only a couple of months after our scientists discovered the accelerated passage of time on [FromFrom.GetName], the entire planet has cooled down to more moderate levels. It appears that this planet has experienced millenia of its lifecycle in mere months, transforming its volcanic surface into a barren expanse. According to readings taken from orbit, tectonic activity remains intense and the planet shows no signs of slowing down just yet.\n\nThe more adventurous of our scientists wish to explore [FromFrom.GetName] itself. However, they are quickly stopped by their wiser peers explanations that their lifespans would become but minute fractions of a second to any outside observer."
+  omnitemporal.1004.desc: "Only a couple of months after our scientists discovered the accelerated passage of time on [FromFrom.GetName], the entire planet has cooled down to more moderate levels. It appears that this planet has experienced millenia of its lifecycle in mere months, transforming its volcanic surface into a barren expanse. According to readings taken from orbit, tectonic activity remains intense and the planet shows no signs of slowing down just yet.\n\nThe more adventurous of our scientists wish to explore [FromFrom.GetName] itself. However, they are quickly stopped by their wiser peers' explanations that entire lifespans would become but minute fractions of a second to any outside observer."
   omnitemporal.1004.a: "Very Interesting"
 
   omnitemporal.1005.name: "Development of Life"
@@ -308,4 +313,36 @@ l_english:
   omnitemporal.1105.a: "That's absurd."
 
   omnitemporal.1106.name: "..."
-  omnitemporal.1106
+  omnitemporal.1106.desc: "..."
+  omnitemporal.1106.a: "..."
+  otc_opinion_awakened_empire: "Unhappy about Future Predictions"
+
+  # Anomaly Categories
+  otc_temporal_anomaly_1_cat: "Temporal Anomaly"
+  otc_temporal_anomaly_1_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
+
+
+## Operations ##
+  operation_reset_civilisation:0 "Causal Annihilation Protocol"
+  operation_reset_civilisation_desc:0 "REPLACE_ME"
+  operation_reset_civilisation_rival_time_travellers:0 "We cannot attempt this operation on fellow temporal manipulators."
+  omnitemporal.50.name:0 "REPLACE_ME"
+  omnitemporal.50.desc:0 "REPLACE_ME"
+  omnitemporal.51.name:0 "REPLACE_ME"
+  omnitemporal.51.desc:0 "REPLACE_ME"
+  omnitemporal.52.name:0 "REPLACE_ME"
+  omnitemporal.52.desc:0 "REPLACE_ME"
+  omnitemporal.53.name:0 "REPLACE_ME"
+  omnitemporal.53.desc:0 "REPLACE_ME"
+  omnitemporal.53.a:0 "REPLACE_ME"
+  
+  OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
+  omnitemporal.56.name:0 "Timeline Severed"
+  omnitemporal.56.desc:0 "REPLACE_ME"
+  omnitemporal.56.a:0 "REPLACE_ME"
+
+
+ 
+ 
+  omnitemporal.1012.name:0 "REPLACE_ME"
+  omnitemporal.1012.desc:0 "REPLACE_ME"

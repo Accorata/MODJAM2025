@@ -7,7 +7,7 @@ weapon_component_template = {
 	type = instant
 	potential = {
 		from = {
-			country_uses_bio_ships = no
+			#country_uses_bio_ships = no
 			has_menace_perk = menp_otc_weaponized_relativity
 		}
 	}
@@ -79,7 +79,7 @@ weapon_component_template = {
 	type = instant
 	potential = {
 		from = {
-			country_uses_bio_ships = no
+			#country_uses_bio_ships = no
 			has_menace_perk = menp_otc_weaponized_relativity
 		}
 	}
@@ -151,7 +151,7 @@ weapon_component_template = {
 	type = instant
 	potential = {
 		from = {
-			country_uses_bio_ships = no
+			#country_uses_bio_ships = no
 			has_menace_perk = menp_otc_weaponized_relativity
 		}
 	}
@@ -229,7 +229,7 @@ weapon_component_template = {
 	use_ship_main_target = no
 	potential = {
 		from = {
-			country_uses_bio_ships = no
+			#country_uses_bio_ships = no
 			has_menace_perk = menp_otc_spacetime_sever
 		}
 	}
