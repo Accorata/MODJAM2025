@@ -221,4 +221,9 @@ spriteTypes = {
 		name = "GFX_ship_part_otc_time_drive"
 		texturefile = "gfx/interface/icons/ship_parts/otc_ship_part_time_drive.dds"
 	}
+	## Starbase Buildings
+	spriteType = {
+		name = "GFX_starbase_otc_temporal_shell"
+		texturefile = "gfx/interface/icons/modules/otc_sb_temporal_shell.dds"
+	}
 }

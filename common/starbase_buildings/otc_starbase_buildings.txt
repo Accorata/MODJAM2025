@@ -1,8 +1,8 @@
 ## OTC Starbase Buildings
-# Created by BrettlesSr
+# Created by Accorata & BrettlesSr
 
 otc_temporal_shell = {
-	icon = "GFX_starbase_zroni_storm_caster" #todo replace icon
+	icon = "GFX_starbase_otc_temporal_shell"
 	construction_days = 360
 
 	potential = {
