@@ -20,7 +20,7 @@ country_event = {
 			which = otc_physicist_temporal_fabric_produced
 			value = 0
 		}
-		# Enable Chronological Studies Special Project if no Ancrel DLC
+		# Enable Chronological Studies Special Project & Add Scientist Modifier if no Ancrel DLC
 		country_event = {
 			id = omnitemporal.2
 		}
@@ -54,6 +54,10 @@ country_event = {
 	}
 
 	immediate = {
+		add_modifier = {
+			modifer = otc_secrets_of_the_past_no_ancrel
+			days = -1
+		}
 		capital_scope = {
 			enable_special_project = {
 				name = "otc_chronological_studies_project"

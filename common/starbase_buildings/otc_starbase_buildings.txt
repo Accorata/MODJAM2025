@@ -15,9 +15,10 @@ otc_temporal_shell = {
 		category = starbase_buildings
 		cost = {
 			alloys = 100
+			otc_temporal_fabric = 5
 		}
 		upkeep = {
-			energy = 25
+			energy = 15
 		}
 	}
 
@@ -42,5 +43,4 @@ otc_temporal_shell = {
 		}
 	}
 
-	custom_tooltip = sm_otc_temporal_shell_desc_modifier
-}
+	custom_tooltip = sm_otc_tem
