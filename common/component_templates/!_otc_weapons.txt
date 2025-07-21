@@ -37,7 +37,7 @@ weapon_component_template = {
 					exists = this
 				}
 				add_modifier = {
-					modifer = otc_distorted_field
+					modifier = otc_distorted_field
 					days = 5
 				}
 			}
@@ -109,7 +109,7 @@ weapon_component_template = {
 					exists = this
 				}
 				add_modifier = {
-					modifer = otc_distorted_field
+					modifier = otc_distorted_field
 					days = 15
 				}
 			}
@@ -181,7 +181,7 @@ weapon_component_template = {
 					exists = this
 				}
 				add_modifier = {
-					modifer = otc_distorted_field
+					modifier = otc_distorted_field
 					days = 35
 				}
 			}
@@ -256,7 +256,7 @@ weapon_component_template = {
 					exists = this
 				}
 				add_modifier = {
-					modifer = otc_halted_in_time
+					modifier = otc_halted_in_time
 					days = 10
 				}
 			}

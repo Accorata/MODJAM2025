@@ -306,5 +306,5 @@ otc_reset_civilisation = {
 	}
 	
 
-	# considerations: what about syncretic evo / void dwellers / lost colony / remnants / fallen empire / hard reset / clone army /  wilderness / necrophage
+	# considerations: what about syncretic evo / void dwellers / lost colony / remnants / hard reset / clone army /  wilderness / necrophage
 }

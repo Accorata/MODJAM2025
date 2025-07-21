@@ -2,7 +2,7 @@
 # Created by Accorata
 
 situation_otc_end_of_time = {
-	picture = GFX_evt_dark_alley #change
+	picture = GFX_evt_clocks
 	complete_icon_frame = GFX_situation_outcome_frame_green
 	complete_icon = GFX_situation_outcome_positive
 
@@ -19,7 +19,6 @@ situation_otc_end_of_time = {
 		}
 	}
 	stages = {
-		# todo figure out these ...
 		stage_1 = {
 			icon = GFX_situation_stage_1
 			icon_background = GFX_situation_stage_frame_blue
@@ -29,6 +28,11 @@ situation_otc_end_of_time = {
 			icon = GFX_situation_stage_2
 			icon_background = GFX_situation_stage_frame_blue
 			end = 100
+			on_first_enter = {
+				situation_event = {
+					id = omnitemporal.2001
+				}
+			}
 		}
 	}
 	monthly_progress = {
@@ -38,7 +42,16 @@ situation_otc_end_of_time = {
 			add = 2
 			desc = otc_apex_of_power
 			owner = {
-				# has most points 
+				# todo test has most points 
+				NOT = {
+					any_country = {
+						relative_power = {
+							who = owner
+							category = all
+							value > equivalent
+						}
+					}
+				}
 			}
 		}
 	}

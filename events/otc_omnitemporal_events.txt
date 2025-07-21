@@ -1384,3 +1384,54 @@ situation_event = {
 		}
 	}
 }
+
+situation_event = {
+	id = omnitemporal.2001
+	title = omnitemporal.2001.name
+	desc = omnitemporal.2001.desc
+	picture = GFX_evt_warm_barren #change
+	show_sound = event_default #change
+	location = capital_scope
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+			set_country_flag = otc_final_stage
+		}
+		every_playable_country = {
+			limit = {
+				NOT = {
+					has_country_flag = otc_final_stage
+				}
+			}
+			country_event = {
+				id = omnitemporal.2002
+			}
+		}
+	}
+
+	option = {
+		name = omnitemporal.2001.a
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.2002
+	title = omnitemporal.2002.name
+	desc = omnitemporal.2002.desc
+	picture = GFX_evt_warm_barren #change
+	show_sound = event_default #change
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.2002.a
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

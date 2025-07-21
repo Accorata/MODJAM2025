@@ -5,7 +5,7 @@ l_english:
 
 ## Crisis Resource ##
   otc_temporal_fabric: "Temporal Fabric"
-  otc_temporal_fabric_with_icon: "£otc_temporal_fabric£ $otc_temporal_fabric$" # create icon later...
+  otc_temporal_fabric_with_icon: "£otc_temporal_fabric£ $otc_temporal_fabric$"
   otc_temporal_fabric_name: "$otc_temporal_fabric$"
   otc_temporal_fabric_value: "£otc_temporal_fabric£ $VAL|0$"
   otc_temporal_fabric_current_value: "Current Value: §Y$VALUE|0$§!"
@@ -108,7 +108,7 @@ l_english:
   
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$" # icon needed
-  otc_atemporal_research_zone_desc: "A black site sealed within time, this confidential resarch facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
+  otc_atemporal_research_zone_DESC: "A black site sealed within time, this confidential resarch facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
   otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
   MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "..."
@@ -191,17 +191,24 @@ l_english:
   situation_otc_end_of_time_type: "$situation_otc_end_of_time$"
   situation_otc_end_of_time_monthly_change_tooltip: "Progress the situation by:\n- Having the §YHighest§! Point Score.\n- Completing §Y$operation_reset_civilisation$§! Operations\n- ..."
   situation_otc_end_of_time_desc: "..."
-  situation_otc_end_of_time_complete: "The [insert empire name] wins the game."
+  situation_otc_end_of_time_complete: "The [Owner.GetName] wins the game."
   otc_apex_of_power: "Apex of Power"
   situation_otc_end_of_time_approach_basic: "Inevitability"
   situation_otc_end_of_time_approach_basic_desc: "..."
   omnitemporal.54.name:0 "The End of Time"
-  omnitemporal.54.desc:0 "..."
-# draft for 'destructive' reading of end of time
-# "Until now, we have been like children, content to delight in our new toys that mastery of time has gifted us. Those who dare oppose us are vanquished, and we consolidate our power in the fleeting instant we collectively call: 'the present'. But as our perspective grows, so too does the realisation of futility. We are still prisoners of linear time, unable to prevent our universe spiralling into entropy. No empire lasts forever.\n\nThe time has come to put aside our toys.\n\nWe have discovered a way to propagate our civilisation outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existance."
+  omnitemporal.54.desc:0 "Until now, we have been like children, content to delight in our new toys that mastery of time has gifted us. Those who dare oppose us are vanquished, and we consolidate our power in the fleeting instant we collectively call: 'the present'. But as our perspective grows, so too does the realisation of futility. We are still prisoners of linear time, unable to prevent our universe spiralling into entropy. No empire lasts forever.\n\nThe time has come to put aside our toys.\n\nWe have discovered a way to propagate our civilisation outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existance."
   omnitemporal.54.a:0 "Its about time."
+  omnitemporal.2000.name:0 "REPLACE_ME"
+  omnitemporal.2000.desc:0 "REPLACE_ME"
+  omnitemporal.2000.a:0 "REPLACE_ME"
+  omnitemporal.2001.name:0 "REPLACE_ME"
+  omnitemporal.2001.desc:0 "REPLACE_ME"
+  omnitemporal.2001.a:0 "REPLACE_ME"
+  omnitemporal.2002.name:0 "REPLACE_ME"
+  omnitemporal.2002.desc:0 "REPLACE_ME"
+  omnitemporal.2002.a:0 "REPLACE_ME"
 
-  menp_otc_paradox_drives: "Spacetime Warping" # name to be refined
+  menp_otc_paradox_drives: "Timespace Warping"
   menp_otc_paradox_drives_desc: "..."
   unlocks_otc_paradox_drives: "Unlocks the §Y$OTC_TIME_DRIVE$§!, a Jump Drive which Preserves the Fleet's Damage and Speed after Jumping."
   OTC_TIME_DRIVE: "Paradox Drive"
@@ -346,3 +353,4 @@ l_english:
  
   omnitemporal.1012.name:0 "REPLACE_ME"
   omnitemporal.1012.desc:0 "REPLACE_ME"
+
