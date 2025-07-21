@@ -1,7 +1,7 @@
 ## OTC Crisis Objectives
 # Created by Accorata & BrettlesSr
 
-otc_crisobj_physicist_production = { #todo - we can add temporal fabric to physicists similar to astral thread as a stretch goal
+otc_crisobj_physicist_production = {
 	reward = {
 		base = 0
 		add = otc_physicist_temporal_fabric_produced
