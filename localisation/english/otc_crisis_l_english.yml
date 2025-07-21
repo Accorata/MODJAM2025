@@ -84,7 +84,8 @@ l_english:
   menp_otc_secrets_of_the_past: "Secrets of the Past"
   menp_otc_secrets_of_the_past_desc: "If we are to glimpse the worlds that once were, we must start with the relics that remain today. The artifacts of what once was reveal what is and what will be."
   unlocks_otc_secrets_of_the_past: "Unlocks the §Y$artifact_otc_chronological_studies$§! Minor Artifact Decision, which uses £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\n"
-  unlocks_otc_secrets_of_the_past_no_ancrel: "Issues the §Y$otc_chronological_studies_project$§! Special Project, which creates a Temporal Anomaly on completion.\n\n"
+  unlocks_otc_secrets_of_the_past_no_ancrel: "Issues the §Y$otc_chronological_studies_project$§! Special Project, which creates a Temporal Anomaly on completion.\n\n$mod_scientist_exp_gain$: §G+20%§!"
+  otc_secrets_of_the_past_no_ancrel: "$menp_otc_secrets_of_the_past$"
 
   # Minor Artifact Decision
   artifact_otc_chronological_studies: "Chronological Studies"
