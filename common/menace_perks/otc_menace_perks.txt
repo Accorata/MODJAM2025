@@ -28,6 +28,7 @@ menp_otc_time_shields = {
 menp_otc_secrets_of_the_past = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_past"
 
+	#todo ancrel workaround
 	modifier = {
 		ship_archaeological_site_clues_add = 1
 	}
