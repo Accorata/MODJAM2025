@@ -1,3 +1,6 @@
+## OTC Message Types
+# Created by BrettlesSr
+
 message_type = {
 	key = "OTC_RESET_LEADER_DEATH"
 	icon = "GFX_message_leader_died"

@@ -6,7 +6,7 @@ leader_trait_otc_time_loop_trapped = {
 	inline_script = {
 		script =  trait/icon_negative
 		CLASS = leader
-		ICON = "GFX_leader_trait_intemporal" #change
+		ICON = "GFX_leader_trait_intemporal"
 		RARITY = common
 		COUNCIL = no
 		TIER = none
@@ -25,7 +25,7 @@ leader_trait_otc_timeline_warped = {
 	inline_script = {
 		script =  trait/icon_negative
 		CLASS = leader
-		ICON = "GFX_leader_trait_intemporal" #change
+		ICON = "GFX_leader_trait_otc_timeline_warped"
 		RARITY = common
 		COUNCIL = no
 		TIER = none
@@ -36,7 +36,28 @@ leader_trait_otc_timeline_warped = {
 		}
 		species_leader_exp_gain = -0.10
 	}
+	triggered_self_modifier = {
+		potential = {
+			has_leader_flag = otc_timeline_warped_2
+		}
+		inline_script = {
+			script = paragon/leader_resource_upkeep
+			RESOURCE = astral_threads
+			AMOUNT = 1
+		}
+	}
+	triggered_self_modifier = {
+		potential = {
+			has_leader_flag = otc_timeline_warped_3
+		}
+		negative_traits_leader = 1
+	}
+	triggered_self_modifier = {
+		potential = {
+			has_leader_flag = otc_timeline_warped_4
+		}
+		leaders_upkeep_mult = 0.10
+	}
 	leader_class = { commander scientist official }
 	initial = no
 	randomized = no
-}

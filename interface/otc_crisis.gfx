@@ -226,4 +226,4 @@ spriteTypes = {
 		name = "GFX_starbase_otc_temporal_shell"
 		texturefile = "gfx/interface/icons/modules/otc_sb_temporal_shell.dds"
 	}
-}
+	#
