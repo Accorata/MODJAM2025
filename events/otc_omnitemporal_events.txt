@@ -87,6 +87,94 @@ country_event = {
 	}		
 }
 
+# ARZs Create Temporal Anomalies
+event = {
+	id = omnitemporal.21
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		any_playable_country = {
+			has_country_flag = otc_has_built_arz
+		}
+	}
+
+	immediate = {
+		every_playable_country = {
+			limit = {
+				has_country_flag = otc_has_built_arz
+			}
+			country_event = {
+				id = omnitemporal.22
+			}
+		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.22
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = otc_has_built_arz
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					is_variable_set = otc_arz_temporal_anomaly_progress
+				}
+			}
+			set_variable = {
+				which = otc_arz_temporal_anomaly_progress
+				value = 0
+			}
+		}
+		# Add progress for each ARZ
+		change_variable = {
+			which = otc_arz_temporal_anomaly_progress
+			value = otc_built_arzs
+		}
+		# Add a random amount from 0-2
+		random_list = {
+			1 = {
+				change_variable = {
+					which = otc_arz_temporal_anomaly_progress
+					value = 0
+				}
+			}
+			1 = {
+				change_variable = {
+					which = otc_arz_temporal_anomaly_progress
+					value = 1
+				}
+			}
+			1 = {
+				change_variable = {
+					which = otc_arz_temporal_anomaly_progress
+					value = 2
+				}
+			}
+		}
+		# Check if threshold has been reached to create anomaly
+		if = {
+			limit = {
+				check_variable_arithmetic = {
+					which = otc_arz_temporal_anomaly_progress
+					value >= 5
+				}
+			}
+			subtract_variable = {
+				which = otc_arz_temporal_anomaly_progress
+				value = 5
+			}
+			otc_create_temporal_anomaly = yes
+		}
+	}
+}
+
 # Fired on reaching Level 3 of the Crisis
 country_event = {
 	id = omnitemporal.30

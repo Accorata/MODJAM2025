@@ -2,6 +2,12 @@
 # Created by Accorata & BrettlesSr
 
 ### Menace Perks ###
+on_monthly_pulse = {
+	events = {
+		omnitemporal.21			# ARZs Create Temporal Anomalies
+	}
+}
+
 on_leader_hired = {
 	events = {
 		omnitemporal.41			# Indefinite Lifespans event

@@ -8,6 +8,7 @@ otc_create_temporal_anomaly = { # todo will be a lot more complex than this to i
 		}
 		add_anomaly = {
 			category = otc_temporal_anomaly_1_cat
+			target = root
 		}
 	}
 }
