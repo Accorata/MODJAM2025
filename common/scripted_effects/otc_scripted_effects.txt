@@ -1,16 +1,17 @@
 ## OTC Scripted Effects
 # Created by Accorata & BrettlesSr
 
-otc_create_temporal_anomaly = { # todo will be a lot more complex than this to include unique events and progress levels
+otc_create_temporal_anomaly = {
 	random_planet_within_border = {
 		limit = {
 			has_anomaly = no
 		}
 		add_anomaly = {
-			category = otc_temporal_anomaly_1_cat
+			category = otc_temporal_anomaly_cat
 			target = root
 		}
 	}
+	# Create notification as well? - todo
 }
 
 otc_restore_negative_income = {

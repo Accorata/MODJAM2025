@@ -251,22 +251,22 @@ l_english:
   omnitemporal.1004.a: "Very Interesting"
 
   omnitemporal.1005.name: "Development of Life"
-  omnitemporal.1005.desc: "..."
+  omnitemporal.1005.desc: "As the time on [FromFromFrom.GetName] has continued to progress at extreme rates, we've witnessed new developments take place. Basic lifeforms have emerged, and while confined to their simple ways of being, we've already watched them change the atmospheric conditions. Soon after the first plants begun to spread across the planets surface, greedily consuming the new particulates that had filled the sky. If not for the temporal speeds, the planet would now appear habitable."
   omnitemporal.1005.a: "Continue Observations"
 
-  omnitemporal.1006.name: "Resting Condition" # change name?
-  omnitemporal.1006.desc: "..."
-  omnitemporal.1006.a: "..."
+  omnitemporal.1006.name: "Resting Condition"
+  omnitemporal.1006.desc: "At last, the rapid aging of [FromFromFromFrom.GetName] has concluded, and the planet is once again temporally reunited with the rest of the galaxy. However, before the accelerated time concluded, it has once again transformed. The last months have brought about numerous changes, from animal lifeforms to verdant forests. While none of these primitive animals demonstrate any signs of true intelligence, there are some presapients that have shown promising intellectual growth and could be aided along if we desire."
+  omnitemporal.1006.a: "Wonderful"
 
-  omnitemporal.1007.name: "..."
-  omnitemporal.1007.desc: "..."
+  omnitemporal.1007.name: "Temporal Snare"
+  omnitemporal.1007.desc: "As [Root.GetLeaderName] explored the temporal anomaly, the rest of [Root.GetHisHer] crew began to notice erratic behavior. [Root.GetLeaderName] began to consistently believe the date hadn't changed and that the investigation had only been going on for one day. Furthermore, [Root.GetSheHe] continued to repeat initial observational tasks that had been completed weeks before.\n\nIt became clear that [Root.GetLeaderName] was still reliving that first day again and again, trapped within a mental time loop. The exact nature of this phenomenon is unknown, especially as the best witness to the event is caught in [Root.GetHisHer] delusion. Either way, [Root.GetHisHer] effectiveness as a leader will be significantly reduced."
   omnitemporal.1007.a: "Unfortunate"
   leader_trait_otc_time_loop_trapped: "Temporally Snared"
   leader_trait_otc_time_loop_trapped_desc: "This leader is caught in a mental time loop, experiencing the same day over and over again. Through careful manipulation of their sensory input, we can simulate actual reality but they will never form new memories again."
 
-  omnitemporal.1008.name: "..."
+  omnitemporal.1008.name: "Erratic Clocks"
   omnitemporal.1008.desc: "Upon reaching the temporal anomaly, all time-keeping devices on the [Root.GetName] began to fluctuate erratically, displaying various impossible dates. Moments after receiving their communications, similar abnormalities began to appear on our colonies. While harmless, the loss of reliable chronological information has thrown off the balance of regular life. However, these events have resulting in an immense amount of data for our physicists to parse through."
-  omnitemporal.1008.a: "..."
+  omnitemporal.1008.a: "Interesting"
 
   omnitemporal.1009.name: "..."
   omnitemporal.1009.desc: "..."
@@ -319,8 +319,8 @@ l_english:
   otc_opinion_awakened_empire: "Unhappy about Future Predictions"
 
   # Anomaly Categories
-  otc_temporal_anomaly_1_cat: "Temporal Anomaly"
-  otc_temporal_anomaly_1_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
+  otc_temporal_anomaly_cat: "Temporal Anomaly"
+  otc_temporal_anomaly_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
 
 
 ## Operations ##

@@ -2,7 +2,7 @@
 # Created by Accorata & BrettlesSr
 
 # Temporal Anomalies
-otc_temporal_anomaly_1_cat = {
+otc_temporal_anomaly_cat = {
 	picture = GFX_evt_clocks
 
 	level = 5
