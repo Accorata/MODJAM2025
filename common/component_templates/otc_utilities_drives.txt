@@ -30,7 +30,7 @@ utility_component_template = {
 		ship_windup_mult = -0.8
 	}
 
-	triggered_ship_design_modifier = {
+	triggered_ship_modifier = {
 		potential = {
 			has_modifier = jump_drive_cooldown
 		}
@@ -84,7 +84,7 @@ utility_component_template = {
 		ship_windup_mult = -0.8
 	}
 
-	triggered_ship_design_modifier = {
+	triggered_ship_modifier = {
 		potential = {
 			has_modifier = jump_drive_cooldown
 		}

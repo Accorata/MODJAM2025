@@ -10,8 +10,15 @@ otc_create_temporal_anomaly = {
 			category = otc_temporal_anomaly_cat
 			target = root
 		}
+		solar_system.owner = {
+			create_message = {
+				type = OTC_NEW_TEMPORAL_ANOMALY
+				localization = MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC
+				days = 30
+				target = from
+			}
+		}
 	}
-	# Create notification as well? - todo
 }
 
 otc_restore_negative_income = {

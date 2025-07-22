@@ -1,5 +1,5 @@
 ## OTC Message Types
-# Created by BrettlesSr
+# Created by Accorata & BrettlesSr
 
 message_type = {
 	key = "OTC_RESET_LEADER_DEATH"
@@ -12,4 +12,17 @@ message_type = {
 	default_toast = yes
 
 	category = leaders
+}
+
+message_type = {
+	key = "OTC_NEW_TEMPORAL_ANOMALY"
+	icon = "GFX_message_otc_temporal_anomaly"
+	icon_frame = 1
+
+	sound = "notification"
+	ping = "ping_notification_yellow"
+
+	default_toast = yes
+
+	category = science
 }

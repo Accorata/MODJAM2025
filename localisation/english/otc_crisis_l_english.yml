@@ -130,6 +130,12 @@ l_english:
   otc_time_beam_2_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y15§! Days"
   otc_time_beam_3_tt: "Slows Enemy Ships and their Projectiles by §G25%§! for §Y35§! Days"
   otc_distorted_field: "Temporal Distortion"
+  mod_weapon_type_energy_speed_mult: "Energy Weapon Speed"
+  mod_weapon_type_kinetic_speed_mult: "Kinetic Weapon Speed"
+  mod_weapon_type_explosive_speed_mult: "Explosive Weapon Speed"
+  mod_weapon_type_point_defense_speed_mult: "Point Defense Weapon Speed"
+  mod_weapon_type_space_fauna_speed_mult: "Space Fauna Weapon Speed"
+  mod_weapon_type_mandible_speed_mult: "Mandible Weapon Speed"
 
   menp_otc_secrets_of_the_present: "Secrets of the Present"
   menp_otc_secrets_of_the_present_desc: "..."
@@ -180,6 +186,9 @@ l_english:
   unlocks_otc_indefinite_lifespans:0 "All Leaders are §YImmortal§! and will be §YResurrected§! upon Death."
   leader_trait_otc_timeline_warped: "Cross-Timeline Vertigo"
   leader_trait_otc_timeline_warped_desc: "We pulled this leader from an alternate timeline, one which was almost identical to ours - except that this leader survived their counterpart's untimely demise."
+  mod_leader_commanders_astral_threads_upkeep_add: "$r_astral_threads$ $UPKEEP$"
+  mod_leader_scientists_astral_threads_upkeep_add:0 "$r_astral_threads$ $UPKEEP$"
+  mod_leader_officials_astral_threads_upkeep_add:0 "$r_astral_threads$ $UPKEEP$"
 
   menp_otc_localised_time_loops:0 "Localized Time Loops"
   menp_otc_localised_time_loops_desc:0 "Our best shipwrights, dockworkers and naval officers can now work alongside dozens of temporal copies of themselves, each returning to the start of the same day every time they begin a shift. The output of our shipyards speaks for itself - but the overtime pay is truly ruinous."
@@ -331,6 +340,8 @@ l_english:
   # Anomaly Categories
   otc_temporal_anomaly_cat: "Temporal Anomaly"
   otc_temporal_anomaly_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
+  MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_TITLE: "$otc_temporal_anomaly_cat$ Discovered"
+  MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC: "A new $otc_temporal_anomaly_cat$ has been discovered on [From.GetName]. A scientist can be sent to unearth its secrets."
 
 
 ## Operations ##
@@ -348,13 +359,10 @@ l_english:
   omnitemporal.53.a:0 "REPLACE_ME"
   
   OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
+
   omnitemporal.56.name:0 "Timeline Severed"
   omnitemporal.56.desc:0 "REPLACE_ME"
   omnitemporal.56.a:0 "REPLACE_ME"
-
-
- 
  
   omnitemporal.1012.name:0 "REPLACE_ME"
-  omnitemporal.1012.desc:0 "REPLACE_ME"
-
+  omnitemporal.1012.desc

@@ -226,4 +226,14 @@ spriteTypes = {
 		name = "GFX_starbase_otc_temporal_shell"
 		texturefile = "gfx/interface/icons/modules/otc_sb_temporal_shell.dds"
 	}
-	#
+	## Leader Traits
+	spriteType = {
+		name = "GFX_leader_trait_otc_timeline_warped"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/otc_timeline_warped.dds"
+	}
+	## Messages
+	spriteType = {
+		name = "GFX_message_otc_temporal_anomaly"
+		texturefile = "gfx/interface/icons/message/otc_message_temporal_anomaly.dds"
+	}
+}

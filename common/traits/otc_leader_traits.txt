@@ -38,13 +38,24 @@ leader_trait_otc_timeline_warped = {
 	}
 	triggered_self_modifier = {
 		potential = {
+			leader_class = commander
 			has_leader_flag = otc_timeline_warped_2
 		}
-		inline_script = {
-			script = paragon/leader_resource_upkeep
-			RESOURCE = astral_threads
-			AMOUNT = 1
+		leader_commanders_astral_threads_upkeep_add = 1
+	}
+	triggered_self_modifier = {
+		potential = {
+			leader_class = official
+			has_leader_flag = otc_timeline_warped_2
 		}
+		leader_officials_astral_threads_upkeep_add = 1
+	}
+	triggered_self_modifier = {
+		potential = {
+			leader_class = scientist
+			has_leader_flag = otc_timeline_warped_2
+		}
+		leader_scientists_astral_threads_upkeep_add = 1
 	}
 	triggered_self_modifier = {
 		potential = {
@@ -61,3 +72,4 @@ leader_trait_otc_timeline_warped = {
 	leader_class = { commander scientist official }
 	initial = no
 	randomized = no
+}
