@@ -38,7 +38,7 @@ otc_atemporal_research_zone = {
 		}
 
 		upkeep = {
-			energy = 5
+			energy = 25
 		}
 	}
 

@@ -20,7 +20,15 @@ menp_otc_time_shields = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_shields"
 
 	on_unlock = {
-		custom_tooltip = unlocks_otc_time_shields
+		if = {
+			limit = {
+				country_uses_bio_ships = no
+			}
+			custom_tooltip = unlocks_otc_time_shields
+		}
+		else = {
+			custom_tooltip = unlocks_otc_time_shields_bio
+		}
 	}
 }
 

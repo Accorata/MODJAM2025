@@ -163,12 +163,12 @@ country_event = {
 			limit = {
 				check_variable_arithmetic = {
 					which = otc_arz_temporal_anomaly_progress
-					value >= 5
+					value >= 10
 				}
 			}
 			subtract_variable = {
 				which = otc_arz_temporal_anomaly_progress
-				value = 5
+				value = 10
 			}
 			otc_create_temporal_anomaly = yes
 		}
@@ -388,7 +388,31 @@ country_event = {
 						}
 						set_leader_flag = otc_timeline_warped_1
 					}
-					# include more flags here...
+					1 = {
+						modifier = {
+							factor = 0
+							has_astral_planes_dlc = no
+						}
+						modifier = {
+							factor = 0
+							has_leader_flag = otc_timeline_warped_2
+						}
+						set_leader_flag = otc_timeline_warped_2
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_leader_flag = otc_timeline_warped_3
+						}
+						set_leader_flag = otc_timeline_warped_3
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_leader_flag = otc_timeline_warped_4
+						}
+						set_leader_flag = otc_timeline_warped_4
+					}
 				}
 				set_years_served = from
 				restore_leader_location = yes
