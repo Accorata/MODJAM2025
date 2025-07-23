@@ -1505,7 +1505,7 @@ situation_event = {
 	title = omnitemporal.2000.name
 	desc = omnitemporal.2000.desc
 	picture = GFX_evt_warm_barren #change
-	show_sound = event_default #change
+	show_sound = event_revelation
 	location = capital_scope
 	is_triggered_only = yes
 
