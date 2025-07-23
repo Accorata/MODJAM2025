@@ -32,14 +32,14 @@ otc_temporal_shell = {
 				solar_system = { NOT = { has_modifier = otc_temporal_shell_aura } }
 			}
 			solar_system = {
-				system_event = { id = ancrel.9900 }
+				system_event = { id = omnitemporal.31 }
 			}
 		}
 	}
 
 	on_destroyed = {
 		solar_system = {
-			system_event = { id = ancrel.9905 }
+			system_event = { id = omnitemporal.32 }
 		}
 	}
 

@@ -475,6 +475,9 @@ espionage_operation_event = {
 
 	immediate = {
 		set_espionage_operation_progress_locked = yes
+		owner = {
+			save_event_target_as = resettor_civ
+		}
 	}
 
 	option = {
@@ -504,7 +507,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = omnitemporal.53.a
+		name = EXCELLENT
 	}
 }
 
@@ -590,6 +593,7 @@ country_event = {
 
 	option = {
 		name = omnitemporal.56.a
+		custom_tooltip = omnitemporal.56.a.tooltip
 	}
 }
 
@@ -1053,6 +1057,24 @@ country_event = {
 	picture = GFX_evt_arguing_senate
 	is_triggered_only = yes
 
+	immediate = {
+		set_saved_date ={
+			key = lost_date_flag
+			days_from_present = 1
+			expires = 360
+		}
+		set_saved_date ={
+			key = lost_date_flag_minus_one
+			days_from_present = 2
+			expires = 360
+		}
+		set_saved_date ={
+			key = lost_date_flag_plus_one
+			days_from_present = 0
+			expires = 360
+		}
+	}
+
 	option = {
 		name = OUTRAGEOUS
 		add_modifier = {
@@ -1483,7 +1505,7 @@ situation_event = {
 	title = omnitemporal.2000.name
 	desc = omnitemporal.2000.desc
 	picture = GFX_evt_warm_barren #change
-	show_sound = event_default #change
+	show_sound = event_revelation
 	location = capital_scope
 	is_triggered_only = yes
 
@@ -1529,7 +1551,11 @@ situation_event = {
 
 	option = {
 		name = omnitemporal.2001.a
-		
+		owner = {
+			add_resource = {
+				otc_temporal_fabric = -100
+			}
+		}
 		ai_chance = {
 			factor = 1
 		}
@@ -1547,6 +1573,25 @@ country_event = {
 	option = {
 		name = omnitemporal.2002.a
 		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.2003
+	title = omnitemporal.2003.name
+	desc = omnitemporal.2003.desc
+	picture = GFX_evt_clocks
+	show_sound = event_revelation
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.2003.a
+		add_resource = {
+			otc_temporal_fabric = 100
+		}
 		ai_chance = {
 			factor = 1
 		}
