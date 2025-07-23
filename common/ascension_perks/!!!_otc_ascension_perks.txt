@@ -44,6 +44,10 @@ otc_ap_omnitemporal = {
 			country_event = {
 				id = omnitemporal.0
 			}
+			country_event = {
+				id = omnitemporal.2003
+				days = 1
+			}
 		}
 	}
 

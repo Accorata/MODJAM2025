@@ -89,7 +89,7 @@ menp_otc_secrets_of_the_present = {
 }
 
 # Prolonged Lifespans
-menp_otc_prolonged_lifespans = {
+menp_otc_prolonged_lifespans = {  #todo machine version of desc
 	portrait = "GFX_otc_omnitemporal_crisis_icon_lifespans"
 
 	modifier = {
