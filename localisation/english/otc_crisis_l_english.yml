@@ -87,7 +87,7 @@ l_english:
 
   # Minor Artifact Decision
   artifact_otc_chronological_studies: "Chronological Studies"
-  artifact_otc_chronological_studies_desc: "Our best chrono-scientists will break down and examine minor artifacts looking for anyclues of a temporal anomaly in their pasts."
+  artifact_otc_chronological_studies_desc: "Our best chrono-scientists will break down and examine minor artifacts looking for any clues of a temporal anomaly in their pasts."
   artifact_otc_chronological_studies_effect: "Break down £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\nCooldown: £time£ §Y360§!"
 
   requires_artifact_otc_chronological_studies_no_cooldown: "$TRIGGER_FAIL$§RCannot use minor artifacts to create another temporal anomaly yet.§!"
@@ -116,7 +116,7 @@ l_english:
   mod_otc_arz_limit_add: "$otc_omnitemporal_kilostructure$ Capacity"
 
   menp_otc_weaponized_relativity: "Weaponized Relativity"
-  menp_otc_weaponized_relativity_desc: "Specialised chronoton bursts can tear enemy ships apart in all four dimensions - but they also slow the traget timeframe relative to our own, yielding significant tactical advantage."
+  menp_otc_weaponized_relativity_desc: "Specialized chronoton bursts can tear enemy ships apart in all four dimensions - but they also slow the target timeframe relative to our own, yielding significant tactical advantage."
   unlocks_otc_weaponized_relativity: "Unlocks §Y$OTC_TIME_BEAM$§! Weapons, which fire lasers that slow Enemy Ships and Projectiles."
   OTC_TIME_BEAM: "Aeon Beam"
   OTC_TIME_BEAM_DESC: "The $OTC_TIME_BEAM$ projects chronoton bursts that damage enemy vessels and slow their frame of reference."
@@ -135,7 +135,7 @@ l_english:
   mod_weapon_type_mandible_speed_mult: "Mandible Weapon Speed"
 
   menp_otc_secrets_of_the_present: "Secrets of the Present"
-  menp_otc_secrets_of_the_present_desc: "Mastery of the temporal sciences has become the first calling of our scientific elite, revolutionising both the academic establishment and the practice of routine exploratory work."
+  menp_otc_secrets_of_the_present_desc: "Mastery of the temporal sciences has become the first calling of our scientific elite, revolutionizing both the academic establishment and the practice of routine exploratory work."
 
   menp_otc_prolonged_lifespans: "Prolonged Lifespans"
   menp_otc_prolonged_lifespans_desc: "By slowing biological aging through careful temporal manipulation, our leaders can enjoy longer more productive lives."
@@ -154,9 +154,9 @@ l_english:
 
   menp_otc_temporal_shell:0 "Temporal Shell"
   sm_otc_temporal_shell:0 "Temporal Shell Generator"
-  sm_otc_temporal_shell_desc:0 "The Temporal Shell Generator is a massive spacetime manipulation engine, capable of slowing the rate of flow of time across an entier solar system. While bodies in gravity wells, like habitats and our own planets, are unaffected, spacecrafts of all size and any weapons they fire can be substancially slowed."
+  sm_otc_temporal_shell_desc:0 "The Temporal Shell Generator is a massive spacetime manipulation engine, capable of slowing the rate of flow of time across an entire solar system. While bodies in gravity wells, like habitats and our own planets, are unaffected, spacecrafts of all size and any weapons they fire can be substantially slowed."
   sm_otc_temporal_shell_desc_modifier:0 "Creates an §YArtificial Storm§! in the system:\nReduces §YShip Speed§! and §YFire Rate§!"
-  menp_otc_temporal_shell_desc:0 "The ability to manipulate time across an entier solar system unlocks the potential for truly extraordinary defensive structures - useful, given our neighbours irrational objections to our temporal experiments."
+  menp_otc_temporal_shell_desc:0 "The ability to manipulate time across an entire solar system unlocks the potential for truly extraordinary defensive structures - useful, given our neighbors irrational objections to our temporal experiments."
   unlocks_otc_temporal_shell_aura:0 "Unlocks the §Y$sm_otc_temporal_shell$§! Starbase Building, which reduces Sublight Speeds and Weapon Fire Rates."
   otc_temporal_shell_aura:0 "Temporal Shell"
 
@@ -168,7 +168,7 @@ l_english:
 
 # Level 4
   menp_otc_the_greatest_timeline: "The Greatest Timeline"
-  menp_otc_the_greatest_timeline_desc: "For any resource we lack, there is a timeline elsewhere in which we possess an abudance. By networking with our alternate selves (who are, fortuitously, having this exact same thought) we can ensure we never face shortages of any kind, ever again."
+  menp_otc_the_greatest_timeline_desc: "For any resource we lack, there is a timeline elsewhere in which we possess an abundance. By networking with our alternate selves (who are, fortuitously, having this exact same thought) we can ensure we never face shortages of any kind, ever again."
   unlocks_otc_the_greatest_timeline:0 "Resources §YCannot§! Decrease Monthly"
 
   menp_otc_spacetime_sever: "Spacetime Severance"
@@ -198,13 +198,13 @@ l_english:
   situation_otc_end_of_time: "End of Time"
   situation_otc_end_of_time_type: "$situation_otc_end_of_time$"
   situation_otc_end_of_time_monthly_change_tooltip: "Progress the situation by:\n- Having the §YHighest§! Point Score.\n- Completing §Y$operation_reset_civilisation$§! Operations\n- ..."
-  situation_otc_end_of_time_desc: "We have discovered a way to propagate our civilisation outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existance."
+  situation_otc_end_of_time_desc: "We have discovered a way to propagate our civilization outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existence."
   situation_otc_end_of_time_complete: "The [Owner.GetName] wins the game."
   otc_apex_of_power: "Apex of Power"
   situation_otc_end_of_time_approach_basic: "Inevitability"
   situation_otc_end_of_time_approach_basic_desc: "Every moment of all history has lead us to this point. There is nothing more to do. There is nothing that can be done."
   omnitemporal.54.name:0 "The End of Time"
-  omnitemporal.54.desc:0 "Until now, we have been like children, content to delight in our new toys that mastery of time has gifted us. Those who dare oppose us are vanquished, and we consolidate our power in the fleeting instant we collectively call: 'the present'. But as our perspective grows, so too does the realisation of futility. We are still prisoners of linear time, unable to prevent our universe spiralling into entropy. No empire lasts forever.\n\nThe time has come to put aside our toys.\n\nWe have discovered a way to propagate our civilisation outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existance."
+  omnitemporal.54.desc:0 "Until now, we have been like children, content to delight in our new toys that mastery of time has gifted us. Those who dare oppose us are vanquished, and we consolidate our power in the fleeting instant we collectively call: 'the present'. But as our perspective grows, so too does the realization of futility. We are still prisoners of linear time, unable to prevent our universe spiralling into entropy. No empire lasts forever.\n\nThe time has come to put aside our toys.\n\nWe have discovered a way to propagate our civilization outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existence."
   omnitemporal.54.a:0 "Its about time."
   omnitemporal.2000.name:0 "The Final Moment"
   omnitemporal.2000.desc:0 "It is here. It has always been here. We taste the dawning of omnitemporality like a new sun rising, or an egg hatching, or a star dying. Or like none of those things, those simple metaphors that carry too much of the nature of the old universe with them useless to us now. Time is shattered, and we see from the everywhen outside of it that it was always shattered. Waiting for us to turn it inside out so we could see it as it always has been. Always and forever in the newnow."
