@@ -10,7 +10,7 @@ l_english:
   otc_temporal_fabric_value: "£otc_temporal_fabric£ $VAL|0$"
   otc_temporal_fabric_current_value: "Current Value: §Y$VALUE|0$§!"
   otc_temporal_fabric_gaining: "Complete §HCrisis Objectives§! to gain more §Y$otc_temporal_fabric_with_icon$§!."
-  otc_temporal_fabric_desc: "..."
+  otc_temporal_fabric_desc: "Time is an engimatic tapestry, weaved of many fabrics. To control these fabrics is to control the timeline."
 
 ## Crisis Information ##
 # Ascension Perk
@@ -18,9 +18,6 @@ l_english:
   otc_ap_omnitemporal_desc: "For millennia, our kind have been unwillingly thrown forwards through time. No longer. Time will become just another of the physical dimensions - traversable with ease."
 
 # Other
-  # otc_omnitemporal_crisis_chain_title: "$otc_ap_omnitemporal$"
-  # otc_omnitemporal_crisis_chain_desc: "..."
-
   otc_temporal_fabric_crisis_objective: "Crisis Objectives"
   otc_temporal_fabric_crisis_objective_gained: "$otc_temporal_fabric$ gained"
   otc_temporal_fabric_crisis_objective_reward: "$REWARD$"
@@ -68,16 +65,16 @@ l_english:
   mod_planet_physicists_otc_temporal_fabric_produces_add: "$otc_temporal_fabric_with_icon$ per $pop_group_unit$ $job_physicist_plural_with_icon$"
 
   menp_otc_time_shields: "Temporal Suspension"
-  menp_otc_time_shields_desc: "..."
+  menp_otc_time_shields_desc: "The ancients developed powerful defenses which strategically slowed time to diffuse incoming weaponry. Temporal fabric offers a new way to replicate these properties."
   unlocks_otc_time_shields: "Unlocks §Y$OTC_TIME_SHIELD$§! Shield Components."
   unlocks_otc_time_shields_bio: "Unlocks §Y$OTC_BIO_TIME_SHIELD$§! Shield Components."
   OTC_TIME_SHIELD: "Advanced Suspension Field"
-  OTC_TIME_SHIELD_DESC: "..."
+  OTC_TIME_SHIELD_DESC: "$OTC_TIME_SHIELD$s are modelled after ancient suspension technology which used ancient artifacts to slow time at the point of impact, granting a longer opportunity to dispel the incoming attack's energy. With the power of temporal fabric, these designs have been considerably modernized."
   OTC_SMALL_TIME_SHIELD: "Small $OTC_TIME_SHIELD$"
   OTC_MEDIUM_TIME_SHIELD: "Medium $OTC_TIME_SHIELD$"
   OTC_LARGE_TIME_SHIELD: "Large $OTC_TIME_SHIELD$"
   OTC_BIO_TIME_SHIELD: "Advanced Suspension Tissue"
-  OTC_BIO_TIME_SHIELD_DESC: "..."
+  OTC_BIO_TIME_SHIELD_DESC: "$OTC_BIO_TIME_SHIELD$ is modelled after ancient suspension technology which used ancient artifacts to slow time at the point of impact, granting a longer opportunity to dispel the incoming attack's energy. With the power of temporal fabric, these designs have been considerably modernized."
   OTC_SMALL_BIO_TIME_SHIELD: "Small $OTC_BIO_TIME_SHIELD$"
   OTC_MEDIUM_BIO_TIME_SHIELD: "Medium $OTC_BIO_TIME_SHIELD$"
   OTC_LARGE_BIO_TIME_SHIELD: "Large $OTC_BIO_TIME_SHIELD$"
@@ -90,7 +87,7 @@ l_english:
 
   # Minor Artifact Decision
   artifact_otc_chronological_studies: "Chronological Studies"
-  artifact_otc_chronological_studies_desc: "..."
+  artifact_otc_chronological_studies_desc: "$menp_otc_secrets_of_the_past_desc$"
   artifact_otc_chronological_studies_effect: "Break down £minor_artifacts£Minor Artifacts to create a Temporal Anomaly.\n\nCooldown: £time£ §Y360§!"
 
   requires_artifact_otc_chronological_studies_no_cooldown: "$TRIGGER_FAIL$§RCannot use minor artifacts to create another temporal anomaly yet.§!"
@@ -98,11 +95,11 @@ l_english:
 
   # Special Project
   otc_chronological_studies_project: "$artifact_otc_chronological_studies$"
-  otc_chronological_studies_project_desc: "..."
+  otc_chronological_studies_project_desc: "$artifact_otc_chronological_studies_desc$"
 
 # Level 2
   menp_otc_timeless_studies: "Timeless Studies"
-  menp_otc_timeless_studies_desc: "..."
+  menp_otc_timeless_studies_desc: "$otc_atemporal_research_zone_DESC$"
   unlocks_otc_timeless_studies: "Allows us to build §Y$otc_omnitemporal_kilostructure$§! Megastructures around §YBlack Holes§! and §YNeutron Stars§!.\n\n"
 
   # Kilostructure
@@ -175,9 +172,9 @@ l_english:
 
   menp_otc_spacetime_sever: "REPLACE_ME"
   menp_otc_spacetime_sever_desc: "..."
-  unlocks_otc_spacetime_sever: "Unlocks the §Y$OTC_TIME_LANCE$§!, an Extra Large Weapon which ...."
-  OTC_TIME_LANCE: "Spacetime Sever" # maybe change
-  OTC_TIME_LANCE_DESC: "...unmoors them..."
+  unlocks_otc_spacetime_sever: "Unlocks the §Y$OTC_TIME_LANCE$§!, an Extra Large Weapon which Freezes Enemy Ships when hitting them."
+  OTC_TIME_LANCE: "Spacetime Sever"
+  OTC_TIME_LANCE_DESC: "The $OTC_TIME_LANCE$ is a long range energy weapon that ...unmoors them..."
   otc_time_lance_tt: "Prevents the Enemy Ship (and it's Strike Craft) from Firing or Moving for §Y10§! Days."
   otc_halted_in_time: "Severed from Time"
 
@@ -365,4 +362,4 @@ l_english:
   omnitemporal.56.a:0 "REPLACE_ME"
  
   omnitemporal.1012.name:0 "REPLACE_ME"
-  omnitemporal.1012.desc
+  omnitemporal.1012.desc:0 "REPLACE_ME"
