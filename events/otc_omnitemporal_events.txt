@@ -499,6 +499,16 @@ espionage_operation_event = {
 }
 
 country_event = {
+	id = omnitemporal.521
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		otc_reset_civilisation = yes
+	}
+}
+
+country_event = {
 	id = omnitemporal.53
 	title = omnitemporal.53.name
 	desc = omnitemporal.53.desc
