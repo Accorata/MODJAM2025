@@ -176,7 +176,7 @@ l_english:
   menp_otc_spacetime_sever_desc: "The ultimate in chronoton weaponry, the Spacetime Severance projectors are capable of 'cutting' our enemies out of the spacetime continuum completely - temporarily evicting them from the flow of time altogether and freezing them in place."
   unlocks_otc_spacetime_sever: "Unlocks the §Y$OTC_TIME_LANCE$§!, an Extra Large Weapon which Freezes Enemy Ships when hitting them."
   OTC_TIME_LANCE: "Spacetime Severance"
-  OTC_TIME_LANCE_DESC: "The beam 'slices' the enemy out of spacetime, severing them from ordinary time and freezing them in place."
+  OTC_TIME_LANCE_DESC: "The $OTC_TIME_LANCE$ fires a powerful beam which 'slices' impacted ships out of spacetime, severing them from ordinary time and freezing them in place. Such a weapon proves extremely effective against larger targets."
   otc_time_lance_tt: "Prevents the Enemy Ship (and it's Strike Craft) from Firing or Moving for §Y10§! Days."
   otc_halted_in_time: "Severed from Time"
 
@@ -298,7 +298,7 @@ l_english:
   omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the last twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
   otc_forgot_a_day:0 "Lost Day"
   omnitemporal.1012.name:0 "Lost Day"
-  omnitemporal.1012.desc:0 "Everyone's meories havethe same hole: it was [This.lost_date_flag_minus_one], and then it was [This.lost_date_flag_plus_one], without any concious recollection of the [This.lost_date_flag] that must, logically, have come between them. This has, understandably, caused a great deal of upset and confusion. After the fact analysis reveals the missing day in question definitively occured (and was otherwise unremarkable) but no one has any memories of it. Our scientists have linked the phenomenon to powerful temporal energies unleashed by the [From.GetName], who have refused to apologise for this outrageous intrusion."
+  omnitemporal.1012.desc:0 "Everyone's memories have the same hole: it was [This.lost_date_flag_plus_one], and then it was [This.lost_date_flag_minus_one], without any concious recollection of the [This.lost_date_flag] that must, logically, have come between them. This has, understandably, caused a great deal of upset and confusion. After the fact analysis reveals the missing day in question definitively occured (and was otherwise unremarkable) but no one has any memories of it. Our scientists have linked the phenomenon to powerful temporal energies unleashed by the [From.GetName], who have refused to apologise for this outrageous intrusion."
   otc_opinion_lost_day:0 "Unhappy with Temporal Meddling"
 
 
@@ -312,8 +312,8 @@ l_english:
   omnitemporal.1100.a: "..."
   otc_time_decelerated: "Slowed Time"
 
-  omnitemporal.1101.name: "..."
-  omnitemporal.1101.desc: "..."
+  omnitemporal.1101.name: "Clocks Stop On [From.GetName]"
+  omnitemporal.1101.desc: "Everything and everyone on [From.GetName] just came to a sudden halt. All transmissions from the planet ceased, ..."
   omnitemporal.1101.a: "..."
   otc_time_stopped: "Frozen in Time"
 
@@ -327,7 +327,7 @@ l_english:
   omnitemporal.1103.desc: "..."
   omnitemporal.1103.a: "..."
   otc_disillusioned_past: "Disillusioned with Beginnings"
-  otc_disillusioned_past_desc: "Seeing our past selves has revealed how idiotic we once were. While our immense change may be a testament to our will, how can we be sure we're not just as lost?"
+  otc_disillusioned_past_desc: "Seeing our past selves has revealed how idiotic we once were. While our immense change may be a testament to our will, how can we be sure that we're not just as lost?"
 
   omnitemporal.1104.name: "A Great Empire"
   omnitemporal.1104.desc: "A vision appears before our eyes, a vision depicting a great fleet gliding through the abyss. Their immense size and stature never seen in our time. Beyond them lies a gleeming planet, shining with technological marvel far beyond our own. The designs ressemble those of a fallen empire, though to call the empire in this vision 'fallen' would be extremely inaccurate.\n\nGiven we have no historical records of this vision, it must have come either from the far past or the future. We may never know which."
@@ -346,7 +346,7 @@ l_english:
   otc_temporal_anomaly_cat: "Temporal Anomaly"
   otc_temporal_anomaly_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
   MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_TITLE: "$otc_temporal_anomaly_cat$ Discovered"
-  MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC: "A new $otc_temporal_anomaly_cat$ has been discovered on [From.GetName]. A scientist can be sent to unearth its secrets."
+  MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC: "A new $otc_temporal_anomaly_cat$ has been discovered on [This.GetName]. A scientist can be sent to unearth its secrets."
 
 
 ## Operations ##
@@ -368,6 +368,3 @@ l_english:
   omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
   omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
   omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"
-
-  omnitemporal.1012.name:0 "REPLACE_ME"
-  omnitemporal.1012.desc:0 "REPLACE_ME"

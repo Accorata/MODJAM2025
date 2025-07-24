@@ -1012,6 +1012,11 @@ country_event = {
 			days = 1800
 		}
 		every_playable_country = {
+			limit = {
+				NOT = {
+					is_same_value = root
+				}
+			}
 			country_event = { id = omnitemporal.1012 days = 1 }
 		}
 		hidden_effect = {
@@ -1344,6 +1349,9 @@ country_event = {
 		every_playable_country = {
 			limit = {
 				has_communications = root
+				NOT = {
+					is_same_value = root
+				}
 			}
 			country_event = {
 				id = omnitemporal.1106
@@ -1505,7 +1513,7 @@ situation_event = {
 	title = omnitemporal.2000.name
 	desc = omnitemporal.2000.desc
 	picture = GFX_evt_warm_barren #change
-	show_sound = event_revelation
+	show_sound = event_mystic_reveal
 	location = capital_scope
 	is_triggered_only = yes
 
@@ -1584,7 +1592,7 @@ country_event = {
 	title = omnitemporal.2003.name
 	desc = omnitemporal.2003.desc
 	picture = GFX_evt_clocks
-	show_sound = event_revelation
+	show_sound = event_mystic_reveal
 	is_triggered_only = yes
 
 	option = {
@@ -1594,6 +1602,4 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 1
-		}
-	}
-}
+		
