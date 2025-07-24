@@ -499,6 +499,16 @@ espionage_operation_event = {
 }
 
 country_event = {
+	id = omnitemporal.521
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		otc_reset_civilisation = yes
+	}
+}
+
+country_event = {
 	id = omnitemporal.53
 	title = omnitemporal.53.name
 	desc = omnitemporal.53.desc
@@ -865,7 +875,7 @@ country_event = {
 
 	option = {
 		name = omnitemporal.1006.a
-		tooltip = {
+		tooltip = { #tooltip looks v odd
 			fromfromfromfrom = {
 				change_pc = pc_continental
 				spawn_presapient_species_randomizer_effect = yes # test this...
@@ -887,6 +897,12 @@ ship_event = {
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
+
+	immediate = {
+		leader = {
+			save_event_target_as = time_loop_trapped_scientist
+		}
+	}
 
 	option = {
 		name = omnitemporal.1007.a
@@ -1011,14 +1027,7 @@ country_event = {
 			modifier = otc_forgot_a_day
 			days = 1800
 		}
-		every_playable_country = {
-			limit = {
-				NOT = {
-					is_same_value = root
-				}
-			}
-			country_event = { id = omnitemporal.1012 days = 1 }
-		}
+		
 		hidden_effect = {
 			complete_crisis_objective = otc_crisobj_research_time_anomaly
 			set_country_flag = otc_has_finished_temporal_anomaly
@@ -1026,6 +1035,14 @@ country_event = {
 				leader = {
 					set_leader_flag = otc_completed_time_anomaly
 				}
+			}
+			every_playable_country = {
+				limit = {
+					NOT = {
+						is_same_value = root
+					}
+				}
+				country_event = { id = omnitemporal.1012 days = 1 }
 			}
 		}
 		ai_chance = {

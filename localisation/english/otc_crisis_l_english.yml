@@ -105,7 +105,7 @@ l_english:
 
   # Kilostructure
   otc_omnitemporal_kilostructure: "Atemporal Research Zone"
-  
+  otc_omnitemporal_kilostructure_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_DESC$"
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$"
   otc_atemporal_research_zone_DESC: "A black site sealed within time, this confidential resarch facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
@@ -280,7 +280,7 @@ l_english:
   omnitemporal.1006.a: "Wonderful"
 
   omnitemporal.1007.name: "Temporal Snare"
-  omnitemporal.1007.desc: "As [Root.GetLeaderName] explored the temporal anomaly, the rest of [Root.GetHisHer] crew began to notice erratic behavior. [Root.GetLeaderName] began to consistently believe the date hadn't changed and that the investigation had only been going on for one day. Furthermore, [Root.GetSheHe] continued to repeat initial observational tasks that had been completed weeks before.\n\nIt became clear that [Root.GetLeaderName] was still reliving that first day again and again, trapped within a mental time loop. The exact nature of this phenomenon is unknown, especially as the best witness to the event is caught in [Root.GetHisHer] delusion. Either way, [Root.GetHisHer] effectiveness as a leader will be significantly reduced."
+  omnitemporal.1007.desc: "As [time_loop_trapped_scientist.GetName] explored the temporal anomaly, the rest of [time_loop_trapped_scientist.GetHisHer] crew began to notice erratic behavior. [time_loop_trapped_scientist.GetName] began to consistently believe the date hadn't changed and that the investigation had only been going on for one day. Furthermore, [time_loop_trapped_scientist.GetSheHe] continued to repeat initial observational tasks that had been completed weeks before.\n\nIt became clear that [time_loop_trapped_scientist.GetName] was still reliving that first day again and again, trapped within a mental time loop. The exact nature of this phenomenon is unknown, especially as the best witness to the event is caught in [time_loop_trapped_scientist.GetHisHer] delusion. Either way, [time_loop_trapped_scientist.GetHisHer] effectiveness as a leader will be significantly reduced."
   omnitemporal.1007.a: "Unfortunate"
   leader_trait_otc_time_loop_trapped: "Temporally Snared"
   leader_trait_otc_time_loop_trapped_desc: "This leader is caught in a mental time loop, experiencing the same day over and over again. Through careful manipulation of their sensory input, we can simulate actual reality but they will never form new memories again."
@@ -298,7 +298,7 @@ l_english:
   omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the last twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
   otc_forgot_a_day:0 "Lost Day"
   omnitemporal.1012.name:0 "Lost Day"
-  omnitemporal.1012.desc:0 "Everyone's memories have the same hole: it was [This.lost_date_flag_plus_one], and then it was [This.lost_date_flag_minus_one], without any concious recollection of the [This.lost_date_flag] that must, logically, have come between them. This has, understandably, caused a great deal of upset and confusion. After the fact analysis reveals the missing day in question definitively occured (and was otherwise unremarkable) but no one has any memories of it. Our scientists have linked the phenomenon to powerful temporal energies unleashed by the [From.GetName], who have refused to apologise for this outrageous intrusion."
+  omnitemporal.1012.desc:0 "Everyone's memories have the same hole: iit was [This.lost_date_flag_plus_one], and then it was [This.lost_date_flag_minus_one]. Every [This.GetSpeciesName] in [This.GetName] has retained no recollection about the events of [This.lost_date_flag]. This has, understandably, caused a great deal of upset and confusion. After the fact analysis reveals the missing day in question definitively occured (and was otherwise unremarkable) but no one has any memories of it. Our scientists have linked the phenomenon to powerful temporal energies unleashed by the [From.GetName], who have refused to apologise for this outrageous intrusion."
   otc_opinion_lost_day:0 "Unhappy with Temporal Meddling"
 
 
@@ -367,4 +367,4 @@ l_english:
   omnitemporal.56.name:0 "Timeline Severed"
   omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
   omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
-  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"
+  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
