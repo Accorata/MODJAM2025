@@ -865,7 +865,7 @@ country_event = {
 
 	option = {
 		name = omnitemporal.1006.a
-		tooltip = {
+		tooltip = { #tooltip looks v odd
 			fromfromfromfrom = {
 				change_pc = pc_continental
 				spawn_presapient_species_randomizer_effect = yes # test this...
@@ -887,6 +887,12 @@ ship_event = {
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
+
+	immediate = {
+		leader = {
+			save_event_target_as = time_loop_trapped_scientist
+		}
+	}
 
 	option = {
 		name = omnitemporal.1007.a
@@ -1011,9 +1017,7 @@ country_event = {
 			modifier = otc_forgot_a_day
 			days = 1800
 		}
-		every_playable_country = {
-			country_event = { id = omnitemporal.1012 days = 1 }
-		}
+		
 		hidden_effect = {
 			complete_crisis_objective = otc_crisobj_research_time_anomaly
 			set_country_flag = otc_has_finished_temporal_anomaly
@@ -1021,6 +1025,14 @@ country_event = {
 				leader = {
 					set_leader_flag = otc_completed_time_anomaly
 				}
+			}
+			every_playable_country = {
+				limit = {
+					NOT = {
+						has_modifier = otc_forgot_a_day
+					}
+				}
+				country_event = { id = omnitemporal.1012 days = 1 }
 			}
 		}
 		ai_chance = {
@@ -1505,7 +1517,7 @@ situation_event = {
 	title = omnitemporal.2000.name
 	desc = omnitemporal.2000.desc
 	picture = GFX_evt_warm_barren #change
-	show_sound = event_revelation
+	show_sound = event_mystic_reveal
 	location = capital_scope
 	is_triggered_only = yes
 
@@ -1584,7 +1596,7 @@ country_event = {
 	title = omnitemporal.2003.name
 	desc = omnitemporal.2003.desc
 	picture = GFX_evt_clocks
-	show_sound = event_revelation
+	show_sound = event_mystic_reveal
 	is_triggered_only = yes
 
 	option = {
