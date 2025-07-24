@@ -1039,7 +1039,7 @@ country_event = {
 			every_playable_country = {
 				limit = {
 					NOT = {
-						has_modifier = otc_forgot_a_day
+						is_same_value = root
 					}
 				}
 				country_event = { id = omnitemporal.1012 days = 1 }
@@ -1366,6 +1366,9 @@ country_event = {
 		every_playable_country = {
 			limit = {
 				has_communications = root
+				NOT = {
+					is_same_value = root
+				}
 			}
 			country_event = {
 				id = omnitemporal.1106
