@@ -12,6 +12,7 @@ situation_otc_end_of_time = {
 		situation_event = {
 			id = omnitemporal.2000
 		}
+		destroy_situation = yes
 	}
 	abort_trigger = {
 		NOT = {
