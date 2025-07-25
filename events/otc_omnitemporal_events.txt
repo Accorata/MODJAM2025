@@ -1259,18 +1259,18 @@ planet_event = {
 	option = {
 		name = omnitemporal.1107.a
 
-		remove_modifier = {
-			modifier = otc_time_stopped
-		}
+		# remove_modifier = {
+		# 	modifier = otc_time_stopped
+		# }
 
-		add_modifier = {
-			modifier = otc_after_time_resumed
-			days = 360
-		}
+		# add_modifier = {
+		# 	modifier = otc_after_time_resumed
+		# 	days = 360
+		# }
 
-		ai_chance = {
-			factor = 1
-		}
+		# ai_chance = {
+		# 	factor = 1
+		# }
 	}
 }
 
@@ -1709,7 +1709,7 @@ country_event = {
 					relative_power = {
 							who = root
 							category = all
-							value < equivalent
+							value > equivalent
 					}
 				}
 				log = "\\[log_c.GetName] is stronger"
@@ -1722,7 +1722,7 @@ country_event = {
 						relative_power = {
 							who = owner
 							category = all
-							value < equivalent
+							value > equivalent
 						}
 					}
 				}
