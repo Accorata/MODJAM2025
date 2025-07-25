@@ -619,18 +619,15 @@ ship_event = {
 	location = from
 	is_triggered_only = yes
 
-	immediate = {
-		leader = {
-			kill_leader = {
-				show_notification = no
-			}
-		}
-	}
-
 	option = {
 		name = omnitemporal.1000.a
 		custom_tooltip = omnitemporal.1000.a.tooltip
 		hidden_effect = {
+			leader = {
+				kill_leader = {
+					show_notification = no
+				}
+			}
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
 				set_country_flag = otc_has_finished_temporal_anomaly
@@ -690,6 +687,23 @@ ship_event = {
 			factor = 1
 		}
 	}
+
+	option = {
+		name = omnitemporal.1001.b
+		custom_tooltip = omnitemporal.1001.a.tooltip
+		hidden_effect = {
+			owner = {
+				complete_crisis_objective = otc_crisobj_research_time_anomaly
+				set_country_flag = otc_has_finished_temporal_anomaly
+			}
+			leader = {
+				set_leader_flag = otc_completed_time_anomaly
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
 }
 
 # Leader who will travel into the past dies
@@ -727,14 +741,18 @@ country_event = {
 			limit = {
 				has_leader_flag = otc_temporal_clone
 			}
-			kill_leader = {
-				show_notification = no
-			}
+			save_event_target_as = otc_temporal_clone
 		}
 	}
 
 	option = {
 		name = omnitemporal.1014.a
+
+		event_target:otc_temporal_clone
+			kill_leader = {
+				show_notification = no
+			}
+		}
 
 		add_resource = {
 			otc_temporal_fabric = 500
@@ -751,7 +769,7 @@ ship_event = {
 	id = omnitemporal.1003
 	title = omnitemporal.1003.name
 	desc = omnitemporal.1003.desc
-	picture = GFX_evt_timeworm_transcriptions
+	picture = GFX_evt_astral_rift_clock
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -768,7 +786,6 @@ ship_event = {
 
 	option = {
 		name = omnitemporal.1003.a
-		custom_tooltip = omnitemporal.1003.a.tooltip
 		hidden_effect = {
 			owner = {
 				complete_crisis_objective = otc_crisobj_research_time_anomaly
@@ -875,10 +892,9 @@ country_event = {
 
 	option = {
 		name = omnitemporal.1006.a
-		tooltip = { #tooltip looks v odd
+		tooltip = {
 			fromfromfromfrom = {
 				change_pc = pc_continental
-				spawn_presapient_species_randomizer_effect = yes # test this...
 			}
 		}
 		
@@ -931,7 +947,7 @@ ship_event = {
 	id = omnitemporal.1008
 	title = omnitemporal.1008.name
 	desc = omnitemporal.1008.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_timeworm_transcriptions
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -981,7 +997,7 @@ ship_event = {
 	id = omnitemporal.1009
 	title = omnitemporal.1009.name
 	desc = omnitemporal.1009.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_kaleidoscopic_lights
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1123,7 +1139,7 @@ ship_event = {
 	id = omnitemporal.1013
 	title = omnitemporal.1013.name
 	desc = omnitemporal.1013.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_tradedeal
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1154,7 +1170,7 @@ ship_event = {
 	id = omnitemporal.1100
 	title = omnitemporal.1100.name
 	desc = omnitemporal.1100.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_relic_world_building
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1188,7 +1204,7 @@ ship_event = {
 	id = omnitemporal.1101
 	title = omnitemporal.1101.name
 	desc = omnitemporal.1101.desc
-	picture = GFX_evt_timeworm_transcriptions # change
+	picture = GFX_evt_tomb_world
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1199,7 +1215,6 @@ ship_event = {
 		from = {
 			add_modifier = {
 				modifier = otc_time_stopped
-				days = 180
 			}
 		}
 
@@ -1210,7 +1225,41 @@ ship_event = {
 			leader = {
 				set_leader_flag = otc_completed_time_anomaly
 			}
+			from = {
+				planet_event = {
+					id = omnitemporal.1107
+					days = 180
+				}
+			}
 		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Planet resumes
+planet_event = {
+	id = omnitemporal.1107
+	title = omnitemporal.1107.name
+	desc = omnitemporal.1107.desc
+	picture = GFX_evt_astral_rift_library
+	show_sound = evn_ove_scholarium_cache_rare_tech
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = omnitemporal.1107.a
+
+		remove_modifier = {
+			modifier = otc_time_stopped
+		}
+
+		add_modifier = {
+			modifier = otc_after_time_resumed
+			days = 360
+		}
+
 		ai_chance = {
 			factor = 1
 		}
@@ -1405,6 +1454,25 @@ country_event = {
 			factor = 1
 		}
 	}
+
+	option = {
+		name = omnitemporal.1106.b
+
+		trigger = {
+			is_materialist = yes
+		}
+
+		add_opinion_modifier = {
+			modifier = otc_opinion_awakened_empire_lesser
+			who = from
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+
+	omnitemporal.1106.b 
 }
 
 
@@ -1591,7 +1659,7 @@ country_event = {
 	title = omnitemporal.2002.name
 	desc = omnitemporal.2002.desc
 	picture = GFX_evt_clocks
-	show_sound = event_default #change
+	show_sound = event_default
 	is_triggered_only = yes
 
 	option = {
