@@ -1701,26 +1701,19 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	trigger = {
+		country_has_situation = {
+			SITUATION = situation_otc_end_of_time
+		} 
+	}
+
 	immediate = {
-		every_country = {
-			save_event_target_as = log_c
-			if = {
-				limit = {
-					relative_power = {
-							who = root
-							category = all
-							value > equivalent
-					}
-				}
-				log = "\\[log_c.GetName] is stronger"
-			}	
-		}
 		if = {
 			limit = {
 				NOT = {
 					any_country = {
 						relative_power = {
-							who = owner
+							who = root
 							category = all
 							value > equivalent
 						}
@@ -1728,6 +1721,23 @@ country_event = {
 				}
 			}
 			log = "no one stronger"
+			set_country_flag = otc_end_of_time_apex_of_power
+		}
+		else = {
+			every_country = {
+				save_event_target_as = log_c
+				if = {
+					limit = {
+						relative_power = {
+								who = root
+								category = all
+								value > equivalent
+						}
+					}
+					log = "\\[log_c.GetName] is stronger"
+					remove_country_flag = otc_end_of_time_apex_of_power
+				}	
+			}
 		}
 	}
 }
