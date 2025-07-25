@@ -1,8 +1,5 @@
 ToDo
 
-A Mysterious Gift change event picture
-Final Moment change event picture
-Loose Ends change event picture
 temporal anomaly notification needs location built in
 lost day change event picture
 'another leader joins our empire's localisation doesnt work same with second half of event
@@ -15,8 +12,10 @@ final moment event text could use some linebreaks
 reset civ does not reset capital properly - pops, districts, buildings, modifiers, etc
     somehow leaves the grand archive intact?
 Timeline Severed event does not recollect the name of the destroyed civ, ironically
-
 Done but requires re-testing
 
 atemp research zone still has no build menu prompt, compare "is a collection of self-sustaining orbitals designed"... for habitat
 operation_reset_civilisation_on_success localisation missing
+A Mysterious Gift change event picture
+Final Moment change event picture
+Loose Ends change event picture
