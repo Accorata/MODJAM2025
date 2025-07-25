@@ -13,4 +13,3 @@ operation_reset_civilisation_on_success localisation missing
 final moment event text could use some linebreaks
 [22:51:57][effect_impl.cpp:23204]: Error in create_message effect  common/scripted_effects/otc_scripted_effects.txt:14 @ scripted effect otc_create_temporal_anomaly at file: events/otc_omnitemporal_events.txt line: 173, target scope is invalid
 [23:13:34][event.cpp:1495]: Failed to deduce location for event omnitemporal.2000 from 'capital_scope'
-[23:14:18][situation.cpp:684]: Situation situation_otc_end_of_time incorrectly ended, remember to call destroy_situation from on_fail and on_progress_complete, usually this is expected for coop games and this error can be ignored

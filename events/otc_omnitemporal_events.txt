@@ -163,12 +163,12 @@ country_event = {
 			limit = {
 				check_variable_arithmetic = {
 					which = otc_arz_temporal_anomaly_progress
-					value >= 10
+					value >= 20
 				}
 			}
 			subtract_variable = {
 				which = otc_arz_temporal_anomaly_progress
-				value = 10
+				value = 20
 			}
 			otc_create_temporal_anomaly = yes
 		}

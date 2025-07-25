@@ -2,11 +2,11 @@
 # Created by Accorata
 
 otc_atemporal_research_zone = {
-	entity = "construction_platform_entity" # "otc_arz_entity"
+	entity = "construction_platform_entity" #"otc_arz_entity"
 	construction_entity = "construction_platform_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
-	entity_offset = { x = -20 y = -20 }
+	entity_offset = { x = -30 y = -30 }
 	rotate_to_center = no
 	scale_offset = yes
 	build_time = 900 # 2.5 years
