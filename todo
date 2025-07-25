@@ -13,7 +13,7 @@ Timeline Severed event does not recollect the name of the destroyed civ, ironica
 
 Done but requires re-testing
 
-atemp research zone still has no build menu prompt, compare "is a collection of self-sustaining orbitals designed"... for habitat
+atemp research zone still has no build menu prompt, compare "is a collection of self-sustaining orbitals designed"... for habitat (might be fixed)
 operation_reset_civilisation_on_success localisation missing
 A Mysterious Gift change event picture
 Final Moment change event picture

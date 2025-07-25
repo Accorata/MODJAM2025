@@ -16,44 +16,44 @@ otc_crisobj_research_archeological_sites = {
 		has_ancrel = yes
 	}
 	reward = {
-		base = 100000
-		divide = trigger:num_galaxy_systems 	#on huge, this is 100. On smallest, it is 500
+		base = 200000
+		divide = trigger:num_galaxy_systems 	#on huge, this is 200. On smallest, it is 1000
 		round_to = 50
-		min = 100
+		min = 200
 	}
 }
 
-otc_crisobj_research_time_anomaly = { # todo change values
+otc_crisobj_research_time_anomaly = {
 	reward = {
-		base = 600
+		base = 1200
 		complex_trigger_modifier = {
 			trigger = count_playable_country
 			mode = subtract
 			mult = 20
 		}
 		round_to = 100
-		min = 200
+		min = 400
 	}
 }
 
 otc_crisobj_research_anomaly = {
 	reward = {
-		base = 100
+		base = 300
 		complex_trigger_modifier = {
 			trigger = count_playable_country
 			mode = subtract
-			mult = 4
+			mult = 5
 		}
 		round_to = 10
-		min = 25
+		min = 50
 	}
 }
 
 otc_crisobj_activate_relic = {
 	reward = {
-		base = 50000
+		base = 100000
 		divide = trigger:num_galaxy_systems 	#on huge, this is 100. On smallest, it is 500
 		round_to = 25
-		min = 50
+		min = 100
 	}
 }

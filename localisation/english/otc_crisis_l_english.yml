@@ -105,7 +105,6 @@ l_english:
 
   # Kilostructure
   otc_omnitemporal_kilostructure: "Atemporal Research Zone"
-  otc_omnitemporal_kilostructure_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_DESC$"
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$"
   otc_atemporal_research_zone_DESC: "A black site sealed within time, this confidential research facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
@@ -198,7 +197,7 @@ l_english:
   unlocks_otc_end_of_time:0 "Unlocks the $situation_otc_end_of_time$ Situation. When the situation completes, we will be able to enact our plan of ending the linear flow of time altogether and will §Ywin the game.§!"
   situation_otc_end_of_time: "End of Time"
   situation_otc_end_of_time_type: "$situation_otc_end_of_time$"
-  situation_otc_end_of_time_monthly_change_tooltip: "Progress the situation by:\n- Having the §YHighest§! Point Score.\n- Completing §Y$operation_reset_civilisation$§! Operations\n- ..."
+  situation_otc_end_of_time_monthly_change_tooltip: "Progress the situation by:\n- Having the §YHighest§! Point Score.\n- Completing §Y$operation_reset_civilisation$§! Operations\n- ..." 
   situation_otc_end_of_time_desc: "We have discovered a way to propagate our civilization outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existence."
   situation_otc_end_of_time_complete: "The [Owner.GetName] wins the game."
   otc_apex_of_power: "Apex of Power"
@@ -252,80 +251,85 @@ l_english:
   omnitemporal.1000.a: "Unbelievable!"
   omnitemporal.1000.a.tooltip: "[Root.GetLeaderName] Vanishes Back into the Past."
 
-  #todo
   omnitemporal.1001.name: "Voyager from the Future"
-  omnitemporal.1001.desc: "..."
-  omnitemporal.1001.a: "..."
+  omnitemporal.1001.desc: "Upon approaching the temporal anomaly, a figure appeared, floating around while wearing a spacesuit. Upon identifying the figure and taking [event_target:otc_future_leader.GetSheHe] aboard, we realized we had just discovered another [event_target:otc_future_leader.GetLeaderName]!\n\n[event_target:otc_future_leader.GetSheHe] explained that [event_target:otc_future_leader.GetSheHe] was not a clone, but rather had just arrived here after being thrown backwards through time. Thus, [event_target:otc_future_leader.GetSheHe] was a future copy of [event_target:otc_future_leader.GetLeaderName]. We asked for details on what was to come but we were greeted with silence. The future [event_target:otc_future_leader.GetLeaderName] believes that this information could cause a casual paradox with unknown repercussions if shared."
+  omnitemporal.1001.a: "Incredible!"
+  omnitemporal.1001.b: "Suspicious"
   omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetLeaderName] Joins our Empire."
 
   omnitemporal.1014.name: "Fades from Existence"
-  omnitemporal.1014.desc: "..."
-  omnitemporal.1014.a: "..."
+  omnitemporal.1014.desc: "As soon as [event_target:otc_temporal_clone.GetLeaderName] passed away, the future version of [event_target:otc_temporal_clone.GetHisHer] started to disintegrate. Soon they had faded away entirely, leaving nothing but memories of their existence behind. But soon after, those began to fade as well. It appears that upon the death of their younger self, a paradoxical outcome occured: there was no longer a younger self to travel into the past and thus their emergence from the future was impossible. The universe quickly corrected this inconsistency, removing the remaining [event_target:otc_temporal_clone.GetHisHer] from existence."
+  omnitemporal.1014.a: "Interesting."
 
-  omnitemporal.1003.name: "..."
-  omnitemporal.1003.desc: "..."
-  omnitemporal.1003.a: "..."
-  omnitemporal.1003.a.tooltip: "..."
+  omnitemporal.1003.name: "Eons to Months"
+  omnitemporal.1003.desc: "On the volcanic surface of [From.GetName], time is passing faster than we could ever imagine. Eons take place over the course of months, and we do not dare step into the time loop occuring here for our scientists would erode away in mere moments if we did. Observing the planet is also a difficulty as by the time our scanners reach the ground and reflect back to our ship, the surface below has already changed. This is quite an oddity, and we expect to see [From.GetName] undergo great transformation in the coming months."
+  omnitemporal.1003.a: "Interesting."
 
   omnitemporal.1004.name: "Planetary Cooling"
   omnitemporal.1004.desc: "Only a couple of months after our scientists discovered the accelerated passage of time on [FromFrom.GetName], the entire planet has cooled down to more moderate levels. It appears that this planet has experienced millenia of its lifecycle in mere months, transforming its volcanic surface into a barren expanse. According to readings taken from orbit, tectonic activity remains intense and the planet shows no signs of slowing down just yet.\n\nThe more adventurous of our scientists wish to explore [FromFrom.GetName] itself. However, they are quickly stopped by their wiser peers' explanations that entire lifespans would become but minute fractions of a second to any outside observer."
-  omnitemporal.1004.a: "Very Interesting"
+  omnitemporal.1004.a: "Very interesting."
 
   omnitemporal.1005.name: "Development of Life"
   omnitemporal.1005.desc: "As the time on [FromFromFrom.GetName] has continued to progress at extreme rates, we've witnessed new developments take place. Basic lifeforms have emerged, and while confined to their simple ways of being, we've already watched them change the atmospheric conditions. Soon after the first plants begun to spread across the planets surface, greedily consuming the new particulates that had filled the sky. If not for the temporal speeds, the planet would now appear habitable."
-  omnitemporal.1005.a: "Continue Observations"
+  omnitemporal.1005.a: "Continue observations."
 
   omnitemporal.1006.name: "Resting Condition"
   omnitemporal.1006.desc: "At last, the rapid aging of [FromFromFromFrom.GetName] has concluded, and the planet is once again temporally reunited with the rest of the galaxy. However, before the accelerated time concluded, it has once again transformed. The last months have brought about numerous changes, from animal lifeforms to verdant forests. While none of these primitive animals demonstrate any signs of true intelligence, there are some presapients that have shown promising intellectual growth and could be aided along if we desire."
-  omnitemporal.1006.a: "Wonderful"
+  omnitemporal.1006.a: "Wonderful."
 
   omnitemporal.1007.name: "Temporal Snare"
   omnitemporal.1007.desc: "As [time_loop_trapped_scientist.GetName] explored the temporal anomaly, the rest of [time_loop_trapped_scientist.GetHisHer] crew began to notice erratic behavior. [time_loop_trapped_scientist.GetName] began to consistently believe the date hadn't changed and that the investigation had only been going on for one day. Furthermore, [time_loop_trapped_scientist.GetSheHe] continued to repeat initial observational tasks that had been completed weeks before.\n\nIt became clear that [time_loop_trapped_scientist.GetName] was still reliving that first day again and again, trapped within a mental time loop. The exact nature of this phenomenon is unknown, especially as the best witness to the event is caught in [time_loop_trapped_scientist.GetHisHer] delusion. Either way, [time_loop_trapped_scientist.GetHisHer] effectiveness as a leader will be significantly reduced."
-  omnitemporal.1007.a: "Unfortunate"
+  omnitemporal.1007.a: "Unfortunate."
   leader_trait_otc_time_loop_trapped: "Temporally Snared"
   leader_trait_otc_time_loop_trapped_desc: "This leader is caught in a mental time loop, experiencing the same day over and over again. Through careful manipulation of their sensory input, we can simulate actual reality but they will never form new memories again."
 
   omnitemporal.1008.name: "Erratic Clocks"
   omnitemporal.1008.desc: "Upon reaching the temporal anomaly, all time-keeping devices on the [Root.GetName] began to fluctuate erratically, displaying various impossible dates. Moments after receiving their communications, similar abnormalities began to appear on our colonies. While harmless, the loss of reliable chronological information has thrown off the balance of regular life. However, these events have resulting in an immense amount of data for our physicists to parse through."
-  omnitemporal.1008.a: "Interesting"
+  omnitemporal.1008.a: "Interesting."
 
   omnitemporal.1009.name: "..."
   omnitemporal.1009.desc: "..."
-  omnitemporal.1009.a: "..."
+  omnitemporal.1009.a: "Wonderful."
   otc_time_accelerated: "Accelerated Time"
 
   omnitemporal.1010.name:0 "Lost Day"
   omnitemporal.1010.desc:0 "Our probing of the recently uncovered temporal anomaly has had an unanticipated side effect: everyone has lost a day. Specifically, no one has retained as information about [From.lost_date_flag], with our entire population experiencing total amnesia about the last twenty four hours. We are reasonably confident nothing particularly remarkable happened yesterday, but the experience has been a disconcerting one. Worse yet, the effect appears to have been galactic in nature: many of our neighbours are not happy about what they are calling 'interference in their natural chronological perceptions'."
   otc_forgot_a_day:0 "Lost Day"
+
   omnitemporal.1012.name:0 "Lost Day"
-  omnitemporal.1012.desc:0 "Everyone's memories have the same hole: iit was [This.lost_date_flag_plus_one], and then it was [This.lost_date_flag_minus_one]. Every [This.GetSpeciesName] in [This.GetName] has retained no recollection about the events of [This.lost_date_flag]. This has, understandably, caused a great deal of upset and confusion. After the fact analysis reveals the missing day in question definitively occured (and was otherwise unremarkable) but no one has any memories of it. Our scientists have linked the phenomenon to powerful temporal energies unleashed by the [From.GetName], who have refused to apologise for this outrageous intrusion."
+  omnitemporal.1012.desc:0 "Everyone's memories have the same hole: it was [This.lost_date_flag_plus_one], and then it was [This.lost_date_flag_minus_one]. Every [This.GetSpeciesName] in [This.GetName] has retained no recollection about the events of [This.lost_date_flag]. This has, understandably, caused a great deal of upset and confusion. After the fact analysis reveals the missing day in question definitively occured (and was otherwise unremarkable) but no one has any memories of it. Our scientists have linked the phenomenon to powerful temporal energies unleashed by the [From.GetName], who have refused to apologise for this outrageous intrusion."
   otc_opinion_lost_day:0 "Unhappy with Temporal Meddling"
 
 
   omnitemporal.1013.name: "Rapid Aging"
-  omnitemporal.1013.desc: "..."
-  omnitemporal.1013.a: "..."
+  omnitemporal.1013.desc: "[Root.GetLeaderName] presents [Root.GetHerHis] report on the recently investigated temporal anomaly: 'After a decade of researching [From.GetName]'s anomalous behavior, I must unfortunately conclude that nothing was amiss.' The report was exhaustive, thoroughly detailed and would've been quickly accepted by our chronology department if not for the time over which it had been compiled. For whereas [Root.GetLeaderName] spent over a decade researching, the rest of galaxy waited only months to recieve any communication. While it is unclear exactly what created this time loop as the report failed to find anything out of place, its effects on [Root.GetLeaderName] are clear. We will have to hope [Root.GetSheHe] can continue to live a fullfilling life."
+  omnitemporal.1013.a: "Unfortunate."
 
   # Dangerous/Impactful Anomalies
   omnitemporal.1100.name: "..."
   omnitemporal.1100.desc: "..."
-  omnitemporal.1100.a: "..."
+  omnitemporal.1100.a: "Unfortunate."
   otc_time_decelerated: "Slowed Time"
 
   omnitemporal.1101.name: "Clocks Stop On [From.GetName]"
-  omnitemporal.1101.desc: "Everything and everyone on [From.GetName] just came to a sudden halt. All transmissions from the planet ceased, ..."
-  omnitemporal.1101.a: "..."
+  omnitemporal.1101.desc: "Everything and everyone on [From.GetName] just came to a sudden halt. All transmissions from the planet immediately ceased, and any messages sent to the planet failed to reach their destination. The planet appears frozen in time, no longer attached to our present timeline. All resource shipments, both to and from [From.GetName], will be placed on indefinite hiatus. We can only hope this anomalous behavior ends soon."
+  omnitemporal.1101.a: "Disastrous!"
   otc_time_stopped: "Frozen in Time"
 
-  omnitemporal.1102.name: "..."
-  omnitemporal.1102.desc: "..."
-  omnitemporal.1102.a: "..."
+  omnitemporal.1107.name: "[This.GetName] Returns to Time"
+  omnitemporal.1107.desc: "After half a year of absolute silence, time begins to flow once again on [This.GetName]. Our citizens continue about their days, interstellar shipments leave the docks, and communications sent months ago come streaming in. For a moment it as if nothing ever happened.\n\nHowever, it is only a moment until the denizens of [This.GetName] learn what happened, that they have not experienced a single second in the past six months while the rest of the galaxy continued onwards. While it is extremely fortunate that this disaster cannot be immediately traced back to us, the effects of this temporal distortion cannot be understated, and [This.GetName] will need time to recover."
+  omnitemporal.1107.a: "Fortunate nonetheless."
+  otc_after_time_resumed: "Lost Months"
+
+  omnitemporal.1102.name: "Visions of Our Primitive Past"
+  omnitemporal.1102.desc: "Within this temporal anomaly, [Root.GetLeaderName] and [Root.GetHerHis] crew found a bubble of time in which a portion of our past had become ensnared. Here, disconnected from space or time, they watched as our primitive selves slowly advanced towards the stars.\n\nWhile we've seen other early societies progress, and have numerous records of our own beginnings, we'd never seen our own past with such clarity. Numerous sociological fields have benefited greatly, from history to primitive studies to theology and early philosophy."
+  omnitemporal.1102.a: "Wonderful."
   otc_past_selves: "Past Selves"
   otc_past_selves_desc: "Visions of our origins have encouraged collective unity and inspired further inquiry into our past."
 
-  omnitemporal.1103.name: "..."
-  omnitemporal.1103.desc: "..."
-  omnitemporal.1103.a: "..."
+  omnitemporal.1103.name: "Epistemological Doubts"
+  omnitemporal.1103.desc: "While the visions of our beginnings proved deeply insightful into our species' upbringing and early development, it also revealed how idiotic we used to be. Furthermore, not only were we clueless to the true natures of the galaxy, but we truly believed we understood things as they were. While we are glad that we have strayed so far from such idiocy, these visions have left our people with the worry that we haven't made nearly enough progress. After all, how can we be sure that we're not just as lost as our primitive ancestors?"
+  omnitemporal.1103.a: "Unfortunate."
   otc_disillusioned_past: "Disillusioned with Beginnings"
   otc_disillusioned_past_desc: "Seeing our past selves has revealed how idiotic we once were. While our immense change may be a testament to our will, how can we be sure that we're not just as lost?"
 
@@ -337,10 +341,12 @@ l_english:
   omnitemporal.1105.desc: "It is clear now that our vision of the awakened empire was no image of the past. We were presented with the future, and soon after, it came to bear. There is much excitement among our scientists, and news of the vision quickly spread to the public.\n\nWhile our people were similarly intrigued, other empires have found our actions extremely careless. Many claim that our viewing of this vision caused the very event to take place, as if it wouldn't have happened with or without our knowledge. It is likely they are using this as an excuse to disapprove of our temporal studies - worried as to what they might bring."
   omnitemporal.1105.a: "That's absurd."
 
-  omnitemporal.1106.name: "..."
-  omnitemporal.1106.desc: "..."
-  omnitemporal.1106.a: "..."
+  omnitemporal.1106.name: "Disastrous Prediction"
+  omnitemporal.1106.desc: "After the recent awakening of the fallen empire, it has come to light that the [From.GetName] were already aware of this event. Due to their recent experimentation with time, one of their scientists was granted with a vision of the future: one which portrayed the fallen empire's awakening.\n\nIt is unclear whether their temporal tampering resulted in this vision coming to bear or if it was purely an insight into what was to come. Either way, their reckless experimentation is bound to lead to disaster."
+  omnitemporal.1106.a: "Experimental fools."
+  omnitemporal.1106.b: "Experiments build the future."
   otc_opinion_awakened_empire: "Unhappy about Future Predictions"
+  otc_opinion_awakened_empire_lesser: "$otc_opinion_awakened_empire$"
 
   # Anomaly Categories
   otc_temporal_anomaly_cat: "Temporal Anomaly"
@@ -359,13 +365,4 @@ l_english:
   omnitemporal.51.name:0 "Older Codes"
   omnitemporal.51.desc:0 "Our temporal adjustor's transport has cleared the system's security check - the security codes that $role_spymaster$ [spynetwork.leader.GetName] has been gathering were crucial for passing into the system. Our operatives have started the warmup procedure to get the time machine ready. They will again aim for the capital for the transport ship's final voyage."
   omnitemporal.52.name:0 "Into The Past"
-  omnitemporal.52.desc:0 "We have received word back from $role_spymaster$ [spynetwork.leader.GetName]: everything is ready. Our operatives have already prepared for the jump; once they have established orbit the whole ship will jump into the past and enact the plan. From our point of view, the effect will be instantaneous."
-  omnitemporal.53.name:0 "Erasure Complete"
-  omnitemporal.53.desc:0 "The §Y[From.target.GetName]§! are no more! As soon as the transport ship vanished, we detected an immense surge of temporal energy. Once our scopes had cleared, we could see that the plan succeeded beyond our wildest hopes. The §Y[From.target.GetName]§! have ben reduced to primitives, unaware of the great destiny we have just denied them."
-  
-  OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
-
-  omnitemporal.56.name:0 "Timeline Severed"
-  omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
-  omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
-  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"
+  omnitemporal.52.desc:0 "We have received word back from $role_spymaster$ [

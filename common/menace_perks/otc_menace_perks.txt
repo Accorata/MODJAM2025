@@ -7,7 +7,7 @@ menp_otc_omnitemporal_objectives = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_temporal_fabric"
 
 	modifier = {
-		planet_physicists_otc_temporal_fabric_produces_add = 0.5
+		planet_physicists_otc_temporal_fabric_produces_add = 1
 	}
 
 	on_unlock = {

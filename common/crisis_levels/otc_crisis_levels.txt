@@ -122,7 +122,7 @@ otc_crisis_omnitemporal_level_5 = {
 		}
 		is_subject = no
 	}
-	required_crisis_currency = 45000
+	required_crisis_currency = 36000
 
 	# REWARDS
 	perks = {
