@@ -1,5 +1,5 @@
 ## OTC Situations 
-# Created by Accorata
+# Created by Accorata & BrettlesSr
 
 situation_otc_end_of_time = {
 	picture = GFX_evt_clocks
