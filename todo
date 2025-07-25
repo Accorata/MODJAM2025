@@ -1,17 +1,16 @@
 ToDo
 
-temporal anomaly notification needs location built in
 lost day change event picture
 'another leader joins our empire's localisation doesnt work same with second half of event
-temporal anomalies from the ARZ generate way too fast
 situation advances even though there are stronger powers
 reset operations should advance situation
 final moment event text could use some linebreaks
-[22:51:57][effect_impl.cpp:23204]: Error in create_message effect  common/scripted_effects/otc_scripted_effects.txt:14 @ scripted effect otc_create_temporal_anomaly at file: events/otc_omnitemporal_events.txt line: 173, target scope is invalid
 [23:13:34][event.cpp:1495]: Failed to deduce location for event omnitemporal.2000 from 'capital_scope'
 reset civ does not reset capital properly - pops, districts, buildings, modifiers, etc
     somehow leaves the grand archive intact?
 Timeline Severed event does not recollect the name of the destroyed civ, ironically
+
+
 Done but requires re-testing
 
 atemp research zone still has no build menu prompt, compare "is a collection of self-sustaining orbitals designed"... for habitat
@@ -19,3 +18,6 @@ operation_reset_civilisation_on_success localisation missing
 A Mysterious Gift change event picture
 Final Moment change event picture
 Loose Ends change event picture
+temporal anomaly notification needs location built in
+[22:51:57][effect_impl.cpp:23204]: Error in create_message effect  common/scripted_effects/otc_scripted_effects.txt:14 @ scripted effect otc_create_temporal_anomaly at file: events/otc_omnitemporal_events.txt line: 173, target scope is invalid
+temporal anomalies from the ARZ generate way too fast

@@ -182,10 +182,10 @@ l_braz_por:
 
   situation_otc_end_of_time: "End of Time"
   situation_otc_end_of_time_type: "$situation_otc_end_of_time$"
-  situation_otc_end_of_time_monthly_change_tooltip: "Progress the situation by:\n- Having the §YHighest§! Point Score.\n- Completing §Y$operation_reset_civilisation$§! Operations\n- ..."
+  situation_otc_end_of_time_monthly_change_tooltip: "Progress the situation by:\n- Being at least §YSuperior§! to all other civilizations.\n- Completing §Y$operation_reset_civilisation$§! Operations"
   situation_otc_end_of_time_desc: "..."
   situation_otc_end_of_time_complete: "The [insert empire name] wins the game."
-  otc_apex_of_power: "Apex of Power"
+  otc_apex_of_power: "Apex of Power: At least §YSuperior§! to all other civilizations."
   situation_otc_end_of_time_approach_basic: "Inevitability"
   situation_otc_end_of_time_approach_basic_desc: "..."
 

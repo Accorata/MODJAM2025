@@ -482,6 +482,14 @@ espionage_operation_event = {
 
 	option = {
 		name = LAUNCH_OPERATION
+		owner = {
+			random_situation = {
+				limit = {
+					is_situation_type = situation_otc_end_of_time
+				}
+				add_situation_progress = 10
+			}
+		}
 		hidden_effect = {
 			target = {
 				otc_reset_civilisation = yes
@@ -1619,5 +1627,29 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.2004
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			save_event_target_as = log_c
+			log = "\\[log_c.GetName]"
+			if = {
+				limit = {
+					relative_power = {
+							who = root
+							category = all
+							value > equivalent
+						}
+					}
+				log = "stronger"
+			}
+						
+					}
 	}
 }
