@@ -1529,7 +1529,7 @@ situation_event = {
 	id = omnitemporal.2000
 	title = omnitemporal.2000.name
 	desc = omnitemporal.2000.desc
-	picture = GFX_evt_warm_barren #change
+	picture = GFX_evt_astral_rift_vortex
 	show_sound = event_mystic_reveal
 	location = capital_scope
 	is_triggered_only = yes
@@ -1553,8 +1553,7 @@ situation_event = {
 	id = omnitemporal.2001
 	title = omnitemporal.2001.name
 	desc = omnitemporal.2001.desc
-	picture = GFX_evt_warm_barren #change
-	show_sound = event_default #change
+	picture = GFX_evt_timeworm_transcriptions
 	location = capital_scope
 	is_triggered_only = yes
 
@@ -1591,7 +1590,7 @@ country_event = {
 	id = omnitemporal.2002
 	title = omnitemporal.2002.name
 	desc = omnitemporal.2002.desc
-	picture = GFX_evt_warm_barren #change
+	picture = GFX_evt_clocks
 	show_sound = event_default #change
 	is_triggered_only = yes
 
@@ -1608,7 +1607,7 @@ country_event = {
 	id = omnitemporal.2003
 	title = omnitemporal.2003.name
 	desc = omnitemporal.2003.desc
-	picture = GFX_evt_clocks
+	picture = GFX_evt_astral_rift_psionic_stranger_2
 	show_sound = event_mystic_reveal
 	is_triggered_only = yes
 

@@ -108,8 +108,8 @@ l_english:
   otc_omnitemporal_kilostructure_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_DESC$"
   otc_omnitemporal_kilostructure_plural: "$otc_omnitemporal_kilostructure$s"
   otc_atemporal_research_zone: "$otc_omnitemporal_kilostructure$"
-  otc_atemporal_research_zone_DESC: "A black site sealed within time, this confidential resarch facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
-  otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "$otc_atemporal_research_zone_desc$"
+  otc_atemporal_research_zone_DESC: "A black site sealed within time, this confidential research facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
+  otc_atemporal_research_zone_MEGASTRUCTURE_DETAILS: "A black site sealed within time, this confidential research facility engages in dangerous experiments that produce §YTemporal Anomalies§!."
   MEGASTRUCTURE_TOOLTIP_REQUIREMENTS_OTC_ARZ: "Must be built in orbit of a Black Hole or Neutron Star."
   otc_atemporal_research_zone_effects: "Will randomly generate §YTemporal Anomalies§! on various celestial objects within your borders.\n\nThe speed at which Anomalies are generated is increased by the number of $otc_omnitemporal_kilostructure_plural$ we have active."
   otc_requires_black_hole_or_neutron_star: "$TRIGGER_FAIL$Must be built around a $pc_black_hole$ or $pc_neutron_star$."
@@ -150,7 +150,7 @@ l_english:
   # Tech
   tech_otc_travel_timelines: "Travel Timelines"
   tech_otc_travel_timelines_desc: "We can at last travel to other timelines, allowing us access to potentially infinite universes, and create more powerful temporal anomalies we can harness to our advantage."
-  tech_otc_travel_timelines_effects_title: "More Impactful §HTemporal Anomalies§! May Occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
+  tech_otc_travel_timelines_effects_title: "More impactful §HTemporal Anomalies§! may occur\nUnlocks §H$otc_ap_omnitemporal$§! Crisis §HLevel 4§!"
   tech_otc_travel_timelines_effects_desc: "§H$tech_otc_travel_timelines$§!\n$tech_otc_travel_timelines_desc$"
 
   menp_otc_temporal_shell:0 "Temporal Shell"
@@ -352,6 +352,7 @@ l_english:
 ## Operations ##
   operation_reset_civilisation:0 "Causal Annihilation Protocol"
   operation_reset_civilisation_desc:0 "By sending a strike team to the target homeworld and surgically editing their history, we can ensure they never develop the advanced technologies they will one day use to oppose us."
+  operation_reset_civilisation_on_success: "$IF_SUCCESSFUL|E$\nTarget civilisation will be reduced to a single world of pre-FTL primitives."
   operation_reset_civilisation_rival_time_travellers:0 "We cannot attempt this operation on fellow temporal manipulators."
   omnitemporal.50.name:0 "On Approach"
   omnitemporal.50.desc:0 "The team - a mixture of black ops specialists and temporal scientists - are concealed aboard a transport ship we have outfitted for this expedition. With them they carry the equipment to make a time jump into the past to the moment our xeno-historians have determined is the best time to sabotage the [Target.GetName]'s development."
