@@ -365,13 +365,4 @@ l_english:
   omnitemporal.51.name:0 "Older Codes"
   omnitemporal.51.desc:0 "Our temporal adjustor's transport has cleared the system's security check - the security codes that $role_spymaster$ [spynetwork.leader.GetName] has been gathering were crucial for passing into the system. Our operatives have started the warmup procedure to get the time machine ready. They will again aim for the capital for the transport ship's final voyage."
   omnitemporal.52.name:0 "Into The Past"
-  omnitemporal.52.desc:0 "We have received word back from $role_spymaster$ [spynetwork.leader.GetName]: everything is ready. Our operatives have already prepared for the jump; once they have established orbit the whole ship will jump into the past and enact the plan. From our point of view, the effect will be instantaneous."
-  omnitemporal.53.name:0 "Erasure Complete"
-  omnitemporal.53.desc:0 "The §Y[From.target.GetName]§! are no more! As soon as the transport ship vanished, we detected an immense surge of temporal energy. Once our scopes had cleared, we could see that the plan succeeded beyond our wildest hopes. The §Y[From.target.GetName]§! have ben reduced to primitives, unaware of the great destiny we have just denied them."
-  
-  OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
-
-  omnitemporal.56.name:0 "Timeline Severed"
-  omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
-  omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
-  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"
+  omnitemporal.52.desc:0 "We have received word back from $role_spymaster$ [
