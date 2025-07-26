@@ -24,3 +24,15 @@ otc_opinion_awakened_empire = {
 		}
 	}
 }
+
+otc_opinion_awakened_empire_lesser = {
+	opinion = {
+		base = -50
+	}
+	decay = {
+		base = 1
+		modifier = {
+			factor = value:negative_opinion_decay_rate
+		}
+	}
+}
