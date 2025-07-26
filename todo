@@ -1,16 +1,21 @@
 ToDo
 
-temporal anomaly notification needs location built in
 lost day change event picture
 'another leader joins our empire's localisation doesnt work same with second half of event
-situation advances even though there are stronger powers
+situation advances even though there are stronger powers -comparing powerdoesnt seem to work inside situations, need workaround
 reset operations should advance situation
 final moment event text could use some linebreaks
-[22:51:57][effect_impl.cpp:23204]: Error in create_message effect  common/scripted_effects/otc_scripted_effects.txt:14 @ scripted effect otc_create_temporal_anomaly at file: events/otc_omnitemporal_events.txt line: 173, target scope is invalid
 [23:13:34][event.cpp:1495]: Failed to deduce location for event omnitemporal.2000 from 'capital_scope'
 reset civ does not reset capital properly - pops, districts, buildings, modifiers, etc
     somehow leaves the grand archive intact?
 Timeline Severed event does not recollect the name of the destroyed civ, ironically
+Leaders arent being set to immortal properly
+[00:25:31][modifier.cpp:3906]: Invalid modifier stability at  file: common/static_modifiers/otc_static_modifiers.txt line: 46
+[00:25:34][trigger.cpp:574]: Wrong scope for trigger 'has_deposit' at  common/scripted_effects/otc_scripted_effects.txt:181 @ scripted effect otc_reset_civilisation at file: events/otc_omnitemporal_events.txt line: 515
+Current scope: country
+Supported Scopes: planet deposit
+[00:25:34][effect_impl.cpp:14413]: add_opinion_modifier effect referring to a non-existent opinion modifier otc_opinion_awakened_empire_lesser at  file: events/otc_omnitemporal_events.txt line: 1473
+
 Done but requires re-testing
 
 atemp research zone still has no build menu prompt, compare "is a collection of self-sustaining orbitals designed"... for habitat (might be fixed)
@@ -18,3 +23,6 @@ operation_reset_civilisation_on_success localisation missing
 A Mysterious Gift change event picture
 Final Moment change event picture
 Loose Ends change event picture
+temporal anomaly notification needs location built in
+[22:51:57][effect_impl.cpp:23204]: Error in create_message effect  common/scripted_effects/otc_scripted_effects.txt:14 @ scripted effect otc_create_temporal_anomaly at file: events/otc_omnitemporal_events.txt line: 173, target scope is invalid
+temporal anomalies from the ARZ generate way too fast

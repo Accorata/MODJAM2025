@@ -482,6 +482,14 @@ espionage_operation_event = {
 
 	option = {
 		name = LAUNCH_OPERATION
+		owner = {
+			random_situation = {
+				limit = {
+					is_situation_type = situation_otc_end_of_time
+				}
+				add_situation_progress = 10
+			}
+		}
 		hidden_effect = {
 			target = {
 				otc_reset_civilisation = yes
@@ -748,7 +756,7 @@ country_event = {
 	option = {
 		name = omnitemporal.1014.a
 
-		event_target:otc_temporal_clone
+		event_target:otc_temporal_clone = {
 			kill_leader = {
 				show_notification = no
 			}
@@ -1251,18 +1259,18 @@ planet_event = {
 	option = {
 		name = omnitemporal.1107.a
 
-		remove_modifier = {
-			modifier = otc_time_stopped
-		}
+		# remove_modifier = {
+		# 	modifier = otc_time_stopped
+		# }
 
-		add_modifier = {
-			modifier = otc_after_time_resumed
-			days = 360
-		}
+		# add_modifier = {
+		# 	modifier = otc_after_time_resumed
+		# 	days = 360
+		# }
 
-		ai_chance = {
-			factor = 1
-		}
+		# ai_chance = {
+		# 	factor = 1
+		# }
 	}
 }
 
@@ -1471,8 +1479,6 @@ country_event = {
 			factor = 2
 		}
 	}
-
-	omnitemporal.1106.b 
 }
 
 
@@ -1659,7 +1665,7 @@ country_event = {
 	title = omnitemporal.2002.name
 	desc = omnitemporal.2002.desc
 	picture = GFX_evt_clocks
-	show_sound = event_default
+	show_sound = event_air_raid_siren
 	is_triggered_only = yes
 
 	option = {
@@ -1686,6 +1692,52 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.2004
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		country_has_situation = {
+			SITUATION = situation_otc_end_of_time
+		} 
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					any_country = {
+						relative_power = {
+							who = root
+							category = all
+							value > equivalent
+						}
+					}
+				}
+			}
+			log = "no one stronger"
+			set_country_flag = otc_end_of_time_apex_of_power
+		}
+		else = {
+			every_country = {
+				save_event_target_as = log_c
+				if = {
+					limit = {
+						relative_power = {
+								who = root
+								category = all
+								value > equivalent
+						}
+					}
+					log = "\\[log_c.GetName] is stronger"
+					remove_country_flag = otc_end_of_time_apex_of_power
+				}	
+			}
 		}
 	}
 }
