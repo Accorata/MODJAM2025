@@ -1040,7 +1040,7 @@ country_event = {
 	id = omnitemporal.1010
 	title = omnitemporal.1010.name
 	desc = omnitemporal.1010.desc
-	picture = GFX_evt_arguing_senate
+	picture = GFX_evt_glitchy_matrix
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = fromfrom
 	is_triggered_only = yes
@@ -1100,7 +1100,7 @@ country_event = {
 	id = omnitemporal.1012
 	title = omnitemporal.1012.name
 	desc = omnitemporal.1012.desc
-	picture = GFX_evt_arguing_senate
+	picture = GFX_evt_clocks
 	is_triggered_only = yes
 
 	immediate = {
@@ -1259,18 +1259,16 @@ planet_event = {
 	option = {
 		name = omnitemporal.1107.a
 
-		# remove_modifier = {
-		# 	modifier = otc_time_stopped
-		# }
+		remove_modifier = otc_time_stopped
 
-		# add_modifier = {
-		# 	modifier = otc_after_time_resumed
-		# 	days = 360
-		# }
+		add_modifier = {
+			modifier = otc_after_time_resumed
+			days = 360
+		}
 
-		# ai_chance = {
-		# 	factor = 1
-		# }
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -1605,7 +1603,7 @@ situation_event = {
 	desc = omnitemporal.2000.desc
 	picture = GFX_evt_astral_rift_vortex
 	show_sound = event_mystic_reveal
-	location = capital_scope
+	location = owner.capital_scope
 	is_triggered_only = yes
 
 	option = {
@@ -1628,7 +1626,7 @@ situation_event = {
 	title = omnitemporal.2001.name
 	desc = omnitemporal.2001.desc
 	picture = GFX_evt_timeworm_transcriptions
-	location = capital_scope
+	location = owner.capital_scope
 	is_triggered_only = yes
 
 	immediate = {

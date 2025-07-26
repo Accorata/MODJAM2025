@@ -207,10 +207,10 @@ l_english:
   omnitemporal.54.desc:0 "Until now, we have been like children, content to delight in our new toys that mastery of time has gifted us. Those who dare oppose us are vanquished, and we consolidate our power in the fleeting instant we collectively call: 'the present'. But as our perspective grows, so too does the realization of futility. We are still prisoners of linear time, unable to prevent our universe spiralling into entropy. No empire lasts forever.\n\nThe time has come to put aside our toys.\n\nWe have discovered a way to propagate our civilization outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existence."
   omnitemporal.54.a:0 "Its about time."
   omnitemporal.2000.name:0 "The Final Moment"
-  omnitemporal.2000.desc:0 "It is here. It has always been here. We taste the dawning of omnitemporality like a new sun rising, or an egg hatching, or a star dying. Or like none of those things, those simple metaphors that carry too much of the nature of the old universe with them useless to us now. Time is shattered, and we see from the everywhen outside of it that it was always shattered. Waiting for us to turn it inside out so we could see it as it always has been. Always and forever in the newnow."
+  omnitemporal.2000.desc:0 "It is here. It has always been here. We taste the dawning of omnitemporality like a new sun rising, or an egg hatching, or a star dying. Or like none of those things, those simple metaphors that carry too much of the nature of the old universe with them useless to us now.\n\nTime is shattered, and we see from the everywhen outside of it that it was always shattered. Waiting for us to turn it inside out so we could see it as it always has been. Always and forever in the new now."
   omnitemporal.2000.a:0 "Like us, roiling in the evertime, triumphant."
   omnitemporal.2001.name:0 "Tying Up Loose Ends"
-  omnitemporal.2001.desc:0 "We are beginning to understand. Our reach across the timelines is mirrored by all the other versions of ourselves, on every timeline. All at once, all together, so soon now, we will reach out to every moment that has or will every be and achieve omnitemporality.\n\nWith hardly a thought, we reach back in time to the moment that started this all off - and give ourselves the kickstart we need so we can be here now."
+  omnitemporal.2001.desc:0 "We are beginning to understand. Our reach across the timelines is mirrored by all the other versions of ourselves, on every timeline. All at once, all together, so soon now, we will reach out to every moment that has or will every be and achieve omnitemporality.\n\nWith hardly a thought, we reach back in time to the moment that started this all off - and give ourselves the kickstart we needed to be here now."
   omnitemporal.2001.a:0 "Take this gift, past-selves."
   omnitemporal.2002.name:0 "The End of Time"
   omnitemporal.2002.desc:0 "Even without sophisticated sensors, or chrono-sensitive instrumentation, we can tell something is wrong. Every moment feels fraught. As if the universal march of one second to the next might simply... stop. We lose hours, weeks, in the blink of an eye, and every new day we find another blank gap in our history books where some part of our own past has fallen out the universe. Whatever dire scheme the [From.GetName] are working on, it threatens the very fabric of time itself."
@@ -230,7 +230,7 @@ l_english:
 
   menp_otc_reset_civilisation:0 "Causal Annihilation Protocol"
   menp_otc_reset_civilisation_desc:0 "Our foes, as befits us, are mighty and resiliant. But they were not always so. The future is the ultimate high ground - a place from which can strike and eliminate an enemy when they are at their weakest. A minor correction to their history will purge them from our timestream."
-  unlocks_otc_reset_civilisation:0 "Unlockes the §Y$menp_otc_reset_civilisation$§!, the ability to erase an entier civilisation by adjusting its histoy so that it no longer exists in the present to oppose us."
+  unlocks_otc_reset_civilisation:0 "Unlocks the §Y$menp_otc_reset_civilisation$§!, the ability to erase an Entire Civilisation by adjusting its history so that it no longer exists in the present to oppose us."
 
 
 ## Crisis Requirements ##
@@ -287,8 +287,8 @@ l_english:
   omnitemporal.1008.desc: "Upon reaching the temporal anomaly, all time-keeping devices on the [Root.GetName] began to fluctuate erratically, displaying various impossible dates. Moments after receiving their communications, similar abnormalities began to appear on our colonies. While harmless, the loss of reliable chronological information has thrown off the balance of regular life. However, these events have resulting in an immense amount of data for our physicists to parse through."
   omnitemporal.1008.a: "Interesting."
 
-  omnitemporal.1009.name: "..."
-  omnitemporal.1009.desc: "..."
+  omnitemporal.1009.name: "Planetary Acceleration"
+  omnitemporal.1009.desc: "Time on [From.GetName] has greatly increased its flow, even doubling in speed in certain areas. Concentrating our industries within these spaces should allow for massively increased productivity. However, the variable temporal speeds across the planet lead to difficult living conditions and will require additional effort to plan around."
   omnitemporal.1009.a: "Wonderful."
   otc_time_accelerated: "Accelerated Time"
 
@@ -306,8 +306,8 @@ l_english:
   omnitemporal.1013.a: "Unfortunate."
 
   # Dangerous/Impactful Anomalies
-  omnitemporal.1100.name: "..."
-  omnitemporal.1100.desc: "..."
+  omnitemporal.1100.name: "Planetary Deceleration"
+  omnitemporal.1100.desc: "Temporal readings indicate that time on [From.GetName] has greatly decreased, slowing down as much as by a factor of two. Adapting to this new passage of time will require additional logistics, as we now need to account for an empire in which half a planet has disappeared. Furthermore, it is important we regulate external inputs even more than before, as the slowed time will make the entry of light into the colony appear twice as powerful as before."
   omnitemporal.1100.a: "Unfortunate."
   otc_time_decelerated: "Slowed Time"
 
@@ -350,7 +350,7 @@ l_english:
 
   # Anomaly Categories
   otc_temporal_anomaly_cat: "Temporal Anomaly"
-  otc_temporal_anomaly_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. ..."
+  otc_temporal_anomaly_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. They dance around each other in unpredictable ways, forming unseen results.\n\nThese anomalies are not without danger, but where there is danger, there is also opportunity."
   MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_TITLE: "$otc_temporal_anomaly_cat$ Discovered"
   MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC: "A new $otc_temporal_anomaly_cat$ has been discovered on [This.GetName]. A scientist can be sent to unearth its secrets."
 

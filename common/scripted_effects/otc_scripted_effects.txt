@@ -177,8 +177,10 @@ otc_reset_civilisation = {
 	if = {
 		limit = {
 			has_origin = origin_tree_of_life
-			NOT = {
-				has_deposit = d_tree_of_life_home
+			event_target:resetting_civ_homeworld = {
+				NOT = {
+					has_deposit = d_tree_of_life_home
+				}
 			}
 		}
 		event_target:resetting_civ_homeworld = {
