@@ -352,7 +352,7 @@ l_english:
   otc_temporal_anomaly_cat: "Temporal Anomaly"
   otc_temporal_anomaly_cat_desc: "Here, space and time collide unlike anywhere else in the galaxy. They dance around each other in unpredictable ways, forming unseen results.\n\nThese anomalies are not without danger, but where there is danger, there is also opportunity."
   MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_TITLE: "$otc_temporal_anomaly_cat$ Discovered"
-  MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC: "A new $otc_temporal_anomaly_cat$ has been discovered on [This.GetName]. A scientist can be sent to unearth its secrets."
+  MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC: "A new $otc_temporal_anomaly_cat$ has been discovered on $LOCATION$. A scientist can be sent to unearth its secrets."
 
 
 ## Operations ##

@@ -15,8 +15,13 @@ otc_create_temporal_anomaly = {
 			create_message = {
 				type = OTC_NEW_TEMPORAL_ANOMALY
 				localization = MESSAGE_OTC_NEW_TEMPORAL_ANOMALY_DESC
-				days = 30
+				days = @toast_message_days
 				target = event_target:anomaly_target
+				variable = {
+					type = name
+					localization = LOCATION
+					scope = event_target:anomaly_target
+				}
 			}
 		}
 	}
@@ -318,5 +323,4 @@ otc_reset_civilisation = {
 	}
 	
 
-	# considerations: what about syncretic evo / void dwellers / lost colony / remnants / hard reset / clone army /  wilderness / necrophage
-}
+	# considera
