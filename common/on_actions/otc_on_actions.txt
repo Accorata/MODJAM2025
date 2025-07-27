@@ -5,7 +5,12 @@
 on_monthly_pulse = {
 	events = {
 		omnitemporal.21			# ARZs Create Temporal Anomalies
-		omnitemporal.2004
+	}
+}
+
+on_monthly_pulse_country = {
+	events = {
+		omnitemporal.2004 #track if country is the most powerful
 	}
 }
 
