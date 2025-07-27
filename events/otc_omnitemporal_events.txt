@@ -257,10 +257,6 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	trigger = {
-		has_crisis_perk = menp_otc_indefinite_lifespans
-	}
-
 	immediate = {
 		log = "40"
 		every_owned_leader = {
@@ -323,7 +319,7 @@ event = {
 }
 
 # Indefinite Lifespans Effect - final catch for leaders found another way
-event = {
+country_event = {
 	id = omnitemporal.43
 	hide_window = yes
 	is_triggered_only = yes

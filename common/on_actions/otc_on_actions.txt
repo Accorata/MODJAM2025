@@ -38,7 +38,7 @@ on_subspecies_integration_complete = {
 	}
 }
 
-on_yearly_pulse = {
+on_yearly_pulse_country = {
 	events = {
 		omnitemporal.43			# Indefinite Lifespans hired leaders
 	}
