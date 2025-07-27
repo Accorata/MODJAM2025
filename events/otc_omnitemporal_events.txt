@@ -262,8 +262,10 @@ country_event = {
 	}
 
 	immediate = {
+		log = "40"
 		every_owned_leader = {
 			limit = { is_immortal = no }
+			log = "set immortal"
 			set_immortal = yes
 		}
 	}
@@ -1151,6 +1153,12 @@ ship_event = {
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
+
+	immediate = {
+		leader = {
+			save_event_target_as = aging_leader
+		}
+	}
 
 	option = {
 		name = omnitemporal.1013.a

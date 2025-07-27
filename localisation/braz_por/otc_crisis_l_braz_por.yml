@@ -302,7 +302,7 @@ l_braz_por:
 
 
   omnitemporal.1013.name: "Rapid Aging"
-  omnitemporal.1013.desc: "[Root.GetLeaderName] presents [Root.GetHerHis] report on the recently investigated temporal anomaly: 'After a decade of researching [From.GetName]'s anomalous behavior, I must unfortunately conclude that nothing was amiss.' The report was exhaustive, thoroughly detailed and would've been quickly accepted by our chronology department if not for the time over which it had been compiled. For whereas [Root.GetLeaderName] spent over a decade researching, the rest of galaxy waited only months to recieve any communication. While it is unclear exactly what created this time loop as the report failed to find anything out of place, its effects on [Root.GetLeaderName] are clear. We will have to hope [Root.GetSheHe] can continue to live a fullfilling life."
+  omnitemporal.1013.desc: "[aging_leader.GetName] presents [aging_leader.GetHerHis] report on the recently investigated temporal anomaly: 'After a decade of researching [aging_leader.GetName]'s anomalous behavior, I must unfortunately conclude that nothing was amiss.' The report was exhaustive, thoroughly detailed and would've been quickly accepted by our chronology department if not for the time over which it had been compiled. For whereas [aging_leader.GetName] spent over a decade researching, the rest of galaxy waited only months to recieve any communication. While it is unclear exactly what created this time loop as the report failed to find anything out of place, its effects on [aging_leader.GetName] are clear. We will have to hope [aging_leader.GetSheHe] can continue to live a fullfilling life."
   omnitemporal.1013.a: "Unfortunate."
 
   # Dangerous/Impactful Anomalies
