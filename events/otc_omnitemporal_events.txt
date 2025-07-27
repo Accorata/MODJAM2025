@@ -1547,7 +1547,7 @@ event = {
 
 # Menace Objective - Excavate Archeological Sites
 # Fired from on_action 'on_arch_site_finished'
-ship_event = {
+fleet_event = {
 	id = omnitemporal.5010
 	hide_window = yes
 	is_triggered_only = yes
@@ -1705,8 +1705,35 @@ country_event = {
 	}
 }
 
-country_event = {
+event = {
 	id = omnitemporal.2004
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		any_playable_country = {
+			country_has_situation = {
+				SITUATION = situation_otc_end_of_time
+			} 
+		}
+	}
+
+	immediate = {
+		every_playable_country = {
+			limit = {
+				country_has_situation = {
+					SITUATION = situation_otc_end_of_time
+				} 
+			}
+			country_event = {
+				id = omnitemporal.2005
+			}
+		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.2005
 	hide_window = yes
 	is_triggered_only = yes
 

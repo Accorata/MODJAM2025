@@ -5,7 +5,7 @@
 on_monthly_pulse = {
 	events = {
 		omnitemporal.21			# ARZs Create Temporal Anomalies
-		omnitemporal.2004
+		omnitemporal.2004		# Check highest score for The End of Time situation
 	}
 }
 

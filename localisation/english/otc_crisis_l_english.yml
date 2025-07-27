@@ -240,8 +240,8 @@ l_english:
   otc_omnitemporal_level_3_req_tooltip: "£trigger_no£ Has constructed an §Y$otc_omnitemporal_kilostructure$§!"
   otc_omnitemporal_level_4_req_clear_tooltip: "£trigger_yes£ Has researched the §Y$tech_otc_travel_timelines$ technology§!"
   otc_omnitemporal_level_4_req_tooltip: "£trigger_no£ Has researched the §Y$tech_otc_travel_timelines$ technology§!"
-  otc_omnitemporal_level_5_req_clear_tooltip: "£trigger_yes£ Has constructed 3 §Y$otc_omnitemporal_kilostructure_plural$§!"
-  otc_omnitemporal_level_5_req_tooltip: "£trigger_no£  Has constructed 3 §Y$otc_omnitemporal_kilostructure_plural$§!"
+  otc_omnitemporal_level_5_req_clear_tooltip: "£trigger_yes£ Has constructed 5 §Y$otc_omnitemporal_kilostructure_plural$§!"
+  otc_omnitemporal_level_5_req_tooltip: "£trigger_no£  Has constructed 5 §Y$otc_omnitemporal_kilostructure_plural$§!"
 
 
 ## Temporal Anomalies ##
