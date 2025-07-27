@@ -15,6 +15,15 @@ entity = {
 	attach = { "root" = "ion_cannon_core_entity" }
 
 	# Side Wings
+	locator = { name = "wings" position = { 0 0 0 } }
+
+	attach = { "wings" = "otc_arz_entity_construction" }
+}
+
+entity = {
+	name = "otc_arz_entity_construction"
+
+	# Side Wings
 	locator = { name = "wing1" position = { 0 0 10 } }
 
 	attach = { "wing1" = "otc_arz_wing_entity" }

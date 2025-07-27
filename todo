@@ -12,7 +12,6 @@ Variable observation_insight_change is not set for scoped country 'Dyan Consumer
 [00:25:34][trigger.cpp:574]: Wrong scope for trigger 'has_deposit' at  common/scripted_effects/otc_scripted_effects.txt:181 @ scripted effect otc_reset_civilisation at file: events/otc_omnitemporal_events.txt line: 515
 Current scope: country
 Supported Scopes: planet deposit
-'another leader joins our empire's localisation doesnt work same with second half of event
 reset operations should advance situation
 
 Testing
