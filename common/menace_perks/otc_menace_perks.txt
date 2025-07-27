@@ -149,6 +149,10 @@ menp_otc_accelerated_infancy = {
 menp_otc_the_greatest_timeline = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_timeline"
 
+	modifier = {
+		otc_arz_limit_add = 2
+	}
+
 	on_unlock = {
 		custom_tooltip = unlocks_otc_the_greatest_timeline
 	}
@@ -207,6 +211,4 @@ menp_otc_reset_civilisation = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_reset"
 
 	on_unlock = {
-		custom_tooltip = unlocks_otc_reset_civilisation
-	}
-}
+		custom_tool

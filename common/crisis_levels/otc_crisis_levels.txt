@@ -117,12 +117,12 @@ otc_crisis_omnitemporal_level_5 = {
 			fail_text =	otc_omnitemporal_level_5_req_tooltip
 			check_variable = {
 				which = otc_built_arzs
-				value > 2
+				value > 4
 			}
 		}
 		is_subject = no
 	}
-	required_crisis_currency = 36000
+	required_crisis_currency = 45000
 
 	# REWARDS
 	perks = {

@@ -169,7 +169,7 @@ l_english:
 # Level 4
   menp_otc_the_greatest_timeline: "The Greatest Timeline"
   menp_otc_the_greatest_timeline_desc: "For any resource we lack, there is a timeline elsewhere in which we possess an abundance. By networking with our alternate selves (who are, fortuitously, having this exact same thought) we can ensure we never face shortages of any kind, ever again."
-  unlocks_otc_the_greatest_timeline:0 "Resources §YCannot§! Decrease Monthly"
+  unlocks_otc_the_greatest_timeline:0 "Resources §YCannot§! Decrease Monthly.\n\n"
 
   menp_otc_spacetime_sever: "Spacetime Severance"
   menp_otc_spacetime_sever_desc: "The ultimate in chronoton weaponry, the Spacetime Severance projectors are capable of 'cutting' our enemies out of the spacetime continuum completely - temporarily evicting them from the flow of time altogether and freezing them in place."
@@ -374,4 +374,4 @@ l_english:
   omnitemporal.56.name:0 "Timeline Severed"
   omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
   omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
-  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"
+  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdie
