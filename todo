@@ -13,7 +13,3 @@ reset operations should advance situation
 situation advances even though there are stronger powers -comparing power doesnt seem to work inside situations, need workaround
 reset civ does not reset capital properly - pops, districts, buildings, modifiers, etc
     somehow leaves the grand archive intact?
-
-Testing
-Leaders arent being set to immortal properly
-    run event 40 on country and see logs
