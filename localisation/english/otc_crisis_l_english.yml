@@ -372,6 +372,6 @@ l_english:
   OTC_RESET_LEADER_DEATH_DESC:0 "Was wiped from existence"
 
   omnitemporal.56.name:0 "Timeline Severed"
-  omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
+  omnitemporal.56.desc:0 "The §H[resetting_civ.GetName]§! has ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from ever having developed spaceflight. Their entire civilization: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline."
   omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
-  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdie
+  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"

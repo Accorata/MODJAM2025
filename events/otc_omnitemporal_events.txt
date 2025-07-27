@@ -1744,6 +1744,7 @@ country_event = {
 	}
 
 	immediate = {
+		save_event_target_as = civ_ending_time
 		if = {
 			limit = {
 				NOT = {
@@ -1756,7 +1757,7 @@ country_event = {
 					}
 				}
 			}
-			log = "no one stronger"
+			log = "no one is stronger"
 			set_country_flag = otc_end_of_time_apex_of_power
 		}
 		else = {
@@ -1771,7 +1772,9 @@ country_event = {
 						}
 					}
 					log = "\\[log_c.GetName] is stronger"
-					remove_country_flag = otc_end_of_time_apex_of_power
+					event_target:civ_ending_time = {
+						remove_country_flag = otc_end_of_time_apex_of_power
+					}
 				}	
 			}
 		}

@@ -1,9 +1,5 @@
 ToDo
 
-reset civ does not reset capital properly - pops, districts, buildings, modifiers, etc
-    somehow leaves the grand archive intact?
-Timeline Severed event does not recollect the name of the destroyed civ, ironically
-
 Done but requires re-testing
 
 situation advances even though there are stronger powers -comparing power doesnt seem to work inside situations, need workaround
@@ -12,6 +8,9 @@ Variable observation_insight_change is not set for scoped country 'Dyan Consumer
 Current scope: country
 Supported Scopes: planet deposit
 reset operations should advance situation
+situation advances even though there are stronger powers -comparing power doesnt seem to work inside situations, need workaround
+reset civ does not reset capital properly - pops, districts, buildings, modifiers, etc
+    somehow leaves the grand archive intact?
 
 Testing
 Leaders arent being set to immortal properly

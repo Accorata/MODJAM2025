@@ -195,6 +195,9 @@ otc_reset_civilisation = {
 	
 
 	# 2 destroy all their colonies, ships, armies, leaders, pops, empire etc etc
+	every_owned_megastructure = {
+		remove_megastructure = this
+	}
 	destroy_country = yes
 
 	# 3 remove all leaders of the primary species from other empires
@@ -309,6 +312,35 @@ otc_reset_civilisation = {
 		remove_trait = trait_psionic_ephapse
 	}
 	event_target:resetting_civ_homeworld = {
+		every_owned_pop_group = {
+			kill_all_pop = yes
+		}
+		
+		inline_script = {
+			script = districts/remove_all_default_rural_districts
+		}
+		while = {
+		limit = {
+			num_districts = {
+				type = district_city
+				value > 0
+			}
+		}
+		remove_district = district_mining
+		}
+		while = {
+			limit = {
+				num_districts = {
+					type = district_hive
+					value > 0
+				}
+			}
+			remove_district = district_mining
+		}
+		planet_event = {
+			id = action.89
+		}
+
 		generate_very_early_pre_ftls_on_planet = yes
 		set_name = random
 		change_colony_foundation_date = -2341
