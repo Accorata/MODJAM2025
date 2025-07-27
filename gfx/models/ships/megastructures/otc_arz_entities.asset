@@ -15,6 +15,15 @@ entity = {
 	attach = { "root" = "ion_cannon_core_entity" }
 
 	# Side Wings
+	locator = { name = "wings" position = { 0 0 0 } }
+
+	attach = { "wings" = "otc_arz_entity_construction" }
+}
+
+entity = {
+	name = "otc_arz_entity_construction"
+
+	# Side Wings
 	locator = { name = "wing1" position = { 0 0 10 } }
 
 	attach = { "wing1" = "otc_arz_wing_entity" }
@@ -40,8 +49,8 @@ entity = {
 	meshsettings = {
 		name = "bodyShape"
 		index = 0
-		texture_diffuse = "otc_arz_diffuse.dds"
-		texture_normal = "otc_arz_normal.dds"
+		texture_diffuse = "otc_arz_wing_diffuse.dds"
+		texture_normal = "otc_arz_wing_normal.dds"
 		texture_specular = "mammalian_01_ion_cannon_specular.dds"
 		shader = "PdxMeshShip"
 	}
