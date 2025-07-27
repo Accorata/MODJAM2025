@@ -3,7 +3,7 @@
 
 otc_atemporal_research_zone = {
 	entity = "otc_arz_entity"
-	construction_entity = "construction_platform_entity"
+	construction_entity = "otc_arz_entity"
 	portrait = "GFX_megastructure_construction_background"
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -30 y = -30 }
