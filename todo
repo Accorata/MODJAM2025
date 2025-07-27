@@ -5,17 +5,15 @@ reset civ does not reset capital properly - pops, districts, buildings, modifier
     somehow leaves the grand archive intact?
 Timeline Severed event does not recollect the name of the destroyed civ, ironically
 [21:36:15][event.cpp:941]: Script Error, attempting to fire country scope event omnitemporal.2004 on no_scope
-primitive past event he/she doesnt work
- Variable observation_insight_change is not set for scoped country 'Dyan Consumer Products' at  common/scripted_effects/first_contact_dlc_effects.txt:1800 @ scripted effect add_observation_insight_effect at file: events/otc_omnitemporal_events.txt line: 1300
 
 Done but requires re-testing
 
+Variable observation_insight_change is not set for scoped country 'Dyan Consumer Products' at  common/scripted_effects/first_contact_dlc_effects.txt:1800 @ scripted effect add_observation_insight_effect at file: events/otc_omnitemporal_events.txt line: 1300
 [00:25:34][trigger.cpp:574]: Wrong scope for trigger 'has_deposit' at  common/scripted_effects/otc_scripted_effects.txt:181 @ scripted effect otc_reset_civilisation at file: events/otc_omnitemporal_events.txt line: 515
 Current scope: country
 Supported Scopes: planet deposit
 'another leader joins our empire's localisation doesnt work same with second half of event
 reset operations should advance situation
-rapid aging event he/she doesnt work
 
 Testing
 Leaders arent being set to immortal properly

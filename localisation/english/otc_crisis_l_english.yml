@@ -247,9 +247,9 @@ l_english:
 ## Temporal Anomalies ##
   # Base Anomalies
   omnitemporal.1000.name: "Time Travel!"
-  omnitemporal.1000.desc: "As [Root.GetLeaderName] grew ever closer to the anomaly, [Root.GetSheHe] watched as the clocks began to run the other way, speeding up faster and faster as the crew travelled into the past. For obvious reasons, our communications end shortly after (or possibly before, depending on one's perspective) [Root.GetLeaderName] delved into the past.\n\nThis event explains our appearance of the same crew identical to the one we just lost. It appears they truly did travel accross time. Valuable data was just acquired, and we will waste no time putting it to use."
+  omnitemporal.1000.desc: "As [Root.Leader.GetName] grew ever closer to the anomaly, [Root.Leader.GetSheHe] watched as the clocks began to run the other way, speeding up faster and faster as the crew travelled into the past. For obvious reasons, our communications end shortly after (or possibly before, depending on one's perspective) [Root.Leader.GetName] delved into the past.\n\nThis event explains our appearance of the same crew identical to the one we just lost. It appears they truly did travel accross time. Valuable data was just acquired, and we will waste no time putting it to use."
   omnitemporal.1000.a: "Unbelievable!"
-  omnitemporal.1000.a.tooltip: "[Root.GetLeaderName] Vanishes Back into the Past."
+  omnitemporal.1000.a.tooltip: "[Root.Leader.GetName] Vanishes Back into the Past."
 
   omnitemporal.1001.name: "Voyager from the Future"
   omnitemporal.1001.desc: "Upon approaching the temporal anomaly, a figure appeared, floating around while wearing a spacesuit. Upon identifying the figure and taking [event_target:otc_future_leader.GetSheHe] aboard, we realized we had just discovered another [event_target:otc_future_leader.GetName]!\n\n[event_target:otc_future_leader.GetSheHe] explained that [event_target:otc_future_leader.GetSheHe] was not a clone, but rather had just arrived here after being thrown backwards through time. Thus, [event_target:otc_future_leader.GetSheHe] was a future copy of [event_target:otc_future_leader.GetName]. We asked for details on what was to come but we were greeted with silence. The future [event_target:otc_future_leader.GetName] believes that this information could cause a casual paradox with unknown repercussions if shared."
@@ -258,7 +258,7 @@ l_english:
   omnitemporal.1001.a.tooltip: "Another [event_target:otc_future_leader.GetName] Joins our Empire."
 
   omnitemporal.1014.name: "Fades from Existence"
-  omnitemporal.1014.desc: "As soon as [event_target:otc_temporal_clone.GetLeaderName] passed away, the future version of [event_target:otc_temporal_clone.GetHisHer] started to disintegrate. Soon they had faded away entirely, leaving nothing but memories of their existence behind. But soon after, those began to fade as well. It appears that upon the death of their younger self, a paradoxical outcome occured: there was no longer a younger self to travel into the past and thus their emergence from the future was impossible. The universe quickly corrected this inconsistency, removing the remaining [event_target:otc_temporal_clone.GetHisHer] from existence."
+  omnitemporal.1014.desc: "As soon as [event_target:otc_temporal_clone.GetName] passed away, the future version of [event_target:otc_temporal_clone.GetHisHer] started to disintegrate. Soon they had faded away entirely, leaving nothing but memories of their existence behind. But soon after, those began to fade as well. It appears that upon the death of their younger self, a paradoxical outcome occured: there was no longer a younger self to travel into the past and thus their emergence from the future was impossible. The universe quickly corrected this inconsistency, removing the remaining [event_target:otc_temporal_clone.GetHisHer] from existence."
   omnitemporal.1014.a: "Interesting."
 
   omnitemporal.1003.name: "Eons to Months"
@@ -302,7 +302,7 @@ l_english:
 
 
   omnitemporal.1013.name: "Rapid Aging"
-  omnitemporal.1013.desc: "[Root.GetLeaderName] presents [Root.GetHerHis] report on the recently investigated temporal anomaly: 'After a decade of researching [From.GetName]'s anomalous behavior, I must unfortunately conclude that nothing was amiss.' The report was exhaustive, thoroughly detailed and would've been quickly accepted by our chronology department if not for the time over which it had been compiled. For whereas [Root.GetLeaderName] spent over a decade researching, the rest of galaxy waited only months to recieve any communication. While it is unclear exactly what created this time loop as the report failed to find anything out of place, its effects on [Root.GetLeaderName] are clear. We will have to hope [Root.GetSheHe] can continue to live a fullfilling life."
+  omnitemporal.1013.desc: "[Root.Leader.GetName] presents [Root.Leader.GetHerHis] report on the recently investigated temporal anomaly: 'After a decade of researching [From.GetName]'s anomalous behavior, I must unfortunately conclude that nothing was amiss.' The report was exhaustive, thoroughly detailed and would've been quickly accepted by our chronology department if not for the time over which it had been compiled. For whereas [Root.Leader.GetName] spent over a decade researching, the rest of galaxy waited only months to recieve any communication. While it is unclear exactly what created this time loop as the report failed to find anything out of place, its effects on [Root.Leader.GetName] are clear. We will have to hope [Root.Leader.GetSheHe] can continue to live a fullfilling life."
   omnitemporal.1013.a: "Unfortunate."
 
   # Dangerous/Impactful Anomalies
@@ -322,7 +322,7 @@ l_english:
   otc_after_time_resumed: "Lost Months"
 
   omnitemporal.1102.name: "Visions of Our Primitive Past"
-  omnitemporal.1102.desc: "Within this temporal anomaly, [Root.GetLeaderName] and [Root.GetHerHis] crew found a bubble of time in which a portion of our past had become ensnared. Here, disconnected from space or time, they watched as our primitive selves slowly advanced towards the stars.\n\nWhile we've seen other early societies progress, and have numerous records of our own beginnings, we'd never seen our own past with such clarity. Numerous sociological fields have benefited greatly, from history to primitive studies to theology and early philosophy."
+  omnitemporal.1102.desc: "Within this temporal anomaly, [Root.Leader.GetName] and [Root.Leader.GetHerHis] crew found a bubble of time in which a portion of our past had become ensnared. Here, disconnected from space or time, they watched as our primitive selves slowly advanced towards the stars.\n\nWhile we've seen other early societies progress, and have numerous records of our own beginnings, we'd never seen our own past with such clarity. Numerous sociological fields have benefited greatly, from history to primitive studies to theology and early philosophy."
   omnitemporal.1102.a: "Wonderful."
   otc_past_selves: "Past Selves"
   otc_past_selves_desc: "Visions of our origins have encouraged collective unity and inspired further inquiry into our past."
@@ -374,4 +374,4 @@ l_english:
   omnitemporal.56.name:0 "Timeline Severed"
   omnitemporal.56.desc:0 "The [resetting_civ.GetName] have ceased to exist! It appears the [resettor_civ.GetName] used their advanced temporal manipulation technology to travel back in time and prevent their civilisation from every having developed spaceflight. Their entire civilisation: colonies, great leaders, ships, even emmigrants, have been wiped from our timeline. Even at this distance from the epicenter, the temporal shock waves have reached us, making it hard to recollect details about them."
   omnitemporal.56.a:0 "The [resettor_civ.GetName] must be stopped!"
-  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [resetting_civ.GetName] §Rdies§!"
+  omnitemporal.56.a.tooltip:0 "Every leader and pop from the [reset

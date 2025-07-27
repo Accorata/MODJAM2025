@@ -1304,6 +1304,9 @@ ship_event = {
 				limit = {
 					has_first_contact_dlc = yes
 					has_all_insights = no
+					any_situation = {
+						is_situation_type = situation_observation_insight
+					}
 				}
 				add_observation_insight_effect = {
 					VALUE = 25
