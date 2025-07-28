@@ -374,43 +374,12 @@ country_event = {
 							has_trait = leader_trait_otc_timeline_warped
 						}
 					}
-					add_trait = {
-						trait = leader_trait_otc_timeline_warped
+					give_trait_no_notify_ignore_autocracy_restriction = {
+						TRAIT = leader_trait_otc_timeline_warped
 					}
 				}
-				random_list = {
-					1 = {
-						modifier = {
-							factor = 0
-							has_leader_flag = otc_timeline_warped_1
-						}
-						set_leader_flag = otc_timeline_warped_1
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_astral_planes_dlc = no
-						}
-						modifier = {
-							factor = 0
-							has_leader_flag = otc_timeline_warped_2
-						}
-						set_leader_flag = otc_timeline_warped_2
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_leader_flag = otc_timeline_warped_3
-						}
-						set_leader_flag = otc_timeline_warped_3
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_leader_flag = otc_timeline_warped_4
-						}
-						set_leader_flag = otc_timeline_warped_4
-					}
+				leader_event = {
+					id = omnitemporal.46
 				}
 				set_years_served = from
 				restore_leader_location = yes
@@ -418,6 +387,49 @@ country_event = {
 		}
 		from = {
 			set_leader_flag = leader_death_events_blocked
+		}
+	}
+}
+
+leader_event = {
+	id = omnitemporal.46
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		locked_random_list = {
+			1 = {
+				modifier = {
+					factor = 0
+					has_leader_flag = otc_timeline_warped_1
+				}
+				set_leader_flag = otc_timeline_warped_1
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_astral_planes_dlc = no
+				}
+				modifier = {
+					factor = 0
+					has_leader_flag = otc_timeline_warped_2
+				}
+				set_leader_flag = otc_timeline_warped_2
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_leader_flag = otc_timeline_warped_3
+				}
+				set_leader_flag = otc_timeline_warped_3
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_leader_flag = otc_timeline_warped_4
+				}
+				set_leader_flag = otc_timeline_warped_4
+			}
 		}
 	}
 }
@@ -1800,12 +1812,4 @@ country_event = {
 								value > equivalent
 						}
 					}
-					log = "\\[log_c.GetName] is stronger"
-					event_target:civ_ending_time = {
-						remove_country_flag = otc_end_of_time_apex_of_power
-					}
-				}	
-			}
-		}
-	}
-}
+					log = "\\[log_c.GetName] 
