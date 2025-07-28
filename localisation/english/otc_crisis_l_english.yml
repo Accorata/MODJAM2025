@@ -199,7 +199,7 @@ l_english:
   situation_otc_end_of_time_type: "$situation_otc_end_of_time$"
   situation_otc_end_of_time_monthly_change_tooltip: "- Being at least §YSuperior§! to all other civilizations.\n- Completing §Y$operation_reset_civilisation$§! Operations" 
   situation_otc_end_of_time_desc: "We have discovered a way to propagate our civilization outside of linear time - to become truly free of the tyranny of cause and effect. All that it will require is for us to shatter time itself, forwards and back, and ride the shockwave into a new state of existence."
-  situation_otc_end_of_time_complete: "The [Owner.GetName] wins the game."
+  situation_otc_end_of_time_complete: "The [Owner.GetName] §YWins The Game§!."
   otc_apex_of_power: "Apex of Power: At least §YSuperior§! to all other civilizations."
   situation_otc_end_of_time_approach_basic: "Inevitability"
   situation_otc_end_of_time_approach_basic_desc: "Every moment of all history has lead us to this point. There is nothing more to do. There is nothing that can be done."

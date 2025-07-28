@@ -33,7 +33,9 @@ operation_reset_civilisation = {
 		custom_tooltip = {
 			fail_text = operation_reset_civilisation_rival_time_travellers
 			target = {
-				has_ascension_perk = otc_ap_omnitemporal
+				NOT = {
+					has_ascension_perk = otc_ap_omnitemporal
+				}
 			}
 		}
 		custom_tooltip = {

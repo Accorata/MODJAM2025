@@ -9,10 +9,12 @@ situation_otc_end_of_time = {
 	on_progress_complete = {
 		custom_tooltip = situation_otc_end_of_time_complete
 		# Win the game
-		situation_event = {
-			id = omnitemporal.2000
+		hidden_effect = {
+			situation_event = {
+				id = omnitemporal.2000
+			}
+			destroy_situation = this
 		}
-		destroy_situation = this
 	}
 	abort_trigger = {
 		NOT = {

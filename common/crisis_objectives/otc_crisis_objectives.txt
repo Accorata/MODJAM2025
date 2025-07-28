@@ -25,14 +25,14 @@ otc_crisobj_research_archeological_sites = {
 
 otc_crisobj_research_time_anomaly = {
 	reward = {
-		base = 1200
+		base = 900 		# 1200 With Normal Anomaly Rewards
 		complex_trigger_modifier = {
 			trigger = count_playable_country
 			mode = subtract
-			mult = 20
+			mult = 15
 		}
-		round_to = 100
-		min = 400
+		round_to = 75
+		min = 300
 	}
 }
 
@@ -44,8 +44,8 @@ otc_crisobj_research_anomaly = {
 			mode = subtract
 			mult = 5
 		}
-		round_to = 10
-		min = 50
+		round_to = 25
+		min = 100
 	}
 }
 

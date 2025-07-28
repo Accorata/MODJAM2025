@@ -47,7 +47,15 @@ otc_temporal_anomaly_cat = {
 			}
 			anomaly_event = omnitemporal.1003
 		}
-		1 = omnitemporal.1007
+		1 = {
+			modifier = {
+				factor = 0
+				leader = {
+					has_trait = leader_trait_otc_time_loop_trapped
+				}
+			}
+			anomaly_event = omnitemporal.1007
+		}
 		1 = omnitemporal.1008
 		0 = {
 			modifier = {

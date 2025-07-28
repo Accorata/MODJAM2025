@@ -211,4 +211,6 @@ menp_otc_reset_civilisation = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_reset"
 
 	on_unlock = {
-		custom_tool
+		custom_tooltip = unlocks_otc_reset_civilisation
+	}
+}

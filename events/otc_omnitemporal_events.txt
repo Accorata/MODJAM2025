@@ -374,8 +374,8 @@ country_event = {
 							has_trait = leader_trait_otc_timeline_warped
 						}
 					}
-					give_trait_no_notify_ignore_autocracy_restriction = {
-						TRAIT = leader_trait_otc_timeline_warped
+					add_trait = {
+						trait = leader_trait_otc_timeline_warped
 					}
 				}
 				random_list = {
@@ -890,9 +890,9 @@ country_event = {
 	immediate = {
 		fromfromfromfrom = {
 			change_pc = pc_continental
-			# Spawns Pre-Sapients
-			spawn_presapient_species_randomizer_effect = yes
-			set_planet_flag = pre_sapient_planet
+			# Spawns Pre-Sapients (Disabled due to errors before release)
+			#spawn_presapient_species_randomizer_effect = yes
+			#set_planet_flag = pre_sapient_planet
 		}
 	}
 
@@ -1145,7 +1145,7 @@ ship_event = {
 	id = omnitemporal.1013
 	title = omnitemporal.1013.name
 	desc = omnitemporal.1013.desc
-	picture = GFX_evt_tradedeal
+	picture = GFX_evt_necrophage
 	show_sound = evn_ove_scholarium_cache_rare_tech
 	location = from
 	is_triggered_only = yes
@@ -1403,14 +1403,47 @@ ship_event = {
 					NOT = { has_country_flag = awakening_not_allowed }
 				}
 				country_event = {
-					id = fallen_empires_awakening.1
-					days = 60
+					id = omnitemporal.1108
+					days = 55
 				}
 			}
 		}
 		ai_chance = {
 			factor = 1
 		}
+	}
+}
+
+country_event = {
+	id = omnitemporal.1108
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = sleepers_awake_happened
+
+		if = {
+			limit = {
+				is_hive_empire = no
+			}
+			country_event = { id = fallen_empires_awakening.3 }
+			save_event_target_as = first_awakener
+		}
+		else_if = {
+			limit = { # Making an extra if check here to not break mods too badly
+				is_hive_empire = yes
+			}
+			awaken_strongest_fe_fragment = yes
+		}
+
+		# Notify players
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = { id = fallen_empires_awakening.2 }
+		}
+		observer_event = { id = observer.73 }
 	}
 }
 
