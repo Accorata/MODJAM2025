@@ -145,19 +145,6 @@ menp_otc_accelerated_infancy = {
 
 
 ## Level 4
-# The Greatest Timeline
-menp_otc_the_greatest_timeline = {
-	portrait = "GFX_otc_omnitemporal_crisis_icon_timeline"
-
-	modifier = {
-		otc_arz_limit_add = 2
-	}
-
-	on_unlock = {
-		custom_tooltip = unlocks_otc_the_greatest_timeline
-	}
-}
-
 # Spacetime Sever
 menp_otc_spacetime_sever = {
 	portrait = "GFX_otc_omnitemporal_crisis_icon_sever"
@@ -183,6 +170,7 @@ menp_otc_localised_time_loops = {
 	modifier = {
 		starbase_shipyard_build_time_mult = -0.25
 		building_time_mult = -0.25
+		otc_arz_limit_add = 2
 	}
 }
 
@@ -212,5 +200,14 @@ menp_otc_reset_civilisation = {
 
 	on_unlock = {
 		custom_tooltip = unlocks_otc_reset_civilisation
+	}
+}
+
+# The Greatest Timeline
+menp_otc_the_greatest_timeline = {
+	portrait = "GFX_otc_omnitemporal_crisis_icon_timeline"
+
+	on_unlock = {
+		custom_tooltip = unlocks_otc_the_greatest_timeline
 	}
 }

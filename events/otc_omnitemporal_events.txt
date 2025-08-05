@@ -569,9 +569,9 @@ country_event = {
 	}
 
 	immediate = {
-		otc_restore_negative_income = {
-			RESOURCE = trade
-		}
+		# otc_restore_negative_income = {
+		# 	RESOURCE = trade
+		# }
 		otc_restore_negative_income = {
 			RESOURCE = energy
 		}

@@ -94,7 +94,6 @@ otc_crisis_omnitemporal_level_4 = {
 
 	# REWARDS
 	perks = {
-		menp_otc_the_greatest_timeline
 		menp_otc_spacetime_sever
 		menp_otc_indefinite_lifespans
 		menp_otc_localised_time_loops
@@ -129,6 +128,7 @@ otc_crisis_omnitemporal_level_5 = {
 		menp_otc_end_of_time
 		menp_otc_paradox_drives
 		menp_otc_reset_civilisation
+		menp_otc_the_greatest_timeline
 	}
 
 	on_unlock = {
