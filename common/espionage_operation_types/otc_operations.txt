@@ -46,17 +46,17 @@ operation_reset_civilisation = {
 	stage = {
 		difficulty = @diff_t7
 		icon = GFX_espionage_chapter_icon_motion
-		event = situation.1125
+		event = omnitemporal.50
 	}
 	stage = {
 		difficulty = @diff_t7
 		icon = GFX_espionage_chapter_icon_target
-		event = situation.1130
+		event = omnitemporal.51
 	}
 	stage = {
 		difficulty = @diff_t7
 		icon = GFX_espionage_chapter_icon_success
-		event = situation.1135
+		event = omnitemporal.52
 	}
 	on_roll_failed = {
 		standard_espionage_operation_on_roll_failed = { RANDOM_EVENTS = operation_random_events_deepcover }
