@@ -264,10 +264,11 @@
 # Main Menu
   cw_enclave.303.name:0 "$cw_enclave.302.name$"
   cw_enclave.303.desc:0 "...303..."
-  # cw_enclave.303.a:0 "..."
-  cw_enclave.303.b:0 "..."
-  cw_enclave.303.b.cooldown:0 "This enclave has too recently participated in a raid."
-  cw_enclave.303.b.need_rivals:0 "$marauder.20.need_rivals$"
+  cw_enclave.303.a:0 "..."
+  cw_enclave.303.a.cooldown:0 "This enclave has too recently participated in a raid."
+  cw_enclave.303.a.need_rivals:0 "$marauder.20.need_rivals$"
+  cw_enclave.303.b:0 "We'd like to support your operation."
+  cw_enclave.303.b.cooldown:0 "We have too recently supplied this enclave with weaponry."
   cw_enclave.303.c:0 "We'd like to hire one of your best Privateers."
   cw_enclave.303.c.has_leader:0 "We may only employ §Yone§! §HEnclave Privateer§! at a time."
   cw_enclave.303.d:0 "We are interested in stolen specimens."
@@ -307,6 +308,13 @@
   cw_enclave.507.a:0 "..." # Exit
   cw_enclave.507.b:0 "..."
   cw_enclave.507.b.response:0 "..."
+
+# Supply Weaponry
+  cw_enclave.513.name:0 "Supply Weaponry"
+  cw_enclave.513.desc:0 "..."
+  cw_enclave.513.a:0 "..." 
+  cw_enclave.513.b:0 "Never mind." # Main Menu
+  cw_enclave.513.c:0 "$GOODBYE$" # Exit
 
 # Leader Purchase 
   cw_enclave.509.name:0 "Hire Privateer"
